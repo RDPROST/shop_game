@@ -159,7 +159,7 @@
 <div class="nk-social-menu d-none d-lg-block">
     <ul>
         <li class="active">
-    <a href="/social-user-activity">
+    <a href="/init/social-user-activity">
         Activity</a>
 </li><li class="">
     <a href="social-user-notifications.html">
@@ -194,7 +194,7 @@
             <div class="nk-social-menu">
                 <ul>
                     <li class="active">
-    <a href="/social-user-activity">
+    <a href="/init/social-user-activity">
         Activity</a>
 </li><li class="">
     <a href="social-user-notifications.html">
