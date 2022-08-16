@@ -354,6 +354,8 @@ Additional Classes:
 
 <script>
     document.querySelectorAll("a").forEach(e => {
-        e.href = `/${window.location.pathname.split('/')[1]}/${e.href}`
+        if (!e.href.includes("http") || !e.href.includes("https")) {
+            e.href = `/${window.location.pathname.split('/')[1]}/${e.href}`
+        }
     })
 </script>
