@@ -548,7 +548,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                                                 Activity</a>
                                         </li>
                                         <li class=" ">
-                                            <a href="social-user-notifications.php">
+                                            <a href="orders.php">
                                                 Notifications</a>
                                         </li>
                                         <li class=" ">

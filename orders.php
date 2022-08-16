@@ -560,7 +560,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                                             Activity</a>
                                     </li>
                                     <li class="active  ">
-                                        <a href="social-user-notifications.php">
+                                        <a href="orders.php">
                                             Notifications</a>
                                     </li>
                                     <li class="  ">
@@ -940,7 +940,7 @@ Additional Classes:
                                                 Activity</a>
                                         </li>
                                         <li>
-                                            <a href="social-user-notifications.php">
+                                            <a href="orders.php">
                                                 Notifications</a>
                                         </li>
                                         <li>
@@ -974,131 +974,43 @@ Additional Classes:
             </div>
             <div class="col-lg-9">
                 <div class="nk-gap-2 d-none d-lg-block"></div>
-                <div class="nk-social-menu-inline">
-                    <ul>
-                        <li>
-                            <a href="#">Unread</a>
-                        </li>
-                        <li>
-                            <a href="#">Read</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nk-social-container">
-                    <form action="#" class="nk-social-sort">
-                        <label for="notifications-sort-order-list">Order By:</label>
+                <div class="nk-box-3 bg-dark-1">
+                    <h2 class="nk-title">Orders</h2>
+                    <div class="nk-gap-1"></div>
 
-                        <select id="notifications-sort-order-list" class="form-control">
-                            <option value="DESC" selected="selected">Newest First</option>
-                            <option value="ASC">Oldest First</option>
-                        </select>
-                    </form>
-                    <div class="nk-gap"></div>
-
-                    <!-- START: Notifications -->
-                    <div>
-                        <em>Viewing 1 - 4 of 4 notifications</em>
-                    </div>
-                    <div class="nk-gap"></div>
-
-                    <div class="table-responsive nk-social-notifications">
+                    <div class="table-responsive">
                         <table class="table table-bordered">
-                            <thead class="thead-default">
+                            <thead>
                             <tr>
-                                <th class="nk-social-notifications-bulk-select">
-                                    <input type="checkbox">
-                                </th>
-                                <th>
-                                    Notification
-                                </th>
-                                <th>
-                                    Date Received
-                                </th>
-                                <th>
-                                    Actions
-                                </th>
+                                <th>Order</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Total</th>
+                                <th>&nbsp;</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
+                            <tr class="order">
+                                <td><a href="#">#24</a></td>
                                 <td>
-                                    <input type="checkbox">
+                                    <time datetime="2017-07-23">23 July 2017</time>
                                 </td>
-                                <td class="nk-social-notifications-description">
-                                    <a href="#">Mary commented on one of your updates</a>
-                                </td>
-                                <td class="nk-social-notifications-since">
-                                    54 minutes ago
-                                </td>
-                                <td class="nk-social-notifications-actions">
-                                    <a href="#"><span class="ion-eye"></span> Read</a> <a href="#"><span
-                                                class="ion-trash-b"></span> Delete</a>
-                                </td>
+                                <td>Processing</td>
+                                <td>$104.99</td>
+                                <td><a href="#" class="nk-btn link-effect-4 ready"><span class="link-effect-inner"><span class="link-effect-l"><span>View</span></span><span class="link-effect-r"><span>View</span></span><span class="link-effect-shade"><span>View</span></span></span></a></td>
                             </tr>
-                            <tr>
+                            <tr class="order">
+                                <td><a href="#">#18</a></td>
                                 <td>
-                                    <input type="checkbox">
+                                    <time datetime="2017-07-23">16 July 2017</time>
                                 </td>
-                                <td class="nk-social-notifications-description">
-                                    <a href="#">John commented on one of your updates</a>
-                                </td>
-                                <td class="nk-social-notifications-since">
-                                    2 hours ago
-                                </td>
-                                <td class="nk-social-notifications-actions">
-                                    <a href="#"><span class="ion-eye"></span> Read</a> <a href="#"><span
-                                                class="ion-trash-b"></span> Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="checkbox">
-                                </td>
-                                <td class="nk-social-notifications-description">
-                                    <a href="#">Mary sent you a new private message</a>
-                                </td>
-                                <td class="nk-social-notifications-since">
-                                    1 day ago
-                                </td>
-                                <td class="nk-social-notifications-actions">
-                                    <a href="#"><span class="ion-eye"></span> Read</a> <a href="#"><span
-                                                class="ion-trash-b"></span> Delete</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="checkbox">
-                                </td>
-                                <td class="nk-social-notifications-description">
-                                    <a href="#">Mary commented on one of your updates</a>
-                                </td>
-                                <td class="nk-social-notifications-since">
-                                    4 days ago
-                                </td>
-                                <td class="nk-social-notifications-actions">
-                                    <a href="#"><span class="ion-eye"></span> Read</a> <a href="#"><span
-                                                class="ion-trash-b"></span> Delete</a>
-                                </td>
+                                <td>Shipped</td>
+                                <td>$250.00</td>
+                                <td><a href="#" class="nk-btn link-effect-4 ready"><span class="link-effect-inner"><span class="link-effect-l"><span>View</span></span><span class="link-effect-r"><span>View</span></span><span class="link-effect-shade"><span>View</span></span></span></a></td>
                             </tr>
                             </tbody>
                         </table>
                     </div>
-
-                    <div class="nk-gap"></div>
-                    <div class="nk-social-notifications-options">
-                        <select class="form-control">
-                            <option value="" selected="selected">Bulk Actions</option>
-                            <option value="read">Mark read</option>
-                            <option value="delete">Delete</option>
-                        </select>
-                        <button class="nk-btn link-effect-4">Apply</button>
-                    </div>
-
-                    <div class="nk-gap"></div>
-                    <div>
-                        <em>Viewing 1 - 4 of 4 notifications</em>
-                    </div>
-                    <!-- END: Notifications -->
                 </div>
                 <div class="nk-gap-4"></div>
             </div>

@@ -5,28 +5,8 @@
                 Activity</a>
         </li>
         <li>
-            <a href="social-user-notifications.php">
-                Notifications</a>
+            <a href="orders.php">
+                Orders</a>
         </li>
-<!--        <li>-->
-<!--            <a href="social-user-messages.php">-->
-<!--                Messages<span class="nk-badge">192</span></a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="social-user-friends.php">-->
-<!--                Friends<span class="nk-badge">19</span></a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="social-user-groups.php">-->
-<!--                Groups<span class="nk-badge">2</span></a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="forum.php">-->
-<!--                Forum</a>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <a href="social-user-settings.php">-->
-<!--                Settings</a>-->
-<!--        </li>-->
     </ul>
 </div>
