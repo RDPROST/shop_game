@@ -1012,7 +1012,6 @@ Additional Classes:
                         </table>
                     </div>
                 </div>
-                <div class="nk-gap-4"></div>
             </div>
         </div>
         <div class="nk-gap-4"></div>
