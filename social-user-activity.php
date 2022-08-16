@@ -903,6 +903,7 @@ Additional Classes:
 
 
     <div class="container">
+        <?php include 'profile-info.php'; ?>
         <div class="row vertical-gap">
             <div class="col-lg-3">
                 <!--

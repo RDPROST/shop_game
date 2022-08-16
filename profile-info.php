@@ -1,7 +1,3 @@
-<?php
-    include 'header.php';
-?>
-
 <div class="nk-social-profile nk-social-profile-container-offset">
     <div class="row">
         <div class="col-md-5 col-lg-3">

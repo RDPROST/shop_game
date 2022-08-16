@@ -2,17 +2,6 @@
 ob_start();
 session_start();
 
-function logoutbutton()
-{
-    echo "<form action='' method='get'><button name='logout' type='submit'>Logout</button></form>"; //logout button
-}
-
-function loginbutton()
-{
-    $button = "<a href='?login' class='nk-btn nk-btn-color-white link-effect-4' style='width: 100%'>Log In Steam</a>";
-    echo $button;
-}
-
 if (isset($_GET['login'])) {
     require 'openid.php';
     try {
