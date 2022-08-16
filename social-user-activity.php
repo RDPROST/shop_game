@@ -975,10 +975,10 @@ Additional Classes:
                 <div class="nk-gap-2 d-none d-lg-block"></div>
                 <div class="nk-social-container">
                     <div class="nk-progress nk-progress-xs nk-count" data-progress="91" data-progress-mask="{$}%" data-nk-mask="{$}%">
-                        <div class="nk-progress-title">JavaScript</div>
+                        <div class="nk-progress-title">Ранг X</div>
                         <div class="nk-progress-line">
-                            <div class="bg-main-1" style="width: 91%; transform: translate3d(0px, 0px, 0px);">
-                                <div class="nk-progress-percent">91%</div>
+                            <div class="bg-main-1" style="width: 99%; transform: translate3d(0px, 0px, 0px);">
+                                <div class="nk-progress-percent">99%</div>
                             </div>
                         </div>
                     </div>
