@@ -909,7 +909,7 @@ Additional Classes:
     <div class="container">
 
         <!-- START: Countdown 1 -->
-        <div class="nk-countdown" data-end="2018-11-26 08:20" data-timezone="EST"></div>
+        <div class="nk-countdown" data-end="2022-08-26 10:00" data-timezone="EST"></div>
         <!-- END: Countdown 1 -->
 
     </div>
