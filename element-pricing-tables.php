@@ -178,7 +178,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                             </ul>
                         </li>
                         <li><a href="#">Privacy</a></li>
-                        <li><a href="page-contact.html">Contact</a></li>
+                        <li><a href="page-contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -213,130 +213,130 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
         <div class="container">
             <div class="nk-nav-table">
 
-                <a href="index.html" class="nk-nav-logo">
+                <a href="index.php" class="nk-nav-logo">
                     <img src="assets/images/logo.svg" alt="" width="90">
                 </a>
 
 
                 <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
                     <li class="  nk-drop-item">
-                        <a href="index.html">
+                        <a href="index.php">
                             Home</a>
                         <ul class="dropdown">
                             <li class="  ">
-                                <a href="index.html">
+                                <a href="index.php">
                                     Landing</a>
                             </li>
                             <li class="  ">
-                                <a href="index-main.html">
+                                <a href="index-main.php">
                                     Main</a>
                             </li>
                             <li class="  ">
-                                <a href="index-game-promo.html">
+                                <a href="index-game-promo.php">
                                     Game Promo</a>
                             </li>
                         </ul>
                     </li>
                     <li class="  nk-drop-item">
-                        <a href="page-contact.html">
+                        <a href="page-contact.php">
                             Features</a>
                         <ul class="dropdown">
                             <li class="  nk-drop-item">
-                                <a href="page-contact.html">
+                                <a href="page-contact.php">
                                     Pages</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="forum.html">
+                                        <a href="forum.php">
                                             Forum</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="page-contact.html">
+                                        <a href="page-contact.php">
                                             Contact</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="page-coming-soon.html">
+                                        <a href="page-coming-soon.php">
                                             Coming Soon</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="page-404.html">
+                                        <a href="page-404.php">
                                             404</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="page-age-check.html">
+                                        <a href="page-age-check.php">
                                             Age Check</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="  nk-drop-item">
-                                <a href="layout-nav-default.html">
+                                <a href="layout-nav-default.php">
                                     Navigations</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="layout-nav-default.html">
+                                        <a href="layout-nav-default.php">
                                             Default</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-nav-default-transparent.html">
+                                        <a href="layout-nav-default-transparent.php">
                                             Default Transparent</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-nav-main-top.html">
+                                        <a href="layout-nav-main-top.php">
                                             Main Top Only</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-nav-main-side.html">
+                                        <a href="layout-nav-main-side.php">
                                             Main Side</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-nav-main-top-fullscreen.html">
+                                        <a href="layout-nav-main-top-fullscreen.php">
                                             Main Top + Fullscreen</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-nav-fullscreen-side.html">
+                                        <a href="layout-nav-fullscreen-side.php">
                                             Fullscreen + Side</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="  nk-drop-item">
-                                <a href="layout-page-header.html">
+                                <a href="layout-page-header.php">
                                     Headers</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="layout-header.html">
+                                        <a href="layout-header.php">
                                             Size Default</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-sm.html">
+                                        <a href="layout-header-sm.php">
                                             Size Small</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-md.html">
+                                        <a href="layout-header-md.php">
                                             Size Mid</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-lg.html">
+                                        <a href="layout-header-lg.php">
                                             Size Large</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-full.html">
+                                        <a href="layout-header-full.php">
                                             Size Full</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-video.html">
+                                        <a href="layout-header-video.php">
                                             Video</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-video-plain.html">
+                                        <a href="layout-header-video-plain.php">
                                             Video Plain</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="layout-header-no.html">
+                                        <a href="layout-header-no.php">
                                             NO Header</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="  ">
-                                <a href="widgets.html">
+                                <a href="widgets.php">
                                     Widgets</a>
                             </li>
                             <li class="  ">
@@ -359,31 +359,31 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
 
                                     <ul>
                                         <li class="  ">
-                                            <a href="element-carousels.html">
+                                            <a href="element-carousels.php">
                                                 Carousels</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-image-boxes.html">
+                                            <a href="element-image-boxes.php">
                                                 Image Boxes</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-icon-boxes.html">
+                                            <a href="element-icon-boxes.php">
                                                 Icon Boxes</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-counters.html">
+                                            <a href="element-counters.php">
                                                 Counters</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-blockquotes.html">
+                                            <a href="element-blockquotes.php">
                                                 Block Quotes</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-testimonials.html">
+                                            <a href="element-testimonials.php">
                                                 Testimonials</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-team-members.html">
+                                            <a href="element-team-members.php">
                                                 Team Members</a>
                                         </li>
                                     </ul>
@@ -394,31 +394,31 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
 
                                     <ul>
                                         <li class="  ">
-                                            <a href="element-video-blocks.html">
+                                            <a href="element-video-blocks.php">
                                                 Video Blocks</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-gif.html">
+                                            <a href="element-gif.php">
                                                 Gif Animations</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-forms.html">
+                                            <a href="element-forms.php">
                                                 AJAX Forms</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-countdown.html">
+                                            <a href="element-countdown.php">
                                                 Countdown</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-text-typed.html">
+                                            <a href="element-text-typed.php">
                                                 Typed Text</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-tabs.html">
+                                            <a href="element-tabs.php">
                                                 Tabs</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-accordions.html">
+                                            <a href="element-accordions.php">
                                                 Accordions</a>
                                         </li>
                                     </ul>
@@ -429,27 +429,27 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
 
                                     <ul>
                                         <li class="  ">
-                                            <a href="element-info-boxes.html">
+                                            <a href="element-info-boxes.php">
                                                 Info Boxes / Alerts</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-call-to-action.html">
+                                            <a href="element-call-to-action.php">
                                                 Call to Action Blocks</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-progress.html">
+                                            <a href="element-progress.php">
                                                 Progress Bars</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-pagination.html">
+                                            <a href="element-pagination.php">
                                                 Pagination</a>
                                         </li>
                                         <li class="active  ">
-                                            <a href="element-pricing-tables.html">
+                                            <a href="element-pricing-tables.php">
                                                 Pricing Tables</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-modals.html">
+                                            <a href="element-modals.php">
                                                 Modals</a>
                                         </li>
                                     </ul>
@@ -460,27 +460,27 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
 
                                     <ul>
                                         <li class="  ">
-                                            <a href="element-typography.html">
+                                            <a href="element-typography.php">
                                                 Typography</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-titles.html">
+                                            <a href="element-titles.php">
                                                 Titles [headings]</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-dropcaps.html">
+                                            <a href="element-dropcaps.php">
                                                 Dropcaps</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-colors.html">
+                                            <a href="element-colors.php">
                                                 Colors</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-buttons.html">
+                                            <a href="element-buttons.php">
                                                 Buttons</a>
                                         </li>
                                         <li class="  ">
-                                            <a href="element-breadcrumbs.html">
+                                            <a href="element-breadcrumbs.php">
                                                 Breadcrumbs</a>
                                         </li>
                                     </ul>
@@ -492,55 +492,55 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                         </div>
                     </li>
                     <li class="  nk-drop-item">
-                        <a href="news-list.html">
+                        <a href="news-list.php">
                             News</a>
                         <ul class="dropdown">
                             <li class="  ">
-                                <a href="news-list.html">
+                                <a href="news-list.php">
                                     List</a>
                             </li>
                             <li class="  ">
-                                <a href="news-list-classic.html">
+                                <a href="news-list-classic.php">
                                     Classic List</a>
                             </li>
                             <li class="  ">
-                                <a href="news-grid-2.html">
+                                <a href="news-grid-2.php">
                                     Grid 2 Columns</a>
                             </li>
                             <li class="  ">
-                                <a href="news-grid-3.html">
+                                <a href="news-grid-3.php">
                                     Grid 3 Columns</a>
                             </li>
                             <li class="  nk-drop-item">
-                                <a href="news-single-image.html">
+                                <a href="news-single-image.php">
                                     Single Post</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="news-single-image.html">
+                                        <a href="news-single-image.php">
                                             Single Image</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-video.html">
+                                        <a href="news-single-video.php">
                                             Single Video</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-audio.html">
+                                        <a href="news-single-audio.php">
                                             Single Audio</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-gallery.html">
+                                        <a href="news-single-gallery.php">
                                             Single Gallery</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-quote.html">
+                                        <a href="news-single-quote.php">
                                             Single Block Quote</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-standard.html">
+                                        <a href="news-single-standard.php">
                                             Single Standard</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="news-single-big-content.html">
+                                        <a href="news-single-big-content.php">
                                             Single Big Content Example</a>
                                     </li>
                                 </ul>
@@ -548,61 +548,61 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                         </ul>
                     </li>
                     <li class="  nk-drop-item">
-                        <a href="social-user-activity.html">
+                        <a href="social-user-activity.php">
                             Social</a>
                         <ul class="dropdown">
                             <li class="  nk-drop-item">
-                                <a href="social-user-activity.html">
+                                <a href="social-user-activity.php">
                                     User</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="social-user-activity.html">
+                                        <a href="social-user-activity.php">
                                             Activity</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-notifications.html">
+                                        <a href="social-user-notifications.php">
                                             Notifications</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-messages.html">
+                                        <a href="social-user-messages.php">
                                             Messages</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-messages-single.html">
+                                        <a href="social-user-messages-single.php">
                                             Messages Single</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-messages-compose.html">
+                                        <a href="social-user-messages-compose.php">
                                             Messages Compose</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-friends.html">
+                                        <a href="social-user-friends.php">
                                             Friends</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-settings.html">
+                                        <a href="social-user-settings.php">
                                             Settings</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-user-settings-email.html">
+                                        <a href="social-user-settings-email.php">
                                             Settings Email</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="  nk-drop-item">
-                                <a href="social-group-activity.html">
+                                <a href="social-group-activity.php">
                                     Group</a>
                                 <ul class="dropdown">
                                     <li class="  ">
-                                        <a href="social-group-activity.html">
+                                        <a href="social-group-activity.php">
                                             Activity</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-group-members.html">
+                                        <a href="social-group-members.php">
                                             Members</a>
                                     </li>
                                     <li class="  ">
-                                        <a href="social-group-manage.html">
+                                        <a href="social-group-manage.php">
                                             Manage</a>
                                     </li>
                                 </ul>
@@ -610,53 +610,53 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                         </ul>
                     </li>
                     <li class="  nk-drop-item">
-                        <a href="store.html">
+                        <a href="store.php">
                             Store</a>
                         <ul class="dropdown">
                             <li class="  ">
-                                <a href="store.html">
+                                <a href="store.php">
                                     Store</a>
                             </li>
                             <li class="  ">
-                                <a href="store-product.html">
+                                <a href="store-product.php">
                                     Single Product</a>
                             </li>
                             <li class="  ">
-                                <a href="store-cart.html">
+                                <a href="store-cart.php">
                                     Cart</a>
                             </li>
                             <li class="  ">
-                                <a href="store-checkout.html">
+                                <a href="store-checkout.php">
                                     Checkout</a>
                             </li>
                             <li class="  ">
-                                <a href="store-account.html">
+                                <a href="store-account.php">
                                     Account</a>
                             </li>
                         </ul>
                     </li>
                     <li class="  nk-drop-item">
-                        <a href="gallery.html">
+                        <a href="gallery.php">
                             Media</a>
                         <ul class="dropdown">
                             <li class="  ">
-                                <a href="gallery.html">
+                                <a href="gallery.php">
                                     Gallery 1 Column</a>
                             </li>
                             <li class="  ">
-                                <a href="gallery-2-col.html">
+                                <a href="gallery-2-col.php">
                                     Gallery 2 Columns</a>
                             </li>
                             <li class="  ">
-                                <a href="gallery-3-col.html">
+                                <a href="gallery-3-col.php">
                                     Gallery 3 Columns</a>
                             </li>
                             <li class="  ">
-                                <a href="videos.html">
+                                <a href="videos.php">
                                     Videos 1 Column</a>
                             </li>
                             <li class="  ">
-                                <a href="videos-2-col.html">
+                                <a href="videos-2-col.php">
                                     Videos 2 Columns</a>
                             </li>
                         </ul>
@@ -760,7 +760,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
             <div class="nk-nav-table">
 
                 <div class="nk-nav-row">
-                    <a href="index.html" class="nk-nav-logo">
+                    <a href="index.php" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="150">
                     </a>
                 </div>
@@ -768,19 +768,19 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                 <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
                     <ul class="nk-nav">
                         <li class=" ">
-                            <a href="page-contact.html">
+                            <a href="page-contact.php">
                                 Contact</a>
                         </li>
                         <li class=" ">
-                            <a href="page-coming-soon.html">
+                            <a href="page-coming-soon.php">
                                 Coming Soon</a>
                         </li>
                         <li class=" ">
-                            <a href="page-404.html">
+                            <a href="page-404.php">
                                 404</a>
                         </li>
                         <li class=" ">
-                            <a href="page-age-check.html">
+                            <a href="page-age-check.php">
                                 Age Check</a>
                         </li>
                         <li class=" nk-drop-item">
@@ -856,7 +856,7 @@ Additional Classes:
 <div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-left-side nk-navbar-overlay-content d-lg-none">
     <div class="nano">
         <div class="nano-content">
-            <a href="index.html" class="nk-nav-logo">
+            <a href="index.php" class="nk-nav-logo">
                 <img src="assets/images/logo.svg" alt="" width="90">
             </a>
             <div class="nk-navbar-mobile-content">
@@ -1152,13 +1152,13 @@ Additional Classes:
 
                     <tr>
                         <td class="nk-product-cart-thumb">
-                            <a href="store-product.html" class="nk-post-image">
+                            <a href="store-product.php" class="nk-post-image">
                                 <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
                             </a>
                         </td>
                         <td class="nk-product-cart-title">
                             <h2 class="nk-post-title h5">
-                                <a href="store-product.html">Men Tshirt</a>
+                                <a href="store-product.php">Men Tshirt</a>
                             </h2>
                         </td>
                         <td class="nk-product-cart-price">$67.00</td>
@@ -1173,13 +1173,13 @@ Additional Classes:
 
                     <tr>
                         <td class="nk-product-cart-thumb">
-                            <a href="store-product.html" class="nk-post-image">
+                            <a href="store-product.php" class="nk-post-image">
                                 <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
                             </a>
                         </td>
                         <td class="nk-product-cart-title">
                             <h2 class="nk-post-title h5">
-                                <a href="store-product.html">Men Hoodie</a>
+                                <a href="store-product.php">Men Hoodie</a>
                             </h2>
                         </td>
                         <td class="nk-product-cart-price">$125.00

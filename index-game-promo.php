@@ -165,7 +165,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
             <div class="nk-nav-table">
                 <div class="nk-nav-row">
 
-                    <a href="index.html" class="nk-nav-logo">
+                    <a href="index.php" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="130">
                     </a>
 
@@ -219,19 +219,19 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                 <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
                     <ul class="nk-nav" data-nav-mobile="#nk-nav-mobile">
                         <li class="active nk-drop-item">
-                            <a href="index.html">
+                            <a href="index.php">
                                 Home</a>
                             <ul class="dropdown">
                                 <li class=" ">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         Landing</a>
                                 </li>
                                 <li class=" ">
-                                    <a href="index-main.html">
+                                    <a href="index-main.php">
                                         Main</a>
                                 </li>
                                 <li class="active ">
-                                    <a href="index-game-promo.html">
+                                    <a href="index-game-promo.php">
                                         Game Promo</a>
                                 </li>
                             </ul>
@@ -303,7 +303,7 @@ Additional Classes:
 <div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-left-side nk-navbar-overlay-content d-lg-none">
     <div class="nano">
         <div class="nano-content">
-            <a href="index.html" class="nk-nav-logo">
+            <a href="index.php" class="nk-nav-logo">
                 <img src="assets/images/logo.svg" alt="" width="90">
             </a>
             <div class="nk-navbar-mobile-content">
@@ -930,13 +930,13 @@ Additional Classes:
 
                     <tr>
                         <td class="nk-product-cart-thumb">
-                            <a href="store-product.html" class="nk-post-image">
+                            <a href="store-product.php" class="nk-post-image">
                                 <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
                             </a>
                         </td>
                         <td class="nk-product-cart-title">
                             <h2 class="nk-post-title h5">
-                                <a href="store-product.html">Men Tshirt</a>
+                                <a href="store-product.php">Men Tshirt</a>
                             </h2>
                         </td>
                         <td class="nk-product-cart-price">$67.00</td>
@@ -951,13 +951,13 @@ Additional Classes:
 
                     <tr>
                         <td class="nk-product-cart-thumb">
-                            <a href="store-product.html" class="nk-post-image">
+                            <a href="store-product.php" class="nk-post-image">
                                 <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
                             </a>
                         </td>
                         <td class="nk-product-cart-title">
                             <h2 class="nk-post-title h5">
-                                <a href="store-product.html">Men Hoodie</a>
+                                <a href="store-product.php">Men Hoodie</a>
                             </h2>
                         </td>
                         <td class="nk-product-cart-price">$125.00
