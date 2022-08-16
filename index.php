@@ -76,23 +76,7 @@
         .nk-page-boxed
 -->
 <body>
-<?php
-    require 'steamauth/steamauth.php';
-    require 'steamauth/userInfo.php';
 
-    if(isset($_SESSION['steamid'])) {
-        $steamid = $_SESSION['steamid'];
-        $steamprofile = $_SESSION['steam_personaname'];
-        $steamavatar = $_SESSION['steam_avatarfull'];
-        $steam_profile = "http://steamcommunity.com/profiles/".$steamid;
-    } else {
-        $steamid = "";
-        $steamprofile = "";
-        $steamavatar = "";
-        $steam_profile = "";
-        loginbutton();
-    }
-?>
     <!-- START: Page Preloader -->
 <div class="nk-preloader">
     <!--

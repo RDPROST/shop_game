@@ -238,10 +238,25 @@ Additional Classes:
                     <div class="nk-gap-2"></div>
 
                     <!-- START: Login Form -->
-                    <form class="nk-sign-form-login active" action="#">
-                        <button class="nk-btn nk-btn-color-white link-effect-4" style="width: 100%">Log In Steam</button>
-                        <div class="clearfix"></div>
-                    </form>
+                    <?php
+                    require 'steamauth/steamauth.php';
+                    require 'steamauth/userInfo.php';
+
+                    if(isset($_SESSION['steamid'])) {
+                        $steamid = $_SESSION['steamid'];
+                        $steamprofile = $_SESSION['steam_personaname'];
+                        $steamavatar = $_SESSION['steam_avatarfull'];
+                        $steam_profile = "http://steamcommunity.com/profiles/".$steamid;
+                        logoutbutton();
+                    } else {
+                        $steamid = "";
+                        $steamprofile = "";
+                        $steamavatar = "";
+                        $steam_profile = "";
+                        loginbutton();
+                    }
+                    ?>
+                    <div class="clearfix"></div>
                     <!-- END: Login Form -->
 
                     <!-- START: Lost Password Form -->
