@@ -819,7 +819,7 @@
         <div class="col-md-5 col-lg-3">
             <div class="nk-social-profile-avatar">
                 <a href="#">
-                    <img src="assets/images/avatar-1.jpg" alt="nK">
+                    <img src="<?php echo $steamavatar; ?>" alt="nK">
                 </a>
             </div>
         </div>
@@ -827,7 +827,7 @@
             <div class="nk-social-profile-info">
                 <div class="nk-gap-2"></div>
                 <div class="nk-social-profile-info-last-seen">last seen 2 hours ago</div>
-                <h1 class="nk-social-profile-info-name">nK</h1>
+                <h1 class="nk-social-profile-info-name"><?php echo $steamprofile; ?></h1>
                 <div class="nk-social-profile-info-username">@nkdevv</div>
                 <div class="nk-social-profile-info-actions">
                     <a href="#" class="nk-btn link-effect-4">Add Friend</a>
