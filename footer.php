@@ -9,23 +9,42 @@
     <div class="container">
         <div class="nk-gap-2"></div>
         <div class="nk-footer-logos">
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-godlike.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-yp3.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-nk-team.png" alt="" width="150"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-pegi-18.png" alt="" width="46"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-18-restricted.png" alt="" width="160"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img"
+                                                                                              src="assets/images/footer-logo-godlike.png"
+                                                                                              alt="" width="120"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img"
+                                                                                              src="assets/images/footer-logo-yp3.png"
+                                                                                              alt="" width="120"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img"
+                                                                                              src="assets/images/footer-logo-nk-team.png"
+                                                                                              alt="" width="150"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img"
+                                                                                              src="assets/images/footer-logo-pegi-18.png"
+                                                                                              alt="" width="46"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img"
+                                                                                              src="assets/images/footer-logo-18-restricted.png"
+                                                                                              alt="" width="160"></a>
         </div>
         <div class="nk-gap"></div>
 
         <p>
-            &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.
+            &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and
+            related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks
+            of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property
+            of their respective owners. All Rights Reserved.
         </p>
         <p>
-            GodLike &reg;: The Darkness&trade; is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.
+            GodLike &reg;: The Darkness&trade; is a fowl beginning there Over had moveth so land wherein, fruit very
+            gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament
+            wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose.
+            Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had
+            darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open
+            female.
         </p>
 
         <div class="nk-footer-links">
-            <a href="#" class="link-effect">Terms of Service</a> <span>|</span> <a href="#" class="link-effect">Privacy Policy</a>
+            <a href="#" class="link-effect">Terms of Service</a> <span>|</span> <a href="#" class="link-effect">Privacy
+                Policy</a>
         </div>
 
         <div class="nk-gap-4"></div>
@@ -35,7 +54,6 @@
 
 
 </div>
-
 
 
 <!--
@@ -113,7 +131,6 @@ START: Side Buttons
 <!-- END: Side Buttons -->
 
 
-
 <!--
 START: Search
 
@@ -131,8 +148,6 @@ Additional Classes:
     </div>
 </div>
 <!-- END: Search -->
-
-
 
 
 <!--
@@ -181,7 +196,9 @@ Additional Classes:
                                 <a href="store-product.php">Men Hoodie</a>
                             </h2>
                         </td>
-                        <td class="nk-product-cart-price">$125.00 <del>$145.00</del></td>
+                        <td class="nk-product-cart-price">$125.00
+                            <del>$145.00</del>
+                        </td>
                         <td class="nk-product-cart-quantity">
                             2
                         </td>
@@ -217,8 +234,6 @@ Additional Classes:
 <!-- END: Shopping Cart -->
 
 
-
-
 <!--
 START: Sign Form
 
@@ -242,11 +257,11 @@ Additional Classes:
                     require 'steamauth/steamauth.php';
                     require 'steamauth/userInfo.php';
 
-                    if(isset($_SESSION['steamid'])) {
+                    if (isset($_SESSION['steamid'])) {
                         $steamid = $_SESSION['steamid'];
                         $steamprofile = $_SESSION['steam_personaname'];
                         $steamavatar = $_SESSION['steam_avatarfull'];
-                        $steam_profile = "http://steamcommunity.com/profiles/".$steamid;
+                        $steam_profile = "http://steamcommunity.com/profiles/" . $steamid;
                         logoutbutton();
                     } else {
                         $steamid = "";
@@ -287,8 +302,6 @@ Additional Classes:
     <div class="nk-gap-5"></div>
 </div>
 <!-- END: Sign Form -->
-
-
 
 
 <!-- START: Scripts -->

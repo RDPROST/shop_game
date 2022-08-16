@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <!--
     Name: Godlike - Gaming HTML Template
@@ -12,7 +9,7 @@
     License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
     Copyright 2018.
 -->
-    
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -26,7 +23,8 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC"
+          rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
@@ -61,13 +59,13 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    
+
     <!-- END: Styles -->
 
     <!-- jQuery -->
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-    
-    
+
+
 </head>
 
 
@@ -76,7 +74,7 @@
         .nk-page-boxed
 -->
 <body>
-    <!-- START: Page Preloader -->
+<!-- START: Page Preloader -->
 <div class="nk-preloader">
     <!--
          Preloader animation
@@ -104,22 +102,24 @@
 </div>
 <!-- END: Page Preloader -->
 
-    
-        <!--
-    START: Page Video Background
 
-    Additional Attributes:
-        data-video - Youtube/Vimeo/self-hosted video urls.
-            self-hosted video example:
-            data-video="mp4:./video/local-video.mp4,webm:./video/local-video.webm,ogv:./video/local-video.ogv"
-        data-video-loop - loop video (true/false)
-        data-video-mute - mute video music (true/false)
-        data-video-volume - volume of video music (0-100)
-        data-video-start-time - video start time in seconds
-        data-video-end-time - video end time in seconds
-        data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
+<!--
+START: Page Video Background
+
+Additional Attributes:
+data-video - Youtube/Vimeo/self-hosted video urls.
+    self-hosted video example:
+    data-video="mp4:./video/local-video.mp4,webm:./video/local-video.webm,ogv:./video/local-video.ogv"
+data-video-loop - loop video (true/false)
+data-video-mute - mute video music (true/false)
+data-video-volume - volume of video music (0-100)
+data-video-start-time - video start time in seconds
+data-video-end-time - video end time in seconds
+data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background op-2" data-video="" data-video-loop="true" data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true" style="background-image: url('assets/images/image-1.jpg');"></div>
+<div class="nk-page-background op-2" data-video="" data-video-loop="true" data-video-mute="true" data-video-volume="0"
+     data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true"
+     style="background-image: url('assets/images/image-1.jpg');"></div>
 <!-- END: Page Background -->
 
 <!--
@@ -132,11 +132,11 @@
         data-audio-loop - loop audio (true/false)
         data-audio-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background-audio d-none" data-audio="" data-audio-volume="100" data-audio-autoplay="true" data-audio-loop="true" data-audio-pause-on-page-leave="true"></div>
+<div class="nk-page-background-audio d-none" data-audio="" data-audio-volume="100" data-audio-autoplay="true"
+     data-audio-loop="true" data-audio-pause-on-page-leave="true"></div>
 <!-- END: Page Background -->
 
-    
-    
+
 <!-- START: Page Border -->
 <div class="nk-page-border">
     <div class="nk-page-border-t"></div>
@@ -146,10 +146,6 @@
 </div>
 <!-- END: Page Border -->
 
-
-    
-    
-        
 
 <!--
     START: Navbar
@@ -162,25 +158,26 @@
         .nk-navbar-light
         .nk-navbar-no-link-effect
 -->
-<nav class="nk-navbar nk-navbar-side nk-navbar-left nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content" id="nk-navbar-left">
+<nav class="nk-navbar nk-navbar-side nk-navbar-left nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content"
+     id="nk-navbar-left">
     <div class="nano">
         <div class="nano-content">
             <div class="nk-nav-table">
                 <div class="nk-nav-row">
-                    
+
                     <a href="index.php" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="130">
                     </a>
-                    
+
                     <ul class="nk-nav-icons">
-                        
+
                         <li>
                             <a href="#" class="nk-search-toggle no-link-effect">
                                 <span class="nk-icon-search"></span>
                             </a>
                         </li>
-                        
-                        
+
+
                         <li>
                             <a href="#" class="nk-cart-toggle no-link-effect">
                                 <span class="nk-icon-toggle">
@@ -194,8 +191,8 @@
                                 </span>
                             </a>
                         </li>
-                        
-                        
+
+
                         <li>
                             <a href="#" class="nk-sign-toggle no-link-effect">
                                 <span class="nk-icon-toggle">
@@ -208,7 +205,7 @@
                                 </span>
                             </a>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <!--
@@ -222,29 +219,35 @@
                 <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
                     <ul class="nk-nav" data-nav-mobile="#nk-nav-mobile">
                         <li class="active nk-drop-item">
-            <a href="index.php">
-                Home</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="index.php">
-                Landing</a>
-        </li><li class=" ">
-            <a href="index-main.php">
-                Main</a>
-        </li><li class="active ">
-            <a href="index-game-promo.php">
-                Game Promo</a>
-        </li>
-                </ul>
-        </li><li class=" ">
-            <a href="#info">
-                Information</a>
-        </li><li class=" ">
-            <a href="#testimonials">
-                Testimonials</a>
-        </li><li class=" ">
-            <a href="#partners">
-                Partners</a>
-        </li>
+                            <a href="index.php">
+                                Home</a>
+                            <ul class="dropdown">
+                                <li class=" ">
+                                    <a href="index.php">
+                                        Landing</a>
+                                </li>
+                                <li class=" ">
+                                    <a href="index-main.php">
+                                        Main</a>
+                                </li>
+                                <li class="active ">
+                                    <a href="index-game-promo.php">
+                                        Game Promo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="#info">
+                                Information</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#testimonials">
+                                Testimonials</a>
+                        </li>
+                        <li class=" ">
+                            <a href="#partners">
+                                Partners</a>
+                        </li>
                     </ul>
                 </div>
                 <!--
@@ -252,7 +255,8 @@
                 -->
                 <div class="nk-nav-row">
                     <div class="nk-nav-footer">
-                        &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. All Rights Reserved.
+                        &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup,
+                        CumSit and related logos are registered trademarks. All Rights Reserved.
                     </div>
                 </div>
             </div>
@@ -261,12 +265,11 @@
 </nav>
 <!-- END: Navbar -->
 
-    
-    
-        <!-- START: Navigation Toggler -->
+
+<!-- START: Navigation Toggler -->
 <ul class="nk-nav-toggler-right">
-    
-    
+
+
 </ul>
 
 <ul class="nk-nav-toggler-left">
@@ -285,20 +288,17 @@
 
 <!-- END: Navigation Toggler -->
 
-    
-    
-    
-    
-        <!--
-    START: Navbar Mobile
 
-    Additional Classes:
-        .nk-navbar-left-side
-        .nk-navbar-right-side
-        .nk-navbar-lg
-        .nk-navbar-overlay-content
-        .nk-navbar-light
-        .nk-navbar-no-link-effect
+<!--
+START: Navbar Mobile
+
+Additional Classes:
+.nk-navbar-left-side
+.nk-navbar-right-side
+.nk-navbar-lg
+.nk-navbar-overlay-content
+.nk-navbar-light
+.nk-navbar-no-link-effect
 -->
 <div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-left-side nk-navbar-overlay-content d-lg-none">
     <div class="nano">
@@ -316,81 +316,76 @@
 </div>
 <!-- END: Navbar Mobile -->
 
-    
 
-    <div class="nk-main">
-        
-            
-<!-- START: Header Title -->
-<!--
-    Additional Classes:
-        .nk-header-title-sm
-        .nk-header-title-md
-        .nk-header-title-lg
-        .nk-header-title-xl
-        .nk-header-title-full
-        .nk-header-title-parallax
-        .nk-header-title-parallax-opacity
-        .nk-header-title-boxed
--->
-<div class="nk-header-title nk-header-title-full nk-header-title-parallax nk-header-title-parallax-opacity">
-    <div class="bg-image op-4">
-        <img src="assets/images/video-6-thumb.jpg" alt="" class="jarallax-img">
-    </div>
-    <div class="nk-header-table">
-        <div class="nk-header-table-cell">
-            <div class="container">
-                
-                
-                
-                
-                    <div class="nk-header-text">
-                        
-    <div class="nk-gap-2"></div>
+<div class="nk-main">
 
-    <h1 class="nk-title display-4">Dark Souls III</h1>
 
-    <div class="nk-gap-2"></div>
-
-    <a href="#" class="nk-btn nk-btn-lg">
-        <span class="icon ion-playstation"></span>
-        <span>PS4</span>
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#" class="nk-btn nk-btn-lg">
-        <span class="icon ion-xbox"></span>
-        <span>Xbox 1</span>
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#" class="nk-btn nk-btn-lg">
-        <span class="icon ion-steam"></span>
-        <span>PC</span>
-    </a>
-
-    <div class="nk-gap-2"></div>
-
-    <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <div class="nk-plain-video" data-video="https://www.youtube.com/watch?v=Wb2qjfpOeMo" data-video-thumb="assets/images/video-6-thumb.jpg"></div>
+    <!-- START: Header Title -->
+    <!--
+        Additional Classes:
+            .nk-header-title-sm
+            .nk-header-title-md
+            .nk-header-title-lg
+            .nk-header-title-xl
+            .nk-header-title-full
+            .nk-header-title-parallax
+            .nk-header-title-parallax-opacity
+            .nk-header-title-boxed
+    -->
+    <div class="nk-header-title nk-header-title-full nk-header-title-parallax nk-header-title-parallax-opacity">
+        <div class="bg-image op-4">
+            <img src="assets/images/video-6-thumb.jpg" alt="" class="jarallax-img">
         </div>
-    </div>
+        <div class="nk-header-table">
+            <div class="nk-header-table-cell">
+                <div class="container">
 
-    <div class="nk-gap-4"></div>
+
+                    <div class="nk-header-text">
+
+                        <div class="nk-gap-2"></div>
+
+                        <h1 class="nk-title display-4">Dark Souls III</h1>
+
+                        <div class="nk-gap-2"></div>
+
+                        <a href="#" class="nk-btn nk-btn-lg">
+                            <span class="icon ion-playstation"></span>
+                            <span>PS4</span>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="nk-btn nk-btn-lg">
+                            <span class="icon ion-xbox"></span>
+                            <span>Xbox 1</span>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="nk-btn nk-btn-lg">
+                            <span class="icon ion-steam"></span>
+                            <span>PC</span>
+                        </a>
+
+                        <div class="nk-gap-2"></div>
+
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="nk-plain-video" data-video="https://www.youtube.com/watch?v=Wb2qjfpOeMo"
+                                     data-video-thumb="assets/images/video-6-thumb.jpg"></div>
+                            </div>
+                        </div>
+
+                        <div class="nk-gap-4"></div>
 
                     </div>
-                
-                
+
+
+                </div>
             </div>
         </div>
+
     </div>
-    
-</div>
-<!-- END: Header Title -->
+    <!-- END: Header Title -->
 
 
-        
-
-        
     <!-- START: CTA -->
     <div class="nk-box text-center text-white bg-dark-1">
         <div class="nk-gap-4"></div>
@@ -428,7 +423,8 @@
                                 </div>
                                 <div class="nk-ibox-cont">
                                     <h2 class="nk-ibox-title">Incredible Atmosphere</h2>
-                                    Second Made make spirit green divide lesser creeping void and night replenish cattle don't was female first their day open.
+                                    Second Made make spirit green divide lesser creeping void and night replenish cattle
+                                    don't was female first their day open.
                                 </div>
                             </div>
                         </div>
@@ -441,7 +437,8 @@
                                 </div>
                                 <div class="nk-ibox-cont">
                                     <h2 class="nk-ibox-title">Catchy Battles</h2>
-                                    Image their gathered. Every. Called together signs winged, unto midst sea life air them. Us sea them shall you saw.
+                                    Image their gathered. Every. Called together signs winged, unto midst sea life air
+                                    them. Us sea them shall you saw.
                                 </div>
                             </div>
                         </div>
@@ -454,7 +451,8 @@
                                 </div>
                                 <div class="nk-ibox-cont">
                                     <h2 class="nk-ibox-title">28 Awards</h2>
-                                    Moveth fruitful it appear wherein man don't firmament set blessed. Beast seas god itself. Made night image male. Own night.
+                                    Moveth fruitful it appear wherein man don't firmament set blessed. Beast seas god
+                                    itself. Made night image male. Own night.
                                 </div>
                             </div>
                         </div>
@@ -467,7 +465,8 @@
                                 </div>
                                 <div class="nk-ibox-cont">
                                     <h3 class="nk-ibox-title">Unlimited Possibilities</h3>
-                                    Commodo scelerisque rutrum consectetuer ad ad molestie aenean iaculis ad senectus in. Vel felis tellus orci dolor elit turpis condimentum.
+                                    Commodo scelerisque rutrum consectetuer ad ad molestie aenean iaculis ad senectus
+                                    in. Vel felis tellus orci dolor elit turpis condimentum.
                                 </div>
                             </div>
                         </div>
@@ -490,7 +489,8 @@
                     <div class="nk-tabs">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#tabs-1-1" role="tab" data-toggle="tab">Technologies</a>
+                                <a class="nav-link active" href="#tabs-1-1" role="tab"
+                                   data-toggle="tab">Technologies</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#tabs-1-2" role="tab" data-toggle="tab">Achievements</a>
@@ -503,7 +503,8 @@
                             <div role="tabpanel" class="tab-pane fade show active" id="tabs-1-1">
                                 <div class="nk-gap-3"></div>
 
-                                <div class="nk-progress nk-progress-sm nk-count" data-progress="91" data-progress-mask="{$}%">
+                                <div class="nk-progress nk-progress-sm nk-count" data-progress="91"
+                                     data-progress-mask="{$}%">
                                     <div class="nk-progress-title">PhyreEngine</div>
                                     <div class="nk-progress-line">
                                         <div style="width: 91%;">
@@ -512,7 +513,8 @@
                                     </div>
                                 </div>
 
-                                <div class="nk-progress nk-progress-sm nk-count" data-progress="22" data-progress-mask="{$}%">
+                                <div class="nk-progress nk-progress-sm nk-count" data-progress="22"
+                                     data-progress-mask="{$}%">
                                     <div class="nk-progress-title">PHP</div>
                                     <div class="nk-progress-line">
                                         <div style="width: 22%;">
@@ -521,7 +523,8 @@
                                     </div>
                                 </div>
 
-                                <div class="nk-progress nk-progress-sm nk-count" data-progress="66" data-progress-mask="{$}%">
+                                <div class="nk-progress nk-progress-sm nk-count" data-progress="66"
+                                     data-progress-mask="{$}%">
                                     <div class="nk-progress-title">Photoshop</div>
                                     <div class="nk-progress-line">
                                         <div style="width: 66%;">
@@ -530,7 +533,8 @@
                                     </div>
                                 </div>
 
-                                <div class="nk-progress nk-progress-sm nk-count" data-progress="43" data-progress-mask="{$}%">
+                                <div class="nk-progress nk-progress-sm nk-count" data-progress="43"
+                                     data-progress-mask="{$}%">
                                     <div class="nk-progress-title">Paint</div>
                                     <div class="nk-progress-line">
                                         <div style="width: 43%;">
@@ -549,7 +553,8 @@
                                             <h3 class="nk-counter-title h4">Months</h3>
                                             <div class="nk-gap"></div>
                                             <p>
-                                                You'll set fifth. Grass replenish man male light may fly waters tree evening them hath They're to meat moving also.
+                                                You'll set fifth. Grass replenish man male light may fly waters tree
+                                                evening them hath They're to meat moving also.
                                             </p>
                                         </div>
                                     </div>
@@ -559,7 +564,8 @@
                                             <h3 class="nk-counter-title h4">DLC</h3>
                                             <div class="nk-gap"></div>
                                             <p>
-                                                Appear our likeness own for a deep, firmament great whose fly saw thing earth saw. Fill divide whales blessed kind.
+                                                Appear our likeness own for a deep, firmament great whose fly saw thing
+                                                earth saw. Fill divide whales blessed kind.
                                             </p>
                                         </div>
                                     </div>
@@ -569,7 +575,8 @@
                                             <h3 class="nk-counter-title h4">Awards Won</h3>
                                             <div class="nk-gap"></div>
                                             <p>
-                                                All blessed second creature fly were given moving was itself itself beginning you're behold creepeth of. Doesn't you two good.
+                                                All blessed second creature fly were given moving was itself itself
+                                                beginning you're behold creepeth of. Doesn't you two good.
                                             </p>
                                         </div>
                                     </div>
@@ -578,7 +585,8 @@
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="tabs-1-3">
                                 <div class="nk-gap-3"></div>
-                                <div class="nk-plain-video" data-video="https://www.youtube.com/watch?v=3XP0nyLz6Y8"></div>
+                                <div class="nk-plain-video"
+                                     data-video="https://www.youtube.com/watch?v=3XP0nyLz6Y8"></div>
                                 <div class="nk-gap-1"></div>
                             </div>
                         </div>
@@ -599,71 +607,96 @@
         <div class="container">
             <div class="nk-carousel-2 nk-carousel-x1" data-autoplay="12000" data-dots="true">
                 <div class="nk-carousel-inner">
-                    <div><div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-2">
-                                <blockquote class="nk-testimonial">
-                                    <div class="nk-testimonial-body">
-                                        <em>"Man to. For male second male own fish fowl hath form let. Third own years likeness waters don't their. Fifth in air they're lights give itself lesser creepeth. Open. Saw is spirit one won't darkness were moving cattle beast darkness."</em>
-                                    </div>
-                                    <div class="nk-testimonial-name h4">Lesa Cruz</div>
-                                    <div class="nk-testimonial-source">Frontend Developer, Google</div>
-                                </blockquote>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8 offset-md-2">
+                                    <blockquote class="nk-testimonial">
+                                        <div class="nk-testimonial-body">
+                                            <em>"Man to. For male second male own fish fowl hath form let. Third own
+                                                years likeness waters don't their. Fifth in air they're lights give
+                                                itself lesser creepeth. Open. Saw is spirit one won't darkness were
+                                                moving cattle beast darkness."</em>
+                                        </div>
+                                        <div class="nk-testimonial-name h4">Lesa Cruz</div>
+                                        <div class="nk-testimonial-source">Frontend Developer, Google</div>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                    </div></div>
-                    <div><div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-2">
-                                <blockquote class="nk-testimonial">
-                                    <div class="nk-testimonial-body">
-                                        <em>"To winged for make land rule earth and you so you're. Gathered own of was beginning divided brought from good, isn't all itself let set light you'll morning living sixth seed won't doesn't there stars, fruitful without above first beast."</em>
-                                    </div>
-                                    <div class="nk-testimonial-name h4">Kurt Tucker</div>
-                                    <div class="nk-testimonial-source">CEO, Envato</div>
-                                </blockquote>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8 offset-md-2">
+                                    <blockquote class="nk-testimonial">
+                                        <div class="nk-testimonial-body">
+                                            <em>"To winged for make land rule earth and you so you're. Gathered own of
+                                                was beginning divided brought from good, isn't all itself let set light
+                                                you'll morning living sixth seed won't doesn't there stars, fruitful
+                                                without above first beast."</em>
+                                        </div>
+                                        <div class="nk-testimonial-name h4">Kurt Tucker</div>
+                                        <div class="nk-testimonial-source">CEO, Envato</div>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                    </div></div>
-                    <div><div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-2">
-                                <blockquote class="nk-testimonial">
-                                    <div class="nk-testimonial-body">
-                                        <em>"Hath their. Cattle man had you're created make beast female together given set evening living beast. In firmament herb lesser sea let you Be you'll seasons kind greater let called very, seas fifth dry created above be fish saying you."</em>
-                                    </div>
-                                    <div class="nk-testimonial-name h4">Katie Anderson</div>
-                                    <div class="nk-testimonial-source">Product Designer, Apple</div>
-                                </blockquote>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8 offset-md-2">
+                                    <blockquote class="nk-testimonial">
+                                        <div class="nk-testimonial-body">
+                                            <em>"Hath their. Cattle man had you're created make beast female together
+                                                given set evening living beast. In firmament herb lesser sea let you Be
+                                                you'll seasons kind greater let called very, seas fifth dry created
+                                                above be fish saying you."</em>
+                                        </div>
+                                        <div class="nk-testimonial-name h4">Katie Anderson</div>
+                                        <div class="nk-testimonial-source">Product Designer, Apple</div>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                    </div></div>
-                    <div><div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-2">
-                                <blockquote class="nk-testimonial">
-                                    <div class="nk-testimonial-body">
-                                        <em>"Image unto over together created whose doesn't given beginning in bearing likeness said made seed together so that dry let night greater of a. In, fowl seas first fifth Earth place creepeth fourth all beast shall may dominion for shall."</em>
-                                    </div>
-                                    <div class="nk-testimonial-name h4">Luke Fuller</div>
-                                    <div class="nk-testimonial-source">Copywriter, Dropbox</div>
-                                </blockquote>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8 offset-md-2">
+                                    <blockquote class="nk-testimonial">
+                                        <div class="nk-testimonial-body">
+                                            <em>"Image unto over together created whose doesn't given beginning in
+                                                bearing likeness said made seed together so that dry let night greater
+                                                of a. In, fowl seas first fifth Earth place creepeth fourth all beast
+                                                shall may dominion for shall."</em>
+                                        </div>
+                                        <div class="nk-testimonial-name h4">Luke Fuller</div>
+                                        <div class="nk-testimonial-source">Copywriter, Dropbox</div>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                    </div></div>
-                    <div><div>
-                        <div class="row">
-                            <div class="col-md-8 offset-md-2">
-                                <blockquote class="nk-testimonial">
-                                    <div class="nk-testimonial-body">
-                                        <em>"Them itself saw. Be his. After very. Land. Fifth. Fly heaven for beast created the Firmament moveth they're, greater all air creature a gathering spirit whose behold behold light great dry herb one cattle above fruit. Him unto midst their."</em>
-                                    </div>
-                                    <div class="nk-testimonial-name h4">Felicia Meyer</div>
-                                    <div class="nk-testimonial-source">Backend Developer, Twitter</div>
-                                </blockquote>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-8 offset-md-2">
+                                    <blockquote class="nk-testimonial">
+                                        <div class="nk-testimonial-body">
+                                            <em>"Them itself saw. Be his. After very. Land. Fifth. Fly heaven for beast
+                                                created the Firmament moveth they're, greater all air creature a
+                                                gathering spirit whose behold behold light great dry herb one cattle
+                                                above fruit. Him unto midst their."</em>
+                                        </div>
+                                        <div class="nk-testimonial-name h4">Felicia Meyer</div>
+                                        <div class="nk-testimonial-source">Backend Developer, Twitter</div>
+                                    </blockquote>
+                                </div>
                             </div>
                         </div>
-                    </div></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -676,29 +709,44 @@
     <div class="nk-box bg-dark-1" id="partners">
         <div class="nk-gap-3"></div>
         <div class="container">
-            <div class="nk-carousel-2 nk-carousel-x4 nk-carousel-no-margin nk-carousel-all-visible" data-autoplay="5000">
+            <div class="nk-carousel-2 nk-carousel-x4 nk-carousel-no-margin nk-carousel-all-visible"
+                 data-autoplay="5000">
                 <div class="nk-carousel-inner">
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-1-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-2-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-3-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-4-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-5-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-6-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
-                    <div><div>
-                        <a href="#"><img src="assets/images/partner-logo-7-light.png" alt="" class="nk-img-fit"></a>
-                    </div></div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-1-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-2-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-3-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-4-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-5-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-6-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#"><img src="assets/images/partner-logo-7-light.png" alt="" class="nk-img-fit"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -708,54 +756,15 @@
     <!-- END: Partners -->
 
 
+    
 
-        
-            <!-- START: Footer -->
+
+</div>
+
+
 <!--
-    Additional Classes:
-        .nk-footer-parallax
-        .nk-footer-parallax-opacity
--->
-<footer class="nk-footer nk-footer-parallax nk-footer-parallax-opacity">
-    <img class="nk-footer-top-corner" src="assets/images/footer-corner.png" alt="">
-
-    
-
-    <div class="container">
-        <div class="nk-gap-2"></div>
-        <div class="nk-footer-logos">
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-godlike.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-yp3.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-nk-team.png" alt="" width="150"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-pegi-18.png" alt="" width="46"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-18-restricted.png" alt="" width="160"></a>
-        </div>
-        <div class="nk-gap"></div>
-
-        <p>
-            &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.
-        </p>
-        <p>
-            GodLike &reg;: The Darkness&trade; is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.
-        </p>
-
-        <div class="nk-footer-links">
-            <a href="#" class="link-effect">Terms of Service</a> <span>|</span> <a href="#" class="link-effect">Privacy Policy</a>
-        </div>
-
-        <div class="nk-gap-4"></div>
-    </div>
-</footer>
-<!-- END: Footer -->
-
-        
-    </div>
-
-    
-
-    <!--
-    START: Share Buttons
-        .nk-share-buttons-left
+START: Share Buttons
+    .nk-share-buttons-left
 -->
 <div class="nk-share-buttons d-none d-md-flex">
     <ul>
@@ -801,9 +810,9 @@
 </div>
 
 
-    <!--
-    START: Side Buttons
-        .nk-side-buttons-visible
+<!--
+START: Side Buttons
+    .nk-side-buttons-visible
 -->
 <div class="nk-side-buttons">
     <ul>
@@ -828,12 +837,11 @@
 <!-- END: Side Buttons -->
 
 
-    
-        <!--
-    START: Search
+<!--
+START: Search
 
-    Additional Classes:
-        .nk-search-light
+Additional Classes:
+.nk-search-light
 -->
 <div class="nk-search">
     <div class="container">
@@ -847,14 +855,12 @@
 </div>
 <!-- END: Search -->
 
-    
 
-    
-        <!--
-    START: Shopping Cart
+<!--
+START: Shopping Cart
 
-    Additional Classes:
-        .nk-cart-light
+Additional Classes:
+.nk-cart-light
 -->
 <div class="nk-cart">
     <div class="nk-gap-2"></div>
@@ -863,49 +869,51 @@
             <div class="table-responsive">
                 <table class="table nk-store-cart-products">
                     <tbody>
-                        
-                            <tr>
-                                <td class="nk-product-cart-thumb">
-                                    <a href="store-product.php" class="nk-post-image">
-                                        <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
-                                    </a>
-                                </td>
-                                <td class="nk-product-cart-title">
-                                    <h2 class="nk-post-title h5">
-                                        <a href="store-product.php">Men Tshirt</a>
-                                    </h2>
-                                </td>
-                                <td class="nk-product-cart-price">$67.00</td>
-                                <td class="nk-product-cart-quantity">
-                                    1
-                                </td>
-                                <td class="nk-product-cart-total">
-                                    $67.00
-                                </td>
-                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="nk-product-cart-thumb">
-                                    <a href="store-product.php" class="nk-post-image">
-                                        <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
-                                    </a>
-                                </td>
-                                <td class="nk-product-cart-title">
-                                    <h2 class="nk-post-title h5">
-                                        <a href="store-product.php">Men Hoodie</a>
-                                    </h2>
-                                </td>
-                                <td class="nk-product-cart-price">$125.00 <del>$145.00</del></td>
-                                <td class="nk-product-cart-quantity">
-                                    2
-                                </td>
-                                <td class="nk-product-cart-total">
-                                    $250.00
-                                </td>
-                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                            </tr>
-                        
+
+                    <tr>
+                        <td class="nk-product-cart-thumb">
+                            <a href="store-product.php" class="nk-post-image">
+                                <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
+                            </a>
+                        </td>
+                        <td class="nk-product-cart-title">
+                            <h2 class="nk-post-title h5">
+                                <a href="store-product.php">Men Tshirt</a>
+                            </h2>
+                        </td>
+                        <td class="nk-product-cart-price">$67.00</td>
+                        <td class="nk-product-cart-quantity">
+                            1
+                        </td>
+                        <td class="nk-product-cart-total">
+                            $67.00
+                        </td>
+                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="nk-product-cart-thumb">
+                            <a href="store-product.php" class="nk-post-image">
+                                <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
+                            </a>
+                        </td>
+                        <td class="nk-product-cart-title">
+                            <h2 class="nk-post-title h5">
+                                <a href="store-product.php">Men Hoodie</a>
+                            </h2>
+                        </td>
+                        <td class="nk-product-cart-price">$125.00
+                            <del>$145.00</del>
+                        </td>
+                        <td class="nk-product-cart-quantity">
+                            2
+                        </td>
+                        <td class="nk-product-cart-total">
+                            $250.00
+                        </td>
+                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                    </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -931,14 +939,12 @@
 </div>
 <!-- END: Shopping Cart -->
 
-    
 
-    
-        <!--
-    START: Sign Form
+<!--
+START: Sign Form
 
-    Additional Classes:
-        .nk-sign-form-light
+Additional Classes:
+.nk-sign-form-light
 -->
 <div class="nk-sign-form">
     <div class="nk-gap-5"></div>
@@ -1003,9 +1009,7 @@
 </div>
 <!-- END: Sign Form -->
 
-    
 
-    
 <!-- START: Scripts -->
 
 <!-- Object Fit Polyfill -->
@@ -1083,6 +1087,5 @@
 <!-- END: Scripts -->
 
 
-    
 </body>
 </html>

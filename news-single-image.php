@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
     Name: Godlike - Gaming HTML Template
@@ -10,7 +9,7 @@
     License: You must have a valid license purchased only from ThemeForest (the above link) in order to legally use the theme for your project.
     Copyright 2018.
 -->
-    
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -24,7 +23,8 @@
     <!-- START: Styles -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC"
+          rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
@@ -59,13 +59,13 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    
+
     <!-- END: Styles -->
 
     <!-- jQuery -->
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-    
-    
+
+
 </head>
 
 
@@ -74,7 +74,7 @@
         .nk-page-boxed
 -->
 <body>
-    <!-- START: Page Preloader -->
+<!-- START: Page Preloader -->
 <div class="nk-preloader">
     <!--
          Preloader animation
@@ -102,22 +102,24 @@
 </div>
 <!-- END: Page Preloader -->
 
-    
-        <!--
-    START: Page Video Background
 
-    Additional Attributes:
-        data-video - Youtube/Vimeo/self-hosted video urls.
-            self-hosted video example:
-            data-video="mp4:./video/local-video.mp4,webm:./video/local-video.webm,ogv:./video/local-video.ogv"
-        data-video-loop - loop video (true/false)
-        data-video-mute - mute video music (true/false)
-        data-video-volume - volume of video music (0-100)
-        data-video-start-time - video start time in seconds
-        data-video-end-time - video end time in seconds
-        data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
+<!--
+START: Page Video Background
+
+Additional Attributes:
+data-video - Youtube/Vimeo/self-hosted video urls.
+    self-hosted video example:
+    data-video="mp4:./video/local-video.mp4,webm:./video/local-video.webm,ogv:./video/local-video.ogv"
+data-video-loop - loop video (true/false)
+data-video-mute - mute video music (true/false)
+data-video-volume - volume of video music (0-100)
+data-video-start-time - video start time in seconds
+data-video-end-time - video end time in seconds
+data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true" data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0" data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
+<div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true"
+     data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0"
+     data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
 <!-- END: Page Background -->
 
 <!--
@@ -130,11 +132,12 @@
         data-audio-loop - loop audio (true/false)
         data-audio-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background-audio d-none" data-audio="assets/mp3/purpleplanetmusic-desolation.mp3" data-audio-volume="100" data-audio-autoplay="true" data-audio-loop="true" data-audio-pause-on-page-leave="true"></div>
+<div class="nk-page-background-audio d-none" data-audio="assets/mp3/purpleplanetmusic-desolation.mp3"
+     data-audio-volume="100" data-audio-autoplay="true" data-audio-loop="true"
+     data-audio-pause-on-page-leave="true"></div>
 <!-- END: Page Background -->
 
-    
-    
+
 <!-- START: Page Border -->
 <div class="nk-page-border">
     <div class="nk-page-border-t"></div>
@@ -145,61 +148,56 @@
 <!-- END: Page Border -->
 
 
-    
-        
-
-
-
 <!--
     Additional Classes:
         .nk-header-opaque
 -->
 <header class="nk-header nk-header-opaque">
 
-    
-    
-<!--
-    START: Top Contacts
 
-    Additional Classes:
-        .nk-contacts-top-light
--->
-<div class="nk-contacts-top">
-    <div class="container">
-        <div class="nk-contacts-left">
-            <div class="nk-navbar">
-                <ul class="nk-nav">
-                    <li class="nk-drop-item">
-                        <a href="#">USA</a>
-                        <ul class="dropdown">
-                            <li><a href="#">USA</a></li>
-                            <li><a href="#">Russia</a></li>
-                            <li><a href="#">United Kingdom</a></li>
-                            <li><a href="#">France</a></li>
-                            <li><a href="#">Spain</a></li>
-                            <li><a href="#">Germany</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="page-contact.php">Contact</a></li>
-                </ul>
+    <!--
+        START: Top Contacts
+
+        Additional Classes:
+            .nk-contacts-top-light
+    -->
+    <div class="nk-contacts-top">
+        <div class="container">
+            <div class="nk-contacts-left">
+                <div class="nk-navbar">
+                    <ul class="nk-nav">
+                        <li class="nk-drop-item">
+                            <a href="#">USA</a>
+                            <ul class="dropdown">
+                                <li><a href="#">USA</a></li>
+                                <li><a href="#">Russia</a></li>
+                                <li><a href="#">United Kingdom</a></li>
+                                <li><a href="#">France</a></li>
+                                <li><a href="#">Spain</a></li>
+                                <li><a href="#">Germany</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="page-contact.php">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="nk-contacts-right">
-            <div class="nk-navbar">
-                <ul class="nk-nav">
-                    <li><a href="https://twitter.com/nkdevv" target="_blank"><span class="ion-social-twitter"></span></a></li>
-                    <li><a href="https://dribbble.com/_nK" target="_blank"><span class="ion-social-dribbble-outline"></span></a></li>
-                    <li><a href="#"><span class="ion-social-instagram-outline"></span></a></li>
-                    <li><a href="#"><span class="ion-social-pinterest"></span></a></li>
-                </ul>
+            <div class="nk-contacts-right">
+                <div class="nk-navbar">
+                    <ul class="nk-nav">
+                        <li><a href="https://twitter.com/nkdevv" target="_blank"><span
+                                        class="ion-social-twitter"></span></a></li>
+                        <li><a href="https://dribbble.com/_nK" target="_blank"><span
+                                        class="ion-social-dribbble-outline"></span></a></li>
+                        <li><a href="#"><span class="ion-social-instagram-outline"></span></a></li>
+                        <li><a href="#"><span class="ion-social-pinterest"></span></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- END: Top Contacts -->
+    <!-- END: Top Contacts -->
 
-    
 
     <!--
         START: Navbar
@@ -214,385 +212,477 @@
     <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-autohide">
         <div class="container">
             <div class="nk-nav-table">
-                
+
                 <a href="index.php" class="nk-nav-logo">
                     <img src="assets/images/logo.svg" alt="" width="90">
                 </a>
-                
-                
+
+
                 <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
                     <li class="  nk-drop-item">
-            <a href="index.php">
-                Home</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="index.php">
-                Landing</a>
-        </li><li class="  ">
-            <a href="index-main.php">
-                Main</a>
-        </li><li class="  ">
-            <a href="index-game-promo.php">
-                Game Promo</a>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="page-contact.php">
-                Features</a><ul class="dropdown">
-                        <li class="  nk-drop-item">
-            <a href="page-contact.php">
-                Pages</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="forum.php">
-                Forum</a>
-        </li><li class="  ">
-            <a href="page-contact.php">
-                Contact</a>
-        </li><li class="  ">
-            <a href="page-coming-soon.php">
-                Coming Soon</a>
-        </li><li class="  ">
-            <a href="page-404.php">
-                404</a>
-        </li><li class="  ">
-            <a href="page-age-check.php">
-                Age Check</a>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="layout-nav-default.php">
-                Navigations</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="layout-nav-default.php">
-                Default</a>
-        </li><li class="  ">
-            <a href="layout-nav-default-transparent.php">
-                Default Transparent</a>
-        </li><li class="  ">
-            <a href="layout-nav-main-top.php">
-                Main Top Only</a>
-        </li><li class="  ">
-            <a href="layout-nav-main-side.php">
-                Main Side</a>
-        </li><li class="  ">
-            <a href="layout-nav-main-top-fullscreen.php">
-                Main Top + Fullscreen</a>
-        </li><li class="  ">
-            <a href="layout-nav-fullscreen-side.php">
-                Fullscreen + Side</a>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="layout-page-header.php">
-                Headers</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="layout-header.php">
-                Size Default</a>
-        </li><li class="  ">
-            <a href="layout-header-sm.php">
-                Size Small</a>
-        </li><li class="  ">
-            <a href="layout-header-md.php">
-                Size Mid</a>
-        </li><li class="  ">
-            <a href="layout-header-lg.php">
-                Size Large</a>
-        </li><li class="  ">
-            <a href="layout-header-full.php">
-                Size Full</a>
-        </li><li class="  ">
-            <a href="layout-header-video.php">
-                Video</a>
-        </li><li class="  ">
-            <a href="layout-header-video-plain.php">
-                Video Plain</a>
-        </li><li class="  ">
-            <a href="layout-header-no.php">
-                NO Header</a>
-        </li>
-                    </ul>
-        </li><li class="  ">
-            <a href="widgets.php">
-                Widgets</a>
-        </li><li class="  ">
-            <a href="https://nkdev.info/docs/godlike-html/">
-                Documentation</a>
-        </li>
-                    </ul>
-        </li><li class=" nk-mega-item nk-drop-item">
-            <a href="#">
-                Elements</a><div class="dropdown"><div class="bg-image">
-                                <img src="assets/images/bg-menu.jpg" alt="" class="jarallax-img">
-                            </div><ul>
-                            
-    
-        <li>
-            
-                <ul>
-                    <li class="  ">
-            <a href="element-carousels.php">
-                Carousels</a>
-        </li><li class="  ">
-            <a href="element-image-boxes.php">
-                Image Boxes</a>
-        </li><li class="  ">
-            <a href="element-icon-boxes.php">
-                Icon Boxes</a>
-        </li><li class="  ">
-            <a href="element-counters.php">
-                Counters</a>
-        </li><li class="  ">
-            <a href="element-blockquotes.php">
-                Block Quotes</a>
-        </li><li class="  ">
-            <a href="element-testimonials.php">
-                Testimonials</a>
-        </li><li class="  ">
-            <a href="element-team-members.php">
-                Team Members</a>
-        </li>
-                </ul>
-            
-        </li>
-    
-        <li>
-            
-                <ul>
-                    <li class="  ">
-            <a href="element-video-blocks.php">
-                Video Blocks</a>
-        </li><li class="  ">
-            <a href="element-gif.php">
-                Gif Animations</a>
-        </li><li class="  ">
-            <a href="element-forms.php">
-                AJAX Forms</a>
-        </li><li class="  ">
-            <a href="element-countdown.php">
-                Countdown</a>
-        </li><li class="  ">
-            <a href="element-text-typed.php">
-                Typed Text</a>
-        </li><li class="  ">
-            <a href="element-tabs.php">
-                Tabs</a>
-        </li><li class="  ">
-            <a href="element-accordions.php">
-                Accordions</a>
-        </li>
-                </ul>
-            
-        </li>
-    
-        <li>
-            
-                <ul>
-                    <li class="  ">
-            <a href="element-info-boxes.php">
-                Info Boxes / Alerts</a>
-        </li><li class="  ">
-            <a href="element-call-to-action.php">
-                Call to Action Blocks</a>
-        </li><li class="  ">
-            <a href="element-progress.php">
-                Progress Bars</a>
-        </li><li class="  ">
-            <a href="element-pagination.php">
-                Pagination</a>
-        </li><li class="  ">
-            <a href="element-pricing-tables.php">
-                Pricing Tables</a>
-        </li><li class="  ">
-            <a href="element-modals.php">
-                Modals</a>
-        </li>
-                </ul>
-            
-        </li>
-    
-        <li>
-            
-                <ul>
-                    <li class="  ">
-            <a href="element-typography.php">
-                Typography</a>
-        </li><li class="  ">
-            <a href="element-titles.php">
-                Titles [headings]</a>
-        </li><li class="  ">
-            <a href="element-dropcaps.php">
-                Dropcaps</a>
-        </li><li class="  ">
-            <a href="element-colors.php">
-                Colors</a>
-        </li><li class="  ">
-            <a href="element-buttons.php">
-                Buttons</a>
-        </li><li class="  ">
-            <a href="element-breadcrumbs.php">
-                Breadcrumbs</a>
-        </li>
-                </ul>
-            
-        </li>
-    
-
+                        <a href="index.php">
+                            Home</a>
+                        <ul class="dropdown">
+                            <li class="  ">
+                                <a href="index.php">
+                                    Landing</a>
+                            </li>
+                            <li class="  ">
+                                <a href="index-main.php">
+                                    Main</a>
+                            </li>
+                            <li class="  ">
+                                <a href="index-game-promo.php">
+                                    Game Promo</a>
+                            </li>
                         </ul>
-                    </div>
-        </li><li class="active  nk-drop-item">
-            <a href="news-list.php">
-                News</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="news-list.php">
-                List</a>
-        </li><li class="  ">
-            <a href="news-list-classic.php">
-                Classic List</a>
-        </li><li class="  ">
-            <a href="news-grid-2.php">
-                Grid 2 Columns</a>
-        </li><li class="  ">
-            <a href="news-grid-3.php">
-                Grid 3 Columns</a>
-        </li><li class="active  nk-drop-item">
-            <a href="news-single-image.php">
-                Single Post</a><ul class="dropdown">
-                        <li class="active  ">
-            <a href="news-single-image.php">
-                Single Image</a>
-        </li><li class="  ">
-            <a href="news-single-video.php">
-                Single Video</a>
-        </li><li class="  ">
-            <a href="news-single-audio.php">
-                Single Audio</a>
-        </li><li class="  ">
-            <a href="news-single-gallery.php">
-                Single Gallery</a>
-        </li><li class="  ">
-            <a href="news-single-quote.php">
-                Single Block Quote</a>
-        </li><li class="  ">
-            <a href="news-single-standard.php">
-                Single Standard</a>
-        </li><li class="  ">
-            <a href="news-single-big-content.php">
-                Single Big Content Example</a>
-        </li>
-                    </ul>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="social-user-activity.php">
-                Social</a><ul class="dropdown">
-                        <li class="  nk-drop-item">
-            <a href="social-user-activity.php">
-                User</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="social-user-activity.php">
-                Activity</a>
-        </li><li class="  ">
-            <a href="social-user-notifications.php">
-                Notifications</a>
-        </li><li class="  ">
-            <a href="social-user-messages.php">
-                Messages</a>
-        </li><li class="  ">
-            <a href="social-user-messages-single.php">
-                Messages Single</a>
-        </li><li class="  ">
-            <a href="social-user-messages-compose.php">
-                Messages Compose</a>
-        </li><li class="  ">
-            <a href="social-user-friends.php">
-                Friends</a>
-        </li><li class="  ">
-            <a href="social-user-settings.php">
-                Settings</a>
-        </li><li class="  ">
-            <a href="social-user-settings-email.php">
-                Settings Email</a>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="social-group-activity.php">
-                Group</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="social-group-activity.php">
-                Activity</a>
-        </li><li class="  ">
-            <a href="social-group-members.php">
-                Members</a>
-        </li><li class="  ">
-            <a href="social-group-manage.php">
-                Manage</a>
-        </li>
-                    </ul>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="store.php">
-                Store</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="store.php">
-                Store</a>
-        </li><li class="  ">
-            <a href="store-product.php">
-                Single Product</a>
-        </li><li class="  ">
-            <a href="store-cart.php">
-                Cart</a>
-        </li><li class="  ">
-            <a href="store-checkout.php">
-                Checkout</a>
-        </li><li class="  ">
-            <a href="store-account.php">
-                Account</a>
-        </li>
-                    </ul>
-        </li><li class="  nk-drop-item">
-            <a href="gallery.php">
-                Media</a><ul class="dropdown">
-                        <li class="  ">
-            <a href="gallery.php">
-                Gallery 1 Column</a>
-        </li><li class="  ">
-            <a href="gallery-2-col.php">
-                Gallery 2 Columns</a>
-        </li><li class="  ">
-            <a href="gallery-3-col.php">
-                Gallery 3 Columns</a>
-        </li><li class="  ">
-            <a href="videos.php">
-                Videos 1 Column</a>
-        </li><li class="  ">
-            <a href="videos-2-col.php">
-                Videos 2 Columns</a>
-        </li>
-                    </ul>
-        </li>
+                    </li>
+                    <li class="  nk-drop-item">
+                        <a href="page-contact.php">
+                            Features</a>
+                        <ul class="dropdown">
+                            <li class="  nk-drop-item">
+                                <a href="page-contact.php">
+                                    Pages</a>
+                                <ul class="dropdown">
+                                    <li class="  ">
+                                        <a href="forum.php">
+                                            Forum</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="page-contact.php">
+                                            Contact</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="page-coming-soon.php">
+                                            Coming Soon</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="page-404.php">
+                                            404</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="page-age-check.php">
+                                            Age Check</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="  nk-drop-item">
+                                <a href="layout-nav-default.php">
+                                    Navigations</a>
+                                <ul class="dropdown">
+                                    <li class="  ">
+                                        <a href="layout-nav-default.php">
+                                            Default</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-nav-default-transparent.php">
+                                            Default Transparent</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-nav-main-top.php">
+                                            Main Top Only</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-nav-main-side.php">
+                                            Main Side</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-nav-main-top-fullscreen.php">
+                                            Main Top + Fullscreen</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-nav-fullscreen-side.php">
+                                            Fullscreen + Side</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="  nk-drop-item">
+                                <a href="layout-page-header.php">
+                                    Headers</a>
+                                <ul class="dropdown">
+                                    <li class="  ">
+                                        <a href="layout-header.php">
+                                            Size Default</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-sm.php">
+                                            Size Small</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-md.php">
+                                            Size Mid</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-lg.php">
+                                            Size Large</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-full.php">
+                                            Size Full</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-video.php">
+                                            Video</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-video-plain.php">
+                                            Video Plain</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="layout-header-no.php">
+                                            NO Header</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="  ">
+                                <a href="widgets.php">
+                                    Widgets</a>
+                            </li>
+                            <li class="  ">
+                                <a href="https://nkdev.info/docs/godlike-html/">
+                                    Documentation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=" nk-mega-item nk-drop-item">
+                        <a href="#">
+                            Elements</a>
+                        <div class="dropdown">
+                            <div class="bg-image">
+                                <img src="assets/images/bg-menu.jpg" alt="" class="jarallax-img">
+                            </div>
+                            <ul>
+
+
+                                <li>
+
+                                    <ul>
+                                        <li class="  ">
+                                            <a href="element-carousels.php">
+                                                Carousels</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-image-boxes.php">
+                                                Image Boxes</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-icon-boxes.php">
+                                                Icon Boxes</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-counters.php">
+                                                Counters</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-blockquotes.php">
+                                                Block Quotes</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-testimonials.php">
+                                                Testimonials</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-team-members.php">
+                                                Team Members</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li>
+
+                                    <ul>
+                                        <li class="  ">
+                                            <a href="element-video-blocks.php">
+                                                Video Blocks</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-gif.php">
+                                                Gif Animations</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-forms.php">
+                                                AJAX Forms</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-countdown.php">
+                                                Countdown</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-text-typed.php">
+                                                Typed Text</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-tabs.php">
+                                                Tabs</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-accordions.php">
+                                                Accordions</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li>
+
+                                    <ul>
+                                        <li class="  ">
+                                            <a href="element-info-boxes.php">
+                                                Info Boxes / Alerts</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-call-to-action.php">
+                                                Call to Action Blocks</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-progress.php">
+                                                Progress Bars</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-pagination.php">
+                                                Pagination</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-pricing-tables.php">
+                                                Pricing Tables</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-modals.php">
+                                                Modals</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <li>
+
+                                    <ul>
+                                        <li class="  ">
+                                            <a href="element-typography.php">
+                                                Typography</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-titles.php">
+                                                Titles [headings]</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-dropcaps.php">
+                                                Dropcaps</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-colors.php">
+                                                Colors</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-buttons.php">
+                                                Buttons</a>
+                                        </li>
+                                        <li class="  ">
+                                            <a href="element-breadcrumbs.php">
+                                                Breadcrumbs</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="active  nk-drop-item">
+                        <a href="news-list.php">
+                            News</a>
+                        <ul class="dropdown">
+                            <li class="  ">
+                                <a href="news-list.php">
+                                    List</a>
+                            </li>
+                            <li class="  ">
+                                <a href="news-list-classic.php">
+                                    Classic List</a>
+                            </li>
+                            <li class="  ">
+                                <a href="news-grid-2.php">
+                                    Grid 2 Columns</a>
+                            </li>
+                            <li class="  ">
+                                <a href="news-grid-3.php">
+                                    Grid 3 Columns</a>
+                            </li>
+                            <li class="active  nk-drop-item">
+                                <a href="news-single-image.php">
+                                    Single Post</a>
+                                <ul class="dropdown">
+                                    <li class="active  ">
+                                        <a href="news-single-image.php">
+                                            Single Image</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-video.php">
+                                            Single Video</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-audio.php">
+                                            Single Audio</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-gallery.php">
+                                            Single Gallery</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-quote.php">
+                                            Single Block Quote</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-standard.php">
+                                            Single Standard</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="news-single-big-content.php">
+                                            Single Big Content Example</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="  nk-drop-item">
+                        <a href="social-user-activity.php">
+                            Social</a>
+                        <ul class="dropdown">
+                            <li class="  nk-drop-item">
+                                <a href="social-user-activity.php">
+                                    User</a>
+                                <ul class="dropdown">
+                                    <li class="  ">
+                                        <a href="social-user-activity.php">
+                                            Activity</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-notifications.php">
+                                            Notifications</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-messages.php">
+                                            Messages</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-messages-single.php">
+                                            Messages Single</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-messages-compose.php">
+                                            Messages Compose</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-friends.php">
+                                            Friends</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-settings.php">
+                                            Settings</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-user-settings-email.php">
+                                            Settings Email</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="  nk-drop-item">
+                                <a href="social-group-activity.php">
+                                    Group</a>
+                                <ul class="dropdown">
+                                    <li class="  ">
+                                        <a href="social-group-activity.php">
+                                            Activity</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-group-members.php">
+                                            Members</a>
+                                    </li>
+                                    <li class="  ">
+                                        <a href="social-group-manage.php">
+                                            Manage</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="  nk-drop-item">
+                        <a href="store.php">
+                            Store</a>
+                        <ul class="dropdown">
+                            <li class="  ">
+                                <a href="store.php">
+                                    Store</a>
+                            </li>
+                            <li class="  ">
+                                <a href="store-product.php">
+                                    Single Product</a>
+                            </li>
+                            <li class="  ">
+                                <a href="store-cart.php">
+                                    Cart</a>
+                            </li>
+                            <li class="  ">
+                                <a href="store-checkout.php">
+                                    Checkout</a>
+                            </li>
+                            <li class="  ">
+                                <a href="store-account.php">
+                                    Account</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="  nk-drop-item">
+                        <a href="gallery.php">
+                            Media</a>
+                        <ul class="dropdown">
+                            <li class="  ">
+                                <a href="gallery.php">
+                                    Gallery 1 Column</a>
+                            </li>
+                            <li class="  ">
+                                <a href="gallery-2-col.php">
+                                    Gallery 2 Columns</a>
+                            </li>
+                            <li class="  ">
+                                <a href="gallery-3-col.php">
+                                    Gallery 3 Columns</a>
+                            </li>
+                            <li class="  ">
+                                <a href="videos.php">
+                                    Videos 1 Column</a>
+                            </li>
+                            <li class="  ">
+                                <a href="videos-2-col.php">
+                                    Videos 2 Columns</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-                
+
                 <ul class="nk-nav nk-nav-right nk-nav-icons">
-                    
-                        <li class="single-icon d-lg-none">
-                            <a href="#" class="no-link-effect" data-nav-toggle="#nk-nav-mobile">
+
+                    <li class="single-icon d-lg-none">
+                        <a href="#" class="no-link-effect" data-nav-toggle="#nk-nav-mobile">
                                 <span class="nk-icon-burger">
                                     <span class="nk-t-1"></span>
                                     <span class="nk-t-2"></span>
                                     <span class="nk-t-3"></span>
                                 </span>
-                            </a>
-                        </li>
-                    
-                    
-                    
+                        </a>
+                    </li>
+
+
                     <li class="single-icon">
                         <a href="#" class="nk-search-toggle no-link-effect">
                             <span class="nk-icon-search"></span>
                         </a>
                     </li>
-                    
-                    
+
+
                     <li class="single-icon">
                         <a href="#" class="nk-cart-toggle no-link-effect">
                             <span class="nk-icon-toggle">
@@ -606,8 +696,8 @@
                             </span>
                         </a>
                     </li>
-                    
-                    
+
+
                     <li class="single-icon">
                         <a href="#" class="nk-sign-toggle no-link-effect">
                             <span class="nk-icon-toggle">
@@ -620,9 +710,8 @@
                             </span>
                         </a>
                     </li>
-                    
-                    
-                    
+
+
                     <li class="single-icon">
                         <a href="#" class="no-link-effect" data-nav-toggle="#nk-side">
                             <span class="nk-icon-burger">
@@ -632,7 +721,7 @@
                             </span>
                         </a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -641,12 +730,6 @@
 
 </header>
 
-    
-    
-    
-    
-    
-        
 
 <!--
     START: Right Navbar
@@ -662,80 +745,94 @@
         .nk-navbar-no-link-effect
 -->
 
-<nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content" id="nk-side">
-    
+<nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-center nk-navbar-overlay-content"
+     id="nk-side">
+
     <div class="nk-navbar-bg">
         <div class="bg-image">
             <img src="assets/images/bg-nav-side.jpg" alt="" class="jarallax-img">
         </div>
     </div>
-    
+
 
     <div class="nano">
         <div class="nano-content">
             <div class="nk-nav-table">
-                
+
                 <div class="nk-nav-row">
                     <a href="index.php" class="nk-nav-logo">
                         <img src="assets/images/logo.svg" alt="" width="150">
                     </a>
                 </div>
-                
+
                 <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
                     <ul class="nk-nav">
                         <li class=" ">
-            <a href="page-contact.php">
-                Contact</a>
-        </li><li class=" ">
-            <a href="page-coming-soon.php">
-                Coming Soon</a>
-        </li><li class=" ">
-            <a href="page-404.php">
-                404</a>
-        </li><li class=" ">
-            <a href="page-age-check.php">
-                Age Check</a>
-        </li><li class=" nk-drop-item">
-            <a href="#">
-                Sub Menu Example</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="#1">
-                Sub Item 1</a>
-        </li><li class=" nk-drop-item">
-            <a href="#2">
-                Sub Item 2</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="#1">
-                Sub Item 1</a>
-        </li><li class=" ">
-            <a href="#2">
-                Sub Item 2</a>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="#3">
-                Sub Item 3</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="#">
-                Sub Item</a>
-        </li>
-                </ul>
-        </li><li class=" nk-drop-item">
-            <a href="#4">
-                Sub Item 4</a><ul class="dropdown">
-                    <li class=" ">
-            <a href="#">
-                Sub Item</a>
-        </li>
-                </ul>
-        </li>
-                </ul>
-        </li>
+                            <a href="page-contact.php">
+                                Contact</a>
+                        </li>
+                        <li class=" ">
+                            <a href="page-coming-soon.php">
+                                Coming Soon</a>
+                        </li>
+                        <li class=" ">
+                            <a href="page-404.php">
+                                404</a>
+                        </li>
+                        <li class=" ">
+                            <a href="page-age-check.php">
+                                Age Check</a>
+                        </li>
+                        <li class=" nk-drop-item">
+                            <a href="#">
+                                Sub Menu Example</a>
+                            <ul class="dropdown">
+                                <li class=" ">
+                                    <a href="#1">
+                                        Sub Item 1</a>
+                                </li>
+                                <li class=" nk-drop-item">
+                                    <a href="#2">
+                                        Sub Item 2</a>
+                                    <ul class="dropdown">
+                                        <li class=" ">
+                                            <a href="#1">
+                                                Sub Item 1</a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="#2">
+                                                Sub Item 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=" nk-drop-item">
+                                    <a href="#3">
+                                        Sub Item 3</a>
+                                    <ul class="dropdown">
+                                        <li class=" ">
+                                            <a href="#">
+                                                Sub Item</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=" nk-drop-item">
+                                    <a href="#4">
+                                        Sub Item 4</a>
+                                    <ul class="dropdown">
+                                        <li class=" ">
+                                            <a href="#">
+                                                Sub Item</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div class="nk-nav-row">
                     <div class="nk-nav-footer">
-                        &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. All Rights Reserved.
+                        &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup,
+                        CumSit and related logos are registered trademarks. All Rights Reserved.
                     </div>
                 </div>
             </div>
@@ -744,18 +841,17 @@
 </nav>
 <!-- END: Right Navbar -->
 
-    
-    
-        <!--
-    START: Navbar Mobile
 
-    Additional Classes:
-        .nk-navbar-left-side
-        .nk-navbar-right-side
-        .nk-navbar-lg
-        .nk-navbar-overlay-content
-        .nk-navbar-light
-        .nk-navbar-no-link-effect
+<!--
+START: Navbar Mobile
+
+Additional Classes:
+.nk-navbar-left-side
+.nk-navbar-right-side
+.nk-navbar-lg
+.nk-navbar-overlay-content
+.nk-navbar-light
+.nk-navbar-no-link-effect
 -->
 <div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-left-side nk-navbar-overlay-content d-lg-none">
     <div class="nano">
@@ -773,100 +869,94 @@
 </div>
 <!-- END: Navbar Mobile -->
 
-    
 
-    <div class="nk-main">
-        
-            
-<!-- START: Header Title -->
-<!--
-    Additional Classes:
-        .nk-header-title-sm
-        .nk-header-title-md
-        .nk-header-title-lg
-        .nk-header-title-xl
-        .nk-header-title-full
-        .nk-header-title-parallax
-        .nk-header-title-parallax-opacity
-        .nk-header-title-boxed
--->
-<div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity nk-header-title-boxed">
-    <div class="bg-image op-5">
-        <img src="assets/images/post-1.jpg" alt="" class="jarallax-img">
-    </div>
-    <div class="nk-header-table">
-        <div class="nk-header-table-cell">
-            <div class="container">
-                
-                
-                
-                
+<div class="nk-main">
+
+
+    <!-- START: Header Title -->
+    <!--
+        Additional Classes:
+            .nk-header-title-sm
+            .nk-header-title-md
+            .nk-header-title-lg
+            .nk-header-title-xl
+            .nk-header-title-full
+            .nk-header-title-parallax
+            .nk-header-title-parallax-opacity
+            .nk-header-title-boxed
+    -->
+    <div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity nk-header-title-boxed">
+        <div class="bg-image op-5">
+            <img src="assets/images/post-1.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="nk-header-table">
+            <div class="nk-header-table-cell">
+                <div class="container">
+
+
                     <div class="nk-header-text">
-                        
-<div class="row text-left">
-    <div class="col-lg-8">
-        <div class="nk-gap-5 d-none + d-lg-block"></div>
-        <h1 class="nk-title">Image Blog Post</h1>
-        <div class="nk-gap-3 d-none + d-lg-block"></div>
-        <div class="nk-gap-5 d-none + d-lg-block"></div>
-    </div>
-    <div class="col-lg-4">
-        <aside class="nk-sidebar nk-sidebar-right">
-            <div class="nk-gap-5 d-none + d-lg-block"></div>
-            <div class="nk-gap d-lg-none"></div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td><strong>Published:</strong> &nbsp;&nbsp;&nbsp;</td>
-                        <td>September 18, 2016</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Category:</strong> &nbsp;&nbsp;&nbsp;</td>
-                        <td><a href="#">News</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Written by:</strong> &nbsp;&nbsp;&nbsp;</td>
-                        <td><a href="#">nK</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Views:</strong> &nbsp;&nbsp;&nbsp;</td>
-                        <td>589</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Comments:</strong> &nbsp;&nbsp;&nbsp;</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Likes:</strong> &nbsp;&nbsp;</td>
-                        <td>
+
+                        <div class="row text-left">
+                            <div class="col-lg-8">
+                                <div class="nk-gap-5 d-none + d-lg-block"></div>
+                                <h1 class="nk-title">Image Blog Post</h1>
+                                <div class="nk-gap-3 d-none + d-lg-block"></div>
+                                <div class="nk-gap-5 d-none + d-lg-block"></div>
+                            </div>
+                            <div class="col-lg-4">
+                                <aside class="nk-sidebar nk-sidebar-right">
+                                    <div class="nk-gap-5 d-none + d-lg-block"></div>
+                                    <div class="nk-gap d-lg-none"></div>
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td><strong>Published:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>September 18, 2016</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Category:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td><a href="#">News</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Written by:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td><a href="#">nK</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Views:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>589</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Comments:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Likes:</strong> &nbsp;&nbsp;</td>
+                                            <td>
                             <span class="nk-action-heart">
                                 <span class="num">17</span>
                                 <span class="like-icon ion-android-favorite-outline"></span>
                                 <span class="liked-icon ion-android-favorite"></span>
                             </span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="nk-gap-5 d-lg-none"></div>
-        </aside>
-    </div>
-</div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="nk-gap-5 d-lg-none"></div>
+                                </aside>
+                            </div>
+                        </div>
 
                     </div>
-                
-                
+
+
+                </div>
             </div>
         </div>
+
     </div>
-    
-</div>
-<!-- END: Header Title -->
+    <!-- END: Header Title -->
 
 
-        
-
-        
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
@@ -877,17 +967,37 @@
 
                         <!-- START: Post Text -->
                         <div class="nk-post-text mt-0">
-                            <p>Were you seas fruitful seas under were deep that he every replenish grass creepeth to under saw own stars night you're cattle gathering gathered which fish seasons female there said, seas sea. Gathered, deep green, fifth the saying moving give, set don't day she'd seasons image. Given it doesn't midst first over, abundantly seed appear fish. Great two a yielding brought. Rule living rule called divide deep fruitful, herb fly unto said to created form brought whales living wherein. Deep have man fill creeping you'll replenish you'll beast dry meat. Firmament fly, divided in their have created deep.</p>
+                            <p>Were you seas fruitful seas under were deep that he every replenish grass creepeth to
+                                under saw own stars night you're cattle gathering gathered which fish seasons female
+                                there said, seas sea. Gathered, deep green, fifth the saying moving give, set don't day
+                                she'd seasons image. Given it doesn't midst first over, abundantly seed appear fish.
+                                Great two a yielding brought. Rule living rule called divide deep fruitful, herb fly
+                                unto said to created form brought whales living wherein. Deep have man fill creeping
+                                you'll replenish you'll beast dry meat. Firmament fly, divided in their have created
+                                deep.</p>
 
-<blockquote class="nk-blockquote">
-    <div class="nk-blockquote-icon">“</div>
-    <em>Creature dry face appear it had gathered earth seasons blessed Don't. Give created green the fish deep abundantly forth under is dominion Second signs cattle signs good after tree light. Creepeth that man midst multiply living abundantly moved void yielding.</em>
-    <div class="nk-blockquote-author">Ben Rodriquez</div>
-</blockquote>
+                            <blockquote class="nk-blockquote">
+                                <div class="nk-blockquote-icon">“</div>
+                                <em>Creature dry face appear it had gathered earth seasons blessed Don't. Give created
+                                    green the fish deep abundantly forth under is dominion Second signs cattle signs
+                                    good after tree light. Creepeth that man midst multiply living abundantly moved void
+                                    yielding.</em>
+                                <div class="nk-blockquote-author">Ben Rodriquez</div>
+                            </blockquote>
 
-<p>Heaven also rule it land earth also creepeth man. Green. Them. Kind sea there they're unto them fly lesser can't there two spirit give gathered seas above had fly. Very firmament fly hath waters beginning lesser. Cattle void signs heaven subdue third herb moving upon open. Dry divided, shall, good his hath day creepeth saw one. Set together sea likeness seed fish so. Greater fifth moved bearing.</p>
+                            <p>Heaven also rule it land earth also creepeth man. Green. Them. Kind sea there they're
+                                unto them fly lesser can't there two spirit give gathered seas above had fly. Very
+                                firmament fly hath waters beginning lesser. Cattle void signs heaven subdue third herb
+                                moving upon open. Dry divided, shall, good his hath day creepeth saw one. Set together
+                                sea likeness seed fish so. Greater fifth moved bearing.</p>
 
-<p>Gathering him. Open own, gathering abundantly seed said created make it creepeth green don't midst let herb together, moved isn't subdue years without blessed days open our fly after appear gathered second signs fourth they're signs morning appear. There can't two let. Female land tree spirit living brought god. Fowl Second. Great divided. Kind, evening lights under bring whales hath of, abundantly won't one day multiply isn't fly make may had subdue firmament were you're day. Man seasons sixth face winged. God meat rule together tree.</p>
+                            <p>Gathering him. Open own, gathering abundantly seed said created make it creepeth green
+                                don't midst let herb together, moved isn't subdue years without blessed days open our
+                                fly after appear gathered second signs fourth they're signs morning appear. There can't
+                                two let. Female land tree spirit living brought god. Fowl Second. Great divided. Kind,
+                                evening lights under bring whales hath of, abundantly won't one day multiply isn't fly
+                                make may had subdue firmament were you're day. Man seasons sixth face winged. God meat
+                                rule together tree.</p>
 
 
                             <!-- START: Post Meta -->
@@ -902,138 +1012,150 @@
                         <!-- END: Post Text -->
 
                         <!-- START: Post Author -->
-<div class="nk-post-author">
-    <div class="nk-post-author-photo">
-        <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
-    </div>
+                        <div class="nk-post-author">
+                            <div class="nk-post-author-photo">
+                                <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
+                            </div>
 
-    <h4 class="nk-post-author-name h5"><a href="#">Lesa Cruz</a></h4>
+                            <h4 class="nk-post-author-name h5"><a href="#">Lesa Cruz</a></h4>
 
-    <div class="nk-post-author-info">
-        Said air of given appear open saying which of. Make all fish. Given own So, without grass god. Day beast open second without have. Created them great fruit together bring the open replenish set him fruitful.
-    </div>
-</div>
-<!-- END: Post Author -->
+                            <div class="nk-post-author-info">
+                                Said air of given appear open saying which of. Make all fish. Given own So, without
+                                grass god. Day beast open second without have. Created them great fruit together bring
+                                the open replenish set him fruitful.
+                            </div>
+                        </div>
+                        <!-- END: Post Author -->
 
 
                         <!-- START: Comments -->
-<div class="nk-comments" id="comments">
-    <h3 class="nk-title h4 text-center">4 Comments</h3>
-    <div class="nk-gap-2"></div>
+                        <div class="nk-comments" id="comments">
+                            <h3 class="nk-title h4 text-center">4 Comments</h3>
+                            <div class="nk-gap-2"></div>
 
-    <!-- START: Comment -->
-    <div class="nk-comment">
-        <div class="nk-comment-avatar">
-            <a href="#"><img src="assets/images/avatar-2.jpg" alt=""></a>
-        </div>
-        <div class="nk-comment-meta">
-            <div class="nk-comment-name h5"><a href="#">Kurt Tucker</a></div>
-            <div class="nk-comment-date">20 September, 2017</div>
-        </div>
-        <p>Of. Lesser it good moved tree under living male under day The evening. Waters creeping gathered give also grass beginning.</p>
-        <div class="text-right">
+                            <!-- START: Comment -->
+                            <div class="nk-comment">
+                                <div class="nk-comment-avatar">
+                                    <a href="#"><img src="assets/images/avatar-2.jpg" alt=""></a>
+                                </div>
+                                <div class="nk-comment-meta">
+                                    <div class="nk-comment-name h5"><a href="#">Kurt Tucker</a></div>
+                                    <div class="nk-comment-date">20 September, 2017</div>
+                                </div>
+                                <p>Of. Lesser it good moved tree under living male under day The evening. Waters
+                                    creeping gathered give also grass beginning.</p>
+                                <div class="text-right">
             <span class="nk-action-heart liked">
                 <span class="like-icon ion-android-favorite-outline"></span>
                 <span class="liked-icon ion-android-favorite"></span>
                 <span class="num">14</span>
             </span>
-            <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
-        </div>
+                                    <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
+                                </div>
 
-        <!-- START: Comment -->
-        <div class="nk-comment">
-            <div class="nk-comment-avatar">
-                <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
-            </div>
-            <div class="nk-comment-meta">
-                <div class="nk-comment-name h5"><a href="#">Lesa Cruz</a></div>
-                <div class="nk-comment-date">20 September, 2017</div>
-            </div>
-            <p>Fourth give grass creature. Whose fowl. His which male which yielding fly won't creature after beast male. Itself. Life heaven whales over given fly whales lesser, day winged one after.</p>
-            <div class="text-right">
+                                <!-- START: Comment -->
+                                <div class="nk-comment">
+                                    <div class="nk-comment-avatar">
+                                        <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="nk-comment-meta">
+                                        <div class="nk-comment-name h5"><a href="#">Lesa Cruz</a></div>
+                                        <div class="nk-comment-date">20 September, 2017</div>
+                                    </div>
+                                    <p>Fourth give grass creature. Whose fowl. His which male which yielding fly won't
+                                        creature after beast male. Itself. Life heaven whales over given fly whales
+                                        lesser, day winged one after.</p>
+                                    <div class="text-right">
                 <span class="nk-action-heart">
                     <span class="like-icon ion-android-favorite-outline"></span>
                     <span class="liked-icon ion-android-favorite"></span>
                     <span class="num">3</span>
                 </span>
-                <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
-            </div>
+                                        <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a>
+                                        </div>
+                                    </div>
 
-            <!-- START: Comment -->
-            <div class="nk-comment">
-                <div class="nk-comment-avatar">
-                    <a href="#"><img src="assets/images/avatar-3.jpg" alt=""></a>
-                </div>
-                <div class="nk-comment-meta">
-                    <div class="nk-comment-name h5"><a href="#">Katie Anderson</a></div>
-                    <div class="nk-comment-date">21 September, 2017</div>
-                </div>
-                <p>Given signs fifth female air and second face earth one is. Whose greater behold had after he whales forth cattle Thing said kind after his.</p>
-                <p>Male upon thing had us hath doesn't great male fifth us. Every whales own given open upon divided life i which blessed subdue moving give.</p>
-                <div class="text-right">
+                                    <!-- START: Comment -->
+                                    <div class="nk-comment">
+                                        <div class="nk-comment-avatar">
+                                            <a href="#"><img src="assets/images/avatar-3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="nk-comment-meta">
+                                            <div class="nk-comment-name h5"><a href="#">Katie Anderson</a></div>
+                                            <div class="nk-comment-date">21 September, 2017</div>
+                                        </div>
+                                        <p>Given signs fifth female air and second face earth one is. Whose greater
+                                            behold had after he whales forth cattle Thing said kind after his.</p>
+                                        <p>Male upon thing had us hath doesn't great male fifth us. Every whales own
+                                            given open upon divided life i which blessed subdue moving give.</p>
+                                        <div class="text-right">
                     <span class="nk-action-heart">
                         <span class="like-icon ion-android-favorite-outline"></span>
                         <span class="liked-icon ion-android-favorite"></span>
                         <span class="num">0</span>
                     </span>
-                    <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
-                </div>
-            </div>
-            <!-- END: Comment -->
-        </div>
-        <!-- END: Comment -->
-    </div>
-    <!-- END: Comment -->
+                                            <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i>
+                                                    Reply</a></div>
+                                        </div>
+                                    </div>
+                                    <!-- END: Comment -->
+                                </div>
+                                <!-- END: Comment -->
+                            </div>
+                            <!-- END: Comment -->
 
-    <!-- START: Comment -->
-    <div class="nk-comment">
-        <div class="nk-comment-avatar">
-            <a href="#"><img src="assets/images/avatar-4.jpg" alt=""></a>
-        </div>
-        <div class="nk-comment-meta">
-            <div class="nk-comment-name h5"><a href="#">Luke Fuller</a></div>
-            <div class="nk-comment-date">21 September, 2017</div>
-        </div>
-        <p>To set. Lights likeness after, stars void in doesn't subdue.</p>
-        <div class="text-right">
+                            <!-- START: Comment -->
+                            <div class="nk-comment">
+                                <div class="nk-comment-avatar">
+                                    <a href="#"><img src="assets/images/avatar-4.jpg" alt=""></a>
+                                </div>
+                                <div class="nk-comment-meta">
+                                    <div class="nk-comment-name h5"><a href="#">Luke Fuller</a></div>
+                                    <div class="nk-comment-date">21 September, 2017</div>
+                                </div>
+                                <p>To set. Lights likeness after, stars void in doesn't subdue.</p>
+                                <div class="text-right">
             <span class="nk-action-heart liked">
                 <span class="like-icon ion-android-favorite-outline"></span>
                 <span class="liked-icon ion-android-favorite"></span>
                 <span class="num">1</span>
             </span>
-            <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
-        </div>
-    </div>
-    <!-- END: Comment -->
+                                    <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
+                                </div>
+                            </div>
+                            <!-- END: Comment -->
 
 
-    <!-- START: Reply -->
-    <div class="nk-reply">
-        <h3 class="nk-title h4 text-center">Post your comment</h3>
-        <div class="nk-gap-2"></div>
-        <form action="#" class="nk-form nk-form-style-1" novalidate="novalidate">
-            <div class="row vertical-gap">
-                <div class="col-md-4">
-                    <input type="email" class="form-control required" name="email" placeholder="Email *">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control required" name="name" placeholder="Name *">
-                </div>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="name" placeholder="Website">
-                </div>
-            </div>
-            <div class="nk-gap-1"></div>
-            <textarea class="form-control required" name="message" rows="5" placeholder="Message *" aria-required="true"></textarea>
-            <div class="nk-gap-1"></div>
-            <div class="nk-form-response-success"></div>
-            <div class="nk-form-response-error"></div>
-            <button class="nk-btn nk-btn-lg link-effect-4">Post comment</button>
-        </form>
-    </div>
-    <!-- END: Reply -->
-</div>
-<!-- END: Comments -->
+                            <!-- START: Reply -->
+                            <div class="nk-reply">
+                                <h3 class="nk-title h4 text-center">Post your comment</h3>
+                                <div class="nk-gap-2"></div>
+                                <form action="#" class="nk-form nk-form-style-1" novalidate="novalidate">
+                                    <div class="row vertical-gap">
+                                        <div class="col-md-4">
+                                            <input type="email" class="form-control required" name="email"
+                                                   placeholder="Email *">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control required" name="name"
+                                                   placeholder="Name *">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" name="name" placeholder="Website">
+                                        </div>
+                                    </div>
+                                    <div class="nk-gap-1"></div>
+                                    <textarea class="form-control required" name="message" rows="5"
+                                              placeholder="Message *" aria-required="true"></textarea>
+                                    <div class="nk-gap-1"></div>
+                                    <div class="nk-form-response-success"></div>
+                                    <div class="nk-form-response-error"></div>
+                                    <button class="nk-btn nk-btn-lg link-effect-4">Post comment</button>
+                                </form>
+                            </div>
+                            <!-- END: Reply -->
+                        </div>
+                        <!-- END: Comments -->
 
                     </div>
                     <!-- END: Post -->
@@ -1052,71 +1174,71 @@
                 -->
                 <aside class="nk-sidebar nk-sidebar-right nk-sidebar-sticky">
                     <div class="nk-gap-4"></div>
-<div class="nk-widget">
-    <h4 class="nk-widget-title">Recent Posts</h4>
-    <div>
-        
-            <div class="nk-widget-post">
-                <a href="news-single-image.php" class="nk-image-box-1 nk-post-image">
-                    <img src="assets/images/post-1-sm.jpg" alt="">
-                </a>
-                <h3 class="nk-post-title"><a href="news-single-image.php">Image Blog Post</a></h3>
-                <div class="nk-post-meta-date">September 18, 2016</div>
-            </div>
-        
-            <div class="nk-widget-post">
-                <a href="news-single-video.php" class="nk-image-box-1 nk-post-image">
-                    <img src="assets/images/post-2-sm.jpg" alt="">
-                </a>
-                <h3 class="nk-post-title"><a href="news-single-video.php">Video Blog Post</a></h3>
-                <div class="nk-post-meta-date">September 5, 2016</div>
-            </div>
-        
-            <div class="nk-widget-post">
-                <a href="news-single-quote.php" class="nk-image-box-1 nk-post-image">
-                    <img src="assets/images/post-3-sm.jpg" alt="">
-                </a>
-                <h3 class="nk-post-title"><a href="news-single-quote.php">Blockquote Blog Post</a></h3>
-                <div class="nk-post-meta-date">August 27, 2016</div>
-            </div>
-        
-    </div>
-</div>
-<div class="nk-widget">
-    <h4 class="nk-widget-title">Categories</h4>
-    <div>
-        <ul class="nk-widget-categories">
-            <li>
-                <a href="#">Business</a>
-            </li>
-            <li>
-                <a href="#">Live News</a>
-            </li>
-            <li>
-                <a href="#">Lifestyle</a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="nk-widget">
-    <h4 class="nk-widget-title">Tags</h4>
-    <div>
-        <div class="nk-widget-tags">
-            <a href="#">Creative</a>
-            <a href="#">Responsive</a>
-            <a href="#">Design</a>
-            <a href="#">Bootstrap</a>
-            <a href="#">Multi-Concept</a>
-        </div>
-    </div>
-</div>
-<div class="nk-widget">
-    <h4 class="nk-widget-title">Twitter</h4>
-    <div>
-        <div class="nk-twitter-list" data-twitter-count="2"></div>
-    </div>
-</div>
-<div class="nk-gap-4"></div>
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title">Recent Posts</h4>
+                        <div>
+
+                            <div class="nk-widget-post">
+                                <a href="news-single-image.php" class="nk-image-box-1 nk-post-image">
+                                    <img src="assets/images/post-1-sm.jpg" alt="">
+                                </a>
+                                <h3 class="nk-post-title"><a href="news-single-image.php">Image Blog Post</a></h3>
+                                <div class="nk-post-meta-date">September 18, 2016</div>
+                            </div>
+
+                            <div class="nk-widget-post">
+                                <a href="news-single-video.php" class="nk-image-box-1 nk-post-image">
+                                    <img src="assets/images/post-2-sm.jpg" alt="">
+                                </a>
+                                <h3 class="nk-post-title"><a href="news-single-video.php">Video Blog Post</a></h3>
+                                <div class="nk-post-meta-date">September 5, 2016</div>
+                            </div>
+
+                            <div class="nk-widget-post">
+                                <a href="news-single-quote.php" class="nk-image-box-1 nk-post-image">
+                                    <img src="assets/images/post-3-sm.jpg" alt="">
+                                </a>
+                                <h3 class="nk-post-title"><a href="news-single-quote.php">Blockquote Blog Post</a></h3>
+                                <div class="nk-post-meta-date">August 27, 2016</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title">Categories</h4>
+                        <div>
+                            <ul class="nk-widget-categories">
+                                <li>
+                                    <a href="#">Business</a>
+                                </li>
+                                <li>
+                                    <a href="#">Live News</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lifestyle</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title">Tags</h4>
+                        <div>
+                            <div class="nk-widget-tags">
+                                <a href="#">Creative</a>
+                                <a href="#">Responsive</a>
+                                <a href="#">Design</a>
+                                <a href="#">Bootstrap</a>
+                                <a href="#">Multi-Concept</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title">Twitter</h4>
+                        <div>
+                            <div class="nk-twitter-list" data-twitter-count="2"></div>
+                        </div>
+                    </div>
+                    <div class="nk-gap-4"></div>
 
                 </aside>
                 <!-- END: Sidebar -->
@@ -1127,53 +1249,15 @@
     </div>
 
 
-        
-            <!-- START: Footer -->
+    
+
+
+</div>
+
+
 <!--
-    Additional Classes:
-        .nk-footer-parallax
-        .nk-footer-parallax-opacity
--->
-<footer class="nk-footer nk-footer-parallax nk-footer-parallax-opacity">
-    <img class="nk-footer-top-corner" src="assets/images/footer-corner.png" alt="">
-
-    
-
-    <div class="container">
-        <div class="nk-gap-2"></div>
-        <div class="nk-footer-logos">
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-godlike.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-yp3.png" alt="" width="120"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-nk-team.png" alt="" width="150"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-pegi-18.png" alt="" width="46"></a>
-            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-18-restricted.png" alt="" width="160"></a>
-        </div>
-        <div class="nk-gap"></div>
-
-        <p>
-            &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.
-        </p>
-        <p>
-            GodLike &reg;: The Darkness&trade; is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.
-        </p>
-
-        <div class="nk-footer-links">
-            <a href="#" class="link-effect">Terms of Service</a> <span>|</span> <a href="#" class="link-effect">Privacy Policy</a>
-        </div>
-
-        <div class="nk-gap-4"></div>
-    </div>
-</footer>
-<!-- END: Footer -->
-
-        
-    </div>
-
-    
-
-    <!--
-    START: Share Buttons
-        .nk-share-buttons-left
+START: Share Buttons
+    .nk-share-buttons-left
 -->
 <div class="nk-share-buttons nk-share-buttons-left d-none d-md-flex">
     <ul>
@@ -1219,9 +1303,9 @@
 </div>
 
 
-    <!--
-    START: Side Buttons
-        .nk-side-buttons-visible
+<!--
+START: Side Buttons
+    .nk-side-buttons-visible
 -->
 <div class="nk-side-buttons nk-side-buttons-visible">
     <ul>
@@ -1246,12 +1330,11 @@
 <!-- END: Side Buttons -->
 
 
-    
-        <!--
-    START: Search
+<!--
+START: Search
 
-    Additional Classes:
-        .nk-search-light
+Additional Classes:
+.nk-search-light
 -->
 <div class="nk-search">
     <div class="container">
@@ -1265,14 +1348,12 @@
 </div>
 <!-- END: Search -->
 
-    
 
-    
-        <!--
-    START: Shopping Cart
+<!--
+START: Shopping Cart
 
-    Additional Classes:
-        .nk-cart-light
+Additional Classes:
+.nk-cart-light
 -->
 <div class="nk-cart">
     <div class="nk-gap-2"></div>
@@ -1281,49 +1362,51 @@
             <div class="table-responsive">
                 <table class="table nk-store-cart-products">
                     <tbody>
-                        
-                            <tr>
-                                <td class="nk-product-cart-thumb">
-                                    <a href="store-product.php" class="nk-post-image">
-                                        <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
-                                    </a>
-                                </td>
-                                <td class="nk-product-cart-title">
-                                    <h2 class="nk-post-title h5">
-                                        <a href="store-product.php">Men Tshirt</a>
-                                    </h2>
-                                </td>
-                                <td class="nk-product-cart-price">$67.00</td>
-                                <td class="nk-product-cart-quantity">
-                                    1
-                                </td>
-                                <td class="nk-product-cart-total">
-                                    $67.00
-                                </td>
-                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                            </tr>
-                        
-                            <tr>
-                                <td class="nk-product-cart-thumb">
-                                    <a href="store-product.php" class="nk-post-image">
-                                        <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
-                                    </a>
-                                </td>
-                                <td class="nk-product-cart-title">
-                                    <h2 class="nk-post-title h5">
-                                        <a href="store-product.php">Men Hoodie</a>
-                                    </h2>
-                                </td>
-                                <td class="nk-product-cart-price">$125.00 <del>$145.00</del></td>
-                                <td class="nk-product-cart-quantity">
-                                    2
-                                </td>
-                                <td class="nk-product-cart-total">
-                                    $250.00
-                                </td>
-                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                            </tr>
-                        
+
+                    <tr>
+                        <td class="nk-product-cart-thumb">
+                            <a href="store-product.php" class="nk-post-image">
+                                <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
+                            </a>
+                        </td>
+                        <td class="nk-product-cart-title">
+                            <h2 class="nk-post-title h5">
+                                <a href="store-product.php">Men Tshirt</a>
+                            </h2>
+                        </td>
+                        <td class="nk-product-cart-price">$67.00</td>
+                        <td class="nk-product-cart-quantity">
+                            1
+                        </td>
+                        <td class="nk-product-cart-total">
+                            $67.00
+                        </td>
+                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="nk-product-cart-thumb">
+                            <a href="store-product.php" class="nk-post-image">
+                                <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
+                            </a>
+                        </td>
+                        <td class="nk-product-cart-title">
+                            <h2 class="nk-post-title h5">
+                                <a href="store-product.php">Men Hoodie</a>
+                            </h2>
+                        </td>
+                        <td class="nk-product-cart-price">$125.00
+                            <del>$145.00</del>
+                        </td>
+                        <td class="nk-product-cart-quantity">
+                            2
+                        </td>
+                        <td class="nk-product-cart-total">
+                            $250.00
+                        </td>
+                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                    </tr>
+
                     </tbody>
                 </table>
             </div>
@@ -1349,14 +1432,12 @@
 </div>
 <!-- END: Shopping Cart -->
 
-    
 
-    
-        <!--
-    START: Sign Form
+<!--
+START: Sign Form
 
-    Additional Classes:
-        .nk-sign-form-light
+Additional Classes:
+.nk-sign-form-light
 -->
 <div class="nk-sign-form">
     <div class="nk-gap-5"></div>
@@ -1421,9 +1502,7 @@
 </div>
 <!-- END: Sign Form -->
 
-    
 
-    
 <!-- START: Scripts -->
 
 <!-- Object Fit Polyfill -->
@@ -1501,6 +1580,5 @@
 <!-- END: Scripts -->
 
 
-    
 </body>
 </html>
