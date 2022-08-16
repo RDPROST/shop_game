@@ -12,16 +12,9 @@
                     <?php
 
                     if (isset($_SESSION['steamid'])) {
-                        $steamid = $_SESSION['steamid'];
-                        $steamprofile = $_SESSION['steam_personaname'];
-                        $steamavatar = $_SESSION['steam_avatarfull'];
-                        $steam_profile = "http://steamcommunity.com/profiles/" . $steamid;
+                        echo "<form action='' method='get'><button name='logout' type='submit' class='nk-btn nk-btn-color-white link-effect-4' style='width: 100%'>Log In Steam</button></form>";
                     } else {
-                        $steamid = "";
-                        $steamprofile = "";
-                        $steamavatar = "";
-                        $steam_profile = "";
-                        loginbutton();
+                        echo "<a href='?login' class='nk-btn nk-btn-color-white link-effect-4' style='width: 100%'>Log In Steam</a>";
                     }
                     ?>
                     <div class="clearfix"></div>
