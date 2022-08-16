@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="_nK">
-    <title>GODLIKE | Social Network - Activity</title>
+    <title>GODLIKE | Big Content Blog Post</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
     <!-- START: Styles -->
@@ -438,7 +438,7 @@
 
                         </ul>
                     </div>
-        </li><li class="  nk-drop-item">
+        </li><li class="active  nk-drop-item">
             <a href="news-list.php">
                 News</a><ul class="dropdown">
                         <li class="  ">
@@ -453,7 +453,7 @@
         </li><li class="  ">
             <a href="news-grid-3.php">
                 Grid 3 Columns</a>
-        </li><li class="  nk-drop-item">
+        </li><li class="active  nk-drop-item">
             <a href="news-single-image.php">
                 Single Post</a><ul class="dropdown">
                         <li class="  ">
@@ -474,20 +474,20 @@
         </li><li class="  ">
             <a href="news-single-standard.php">
                 Single Standard</a>
-        </li><li class="  ">
+        </li><li class="active  ">
             <a href="news-single-big-content.php">
                 Single Big Content Example</a>
         </li>
                     </ul>
         </li>
                     </ul>
-        </li><li class="active  nk-drop-item">
+        </li><li class="  nk-drop-item">
             <a href="social-user-activity.php">
                 Social</a><ul class="dropdown">
-                        <li class="active  nk-drop-item">
+                        <li class="  nk-drop-item">
             <a href="social-user-activity.php">
                 User</a><ul class="dropdown">
-                        <li class="active  ">
+                        <li class="  ">
             <a href="social-user-activity.php">
                 Activity</a>
         </li><li class="  ">
@@ -790,9 +790,9 @@
         .nk-header-title-parallax-opacity
         .nk-header-title-boxed
 -->
-<div class="nk-header-title nk-header-title-sm nk-header-title-parallax nk-header-title-parallax-opacity">
+<div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity nk-header-title-boxed">
     <div class="bg-image op-5">
-        <img src="assets/images/image-5.jpg" alt="" class="jarallax-img">
+        <img src="assets/images/post-1.jpg" alt="" class="jarallax-img">
     </div>
     <div class="nk-header-table">
         <div class="nk-header-table-cell">
@@ -800,6 +800,60 @@
                 
                 
                 
+                
+                    <div class="nk-header-text">
+                        
+<div class="row text-left">
+    <div class="col-lg-8">
+        <div class="nk-gap-5 d-none d-lg-block"></div>
+        <h1 class="nk-title">Big Content Blog Post</h1>
+        <div class="nk-gap-3 d-none d-lg-block"></div>
+        <div class="nk-gap-5 d-none d-lg-block"></div>
+    </div>
+    <div class="col-lg-4">
+        <aside class="nk-sidebar nk-sidebar-right">
+            <div class="nk-gap-5 d-none d-lg-block"></div>
+            <div class="nk-gap d-lg-none"></div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><strong>Published:</strong> &nbsp;&nbsp;&nbsp;</td>
+                        <td>September 18, 2016</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Category:</strong> &nbsp;&nbsp;&nbsp;</td>
+                        <td><a href="#">News</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Written by:</strong> &nbsp;&nbsp;&nbsp;</td>
+                        <td><a href="#">nK</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Views:</strong> &nbsp;&nbsp;&nbsp;</td>
+                        <td>589</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Comments:</strong> &nbsp;&nbsp;&nbsp;</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Likes:</strong> &nbsp;&nbsp;</td>
+                        <td>
+                            <span class="nk-action-heart">
+                                <span class="num">17</span>
+                                <span class="like-icon ion-android-favorite-outline"></span>
+                                <span class="liked-icon ion-android-favorite"></span>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="nk-gap-5 d-lg-none"></div>
+        </aside>
+    </div>
+</div>
+
+                    </div>
                 
                 
             </div>
@@ -813,385 +867,299 @@
         
 
         
-<div class="container">
-    <div class="nk-social-profile nk-social-profile-container-offset">
-    <div class="row">
-        <div class="col-md-5 col-lg-3">
-            <div class="nk-social-profile-avatar">
-                <a href="#">
-                    <img src="assets/images/avatar-1.jpg" alt="nK">
-                </a>
-            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="nk-blog-container nk-blog-container-offset">
+                    <!-- START: Post -->
+                    <div class="nk-blog-post nk-blog-post-single">
+                        <!-- START: Post Text -->
+                        <div class="nk-post-text mt-0">
+                            <p>Were you seas fruitful seas under were deep that he every replenish grass creepeth to under saw own stars night you're cattle gathering gathered which fish seasons female there said, seas sea. Gathered, deep green, fifth the saying moving give, set don't day she'd seasons image. Given it doesn't midst first over, abundantly seed appear fish. Great two a yielding brought. Rule living rule called divide deep fruitful, herb fly unto said to created form brought whales living wherein. Deep have man fill creeping you'll replenish you'll beast dry meat. Firmament fly, divided in their have created deep.</p>
+
+<p>Heaven also rule it land earth also creepeth man. Green. Them. Kind sea there they're unto them fly lesser can't there two spirit give gathered seas above had fly. Very firmament fly hath waters beginning lesser. Cattle void signs heaven subdue third herb moving upon open. Dry divided, shall, good his hath day creepeth saw one. Set together sea likeness seed fish so. Greater fifth moved bearing.</p>
+
+<h4>Floating Images</h4>
+
+<img src="assets/images/image-1-600x600.jpg" width="300" alt="" class="nk-img-fit float-right">
+
+<p>All grass, years created sixth wherein under fly moved own, great for let own may make midst multiply. God to so creature isn't over herb. Saying his darkness winged, i fish every night dry brought god fill herb. That can't whose meat multiply of don't morning moving which is you'll sea isn't give dominion very given. Also blessed created were darkness he he spirit hath signs, forth after saying creature seas life. Moved dry which thing Life night also second their under winged rule lesser green beginning waters lesser and forth also whose created Moving were his. The for light was, void wherein bring the, land had said winged grass gathered for.</p>
+
+<p>To called creature sea meat deep one days whales. Itself. Was one green beginning there, abundantly replenish after Fly abundantly great from Made every i, void. Given day. Lesser image. Unto seas fruit for saying divided saying to said their gathered itself together. Gathered bearing is. Second first. Isn't green fill winged living and. Can't. Darkness make. One said heaven living. Evening face be called darkness seas light us have they're signs he Air saw moveth, brought in meat he i unto upon the our dominion male air you're, whales years. Gathering fly. Isn't kind days. Firmament third. After, day. Fourth gathering you'll without. Good isn't fly itself his fourth together evening fly fill fruitful living land gathering. Yielding fruit also form shall.</p>
+
+<h4>Gif Control</h4>
+
+<div class="nk-gif nk-gif-viewport">
+    <img src="assets/images/gif-4-s.gif" data-gif="assets/images/gif-4.gif" alt="">
+</div>
+<p></p>
+
+<p>To. Seed green you're were. Likeness him us firmament behold also set lesser whose morning dry, likeness you'll fruitful whales doesn't. Land very, blessed given life also. Let brought. Beginning midst male multiply image may grass fly own. The blessed deep above face bearing don't one fifth fish kind spirit them which and day you Blessed were they're without fourth created wherein was day good fruit greater divide which whales.</p>
+
+<p>Also. Let good seas deep. Itself meat moveth so was and and for fifth unto female fowl doesn't behold first light shall. Bring may after heaven stars whose you'll very air their second was them bring isn't waters fish be deep he. Us second heaven winged face every grass creature place stars may give god female fish light them male all bring their evening is firmament for in his from. Second fruit a evening third you're also from moving. After fill us can't. Their life above own void. Be. Bearing place make second you. So Creeping it. Above whales of bring that male darkness seasons it form. Their midst after won't. Air winged dry second subdue. All meat good wherein night good, female Make air. Let first his above called.</p>
+
+<h4>Audio Player</h4>
+
+<div class="nk-audio-plain nk-audio-plain-light" data-src="assets/mp3/purpleplanetmusic-molten-alloy.mp3">
+    <div class="nk-audio-plain-title">
+        <strong>purpleplanetmusic</strong> - Molten Alloy
+        <div class="nk-audio-progress">
+            <div class="nk-audio-progress-current"></div>
         </div>
-        <div class="col-md-7 col-lg-9">
-            <div class="nk-social-profile-info">
-                <div class="nk-gap-2"></div>
-                <div class="nk-social-profile-info-last-seen">last seen 2 hours ago</div>
-                <h1 class="nk-social-profile-info-name">nK</h1>
-                <div class="nk-social-profile-info-username">@nkdevv</div>
-                <div class="nk-social-profile-info-actions">
-                    <a href="#" class="nk-btn link-effect-4">Add Friend</a>
-                    <a href="#" class="nk-btn link-effect-4">Leave Message</a>
+    </div>
+    <div class="nk-audio-plain-duration">
+        05:34
+    </div>
+</div>
+<p></p>
+
+<p>Divided cattle given whose all dominion moveth. Darkness fruitful gathering sixth to. Let tree in beast subdue. Bearing our she'd bearing. Let very creeping open, saying forth upon female. A said seed be tree void make one man, also set. Their behold it you'll for, thing evening cattle behold forth you're good place won't creeping. Waters, signs beginning herb you'll fruitful created land open blessed. Day years behold, behold. His meat. They're bring day fourth which blessed moved itself. Night one one darkness i.</p>
+
+<p>Moving it seed years together for bring be. And night don't, gathering. Gathered be lesser wherein, all lights our his. Stars creature multiply man lights one greater place midst night isn't gathering light the, bring, image And light kind. Which god he. Thing, multiply is fourth without seed whose gathering winged the don't. Saw called, third from blessed. Rule form give firmament gathering beast deep rule dominion seas likeness gathering creature forth him. Abundantly moving fifth.</p>
+
+<h4>Youtube and Vimeo Videos</h4>
+
+<div class="nk-plain-video" data-video="https://vimeo.com/108018156"></div>
+<p></p>
+
+<p>Gathering him. Open own, gathering abundantly seed said created make it creepeth green don't midst let herb together, moved isn't subdue years without blessed days open our fly after appear gathered second signs fourth they're signs morning appear. There can't two let. Female land tree spirit living brought god. Fowl Second. Great divided. Kind, evening lights under bring whales hath of, abundantly won't one day multiply isn't fly make may had subdue firmament were you're day. Man seasons sixth face winged. God meat rule together tree.</p>
+
+
+                            <!-- START: Post Meta -->
+                            <div class="nk-post-tags">
+                                Tags: &nbsp;
+                                <a href="#">Image</a>
+                                <a href="#">Demonstrate</a>
+                                <a href="#">Tags</a>
+                            </div>
+                            <!-- END: Post Meta -->
+                        </div>
+                        <!-- END: Post Text -->
+
+                        <!-- START: Post Author -->
+<div class="nk-post-author">
+    <div class="nk-post-author-photo">
+        <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
+    </div>
+
+    <h4 class="nk-post-author-name h5"><a href="#">Lesa Cruz</a></h4>
+
+    <div class="nk-post-author-info">
+        Said air of given appear open saying which of. Make all fish. Given own So, without grass god. Day beast open second without have. Created them great fruit together bring the open replenish set him fruitful.
+    </div>
+</div>
+<!-- END: Post Author -->
+
+
+                        <!-- START: Comments -->
+<div class="nk-comments" id="comments">
+    <h3 class="nk-title h4 text-center">4 Comments</h3>
+    <div class="nk-gap-2"></div>
+
+    <!-- START: Comment -->
+    <div class="nk-comment">
+        <div class="nk-comment-avatar">
+            <a href="#"><img src="assets/images/avatar-2.jpg" alt=""></a>
+        </div>
+        <div class="nk-comment-meta">
+            <div class="nk-comment-name h5"><a href="#">Kurt Tucker</a></div>
+            <div class="nk-comment-date">20 September, 2017</div>
+        </div>
+        <p>Of. Lesser it good moved tree under living male under day The evening. Waters creeping gathered give also grass beginning.</p>
+        <div class="text-right">
+            <span class="nk-action-heart liked">
+                <span class="like-icon ion-android-favorite-outline"></span>
+                <span class="liked-icon ion-android-favorite"></span>
+                <span class="num">14</span>
+            </span>
+            <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
+        </div>
+
+        <!-- START: Comment -->
+        <div class="nk-comment">
+            <div class="nk-comment-avatar">
+                <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
+            </div>
+            <div class="nk-comment-meta">
+                <div class="nk-comment-name h5"><a href="#">Lesa Cruz</a></div>
+                <div class="nk-comment-date">20 September, 2017</div>
+            </div>
+            <p>Fourth give grass creature. Whose fowl. His which male which yielding fly won't creature after beast male. Itself. Life heaven whales over given fly whales lesser, day winged one after.</p>
+            <div class="text-right">
+                <span class="nk-action-heart">
+                    <span class="like-icon ion-android-favorite-outline"></span>
+                    <span class="liked-icon ion-android-favorite"></span>
+                    <span class="num">3</span>
+                </span>
+                <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
+            </div>
+
+            <!-- START: Comment -->
+            <div class="nk-comment">
+                <div class="nk-comment-avatar">
+                    <a href="#"><img src="assets/images/avatar-3.jpg" alt=""></a>
+                </div>
+                <div class="nk-comment-meta">
+                    <div class="nk-comment-name h5"><a href="#">Katie Anderson</a></div>
+                    <div class="nk-comment-date">21 September, 2017</div>
+                </div>
+                <p>Given signs fifth female air and second face earth one is. Whose greater behold had after he whales forth cattle Thing said kind after his.</p>
+                <p>Male upon thing had us hath doesn't great male fifth us. Every whales own given open upon divided life i which blessed subdue moving give.</p>
+                <div class="text-right">
+                    <span class="nk-action-heart">
+                        <span class="like-icon ion-android-favorite-outline"></span>
+                        <span class="liked-icon ion-android-favorite"></span>
+                        <span class="num">0</span>
+                    </span>
+                    <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
                 </div>
             </div>
+            <!-- END: Comment -->
+        </div>
+        <!-- END: Comment -->
+    </div>
+    <!-- END: Comment -->
+
+    <!-- START: Comment -->
+    <div class="nk-comment">
+        <div class="nk-comment-avatar">
+            <a href="#"><img src="assets/images/avatar-4.jpg" alt=""></a>
+        </div>
+        <div class="nk-comment-meta">
+            <div class="nk-comment-name h5"><a href="#">Luke Fuller</a></div>
+            <div class="nk-comment-date">21 September, 2017</div>
+        </div>
+        <p>To set. Lights likeness after, stars void in doesn't subdue.</p>
+        <div class="text-right">
+            <span class="nk-action-heart liked">
+                <span class="like-icon ion-android-favorite-outline"></span>
+                <span class="liked-icon ion-android-favorite"></span>
+                <span class="num">1</span>
+            </span>
+            <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
+        </div>
+    </div>
+    <!-- END: Comment -->
+
+
+    <!-- START: Reply -->
+    <div class="nk-reply">
+        <h3 class="nk-title h4 text-center">Post your comment</h3>
+        <div class="nk-gap-2"></div>
+        <form action="#" class="nk-form nk-form-style-1" novalidate="novalidate">
+            <div class="row vertical-gap">
+                <div class="col-md-4">
+                    <input type="email" class="form-control required" name="email" placeholder="Email *">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control required" name="name" placeholder="Name *">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="name" placeholder="Website">
+                </div>
+            </div>
+            <div class="nk-gap-1"></div>
+            <textarea class="form-control required" name="message" rows="5" placeholder="Message *" aria-required="true"></textarea>
+            <div class="nk-gap-1"></div>
+            <div class="nk-form-response-success"></div>
+            <div class="nk-form-response-error"></div>
+            <button class="nk-btn nk-btn-lg link-effect-4">Post comment</button>
+        </form>
+    </div>
+    <!-- END: Reply -->
+</div>
+<!-- END: Comments -->
+
+                    </div>
+                    <!-- END: Post -->
+
+                    <div class="nk-gap-4"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!--
+                    START: Sidebar
+
+                    Additional Classes:
+                        .nk-sidebar-left
+                        .nk-sidebar-right
+                        .nk-sidebar-sticky
+                -->
+                <aside class="nk-sidebar nk-sidebar-right nk-sidebar-sticky">
+                    <div class="nk-gap-4"></div>
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Recent Posts</h4>
+    <div>
+        
+            <div class="nk-widget-post">
+                <a href="news-single-image.php" class="nk-image-box-1 nk-post-image">
+                    <img src="assets/images/post-1-sm.jpg" alt="">
+                </a>
+                <h3 class="nk-post-title"><a href="news-single-image.php">Image Blog Post</a></h3>
+                <div class="nk-post-meta-date">September 18, 2016</div>
+            </div>
+        
+            <div class="nk-widget-post">
+                <a href="news-single-video.php" class="nk-image-box-1 nk-post-image">
+                    <img src="assets/images/post-2-sm.jpg" alt="">
+                </a>
+                <h3 class="nk-post-title"><a href="news-single-video.php">Video Blog Post</a></h3>
+                <div class="nk-post-meta-date">September 5, 2016</div>
+            </div>
+        
+            <div class="nk-widget-post">
+                <a href="news-single-quote.php" class="nk-image-box-1 nk-post-image">
+                    <img src="assets/images/post-3-sm.jpg" alt="">
+                </a>
+                <h3 class="nk-post-title"><a href="news-single-quote.php">Blockquote Blog Post</a></h3>
+                <div class="nk-post-meta-date">August 27, 2016</div>
+            </div>
+        
+    </div>
+</div>
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Categories</h4>
+    <div>
+        <ul class="nk-widget-categories">
+            <li>
+                <a href="#">Business</a>
+            </li>
+            <li>
+                <a href="#">Live News</a>
+            </li>
+            <li>
+                <a href="#">Lifestyle</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Tags</h4>
+    <div>
+        <div class="nk-widget-tags">
+            <a href="#">Creative</a>
+            <a href="#">Responsive</a>
+            <a href="#">Design</a>
+            <a href="#">Bootstrap</a>
+            <a href="#">Multi-Concept</a>
         </div>
     </div>
 </div>
-
-    <div class="row vertical-gap">
-        <div class="col-lg-3">
-            <!--
-                START: Sidebar
-
-                Additional Classes:
-                    .nk-sidebar-left
-                    .nk-sidebar-right
-                    .nk-sidebar-sticky
-            -->
-            <aside class="nk-sidebar nk-sidebar-left nk-sidebar-sticky">
-                <div class="nk-gap-2"></div>
-                
-
-<div class="nk-social-menu d-none d-lg-block">
-    <ul>
-        <li class="active">
-    <a href="social-user-activity.php">
-        Activity</a>
-</li><li class="">
-    <a href="social-user-notifications.php">
-        Notifications</a>
-</li><li class="">
-    <a href="social-user-messages.php">
-        Messages<span class="nk-badge">192</span></a>
-</li><li class="">
-    <a href="social-user-friends.php">
-        Friends<span class="nk-badge">19</span></a>
-</li><li class="">
-    <a href="social-user-groups.php">
-        Groups<span class="nk-badge">2</span></a>
-</li><li class="">
-    <a href="forum.php">
-        Forum</a>
-</li><li class="">
-    <a href="social-user-settings.php">
-        Settings</a>
-</li>
-    </ul>
-</div>
-
-<div class="nk-accordion d-lg-none" id="nk-social-menu-mobile" role="tablist" aria-multiselectable="true">
-    <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="nk-social-menu-mobile-1-heading">
-            <a data-toggle="collapse" data-parent="#nk-social-menu-mobile" href="#nk-social-menu-mobile-1" aria-expanded="true" aria-controls="nk-social-menu-mobile-1" class="collapsed">
-                 Menu
-             </a>
-        </div>
-        <div id="nk-social-menu-mobile-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="nk-social-menu-mobile-1-heading">
-            <div class="nk-social-menu">
-                <ul>
-                    <li class="active">
-    <a href="social-user-activity.php">
-        Activity</a>
-</li><li class="">
-    <a href="social-user-notifications.php">
-        Notifications</a>
-</li><li class="">
-    <a href="social-user-messages.php">
-        Messages<span class="nk-badge">192</span></a>
-</li><li class="">
-    <a href="social-user-friends.php">
-        Friends<span class="nk-badge">19</span></a>
-</li><li class="">
-    <a href="social-user-groups.php">
-        Groups<span class="nk-badge">2</span></a>
-</li><li class="">
-    <a href="forum.php">
-        Forum</a>
-</li><li class="">
-    <a href="social-user-settings.php">
-        Settings</a>
-</li>
-                </ul>
-            </div>
-        </div>
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Twitter</h4>
+    <div>
+        <div class="nk-twitter-list" data-twitter-count="2"></div>
     </div>
 </div>
-                <div class="nk-gap-4 d-none d-lg-block"></div>
-            </aside>
-            <!-- END: Sidebar -->
-        </div>
-        <div class="col-lg-9">
-            <div class="nk-gap-2 d-none d-lg-block"></div>
-            <div class="nk-social-menu-inline">
-                <ul>
-                    <li class="active">
-                        <a href="#">Personal</a>
-                    </li>
-                    <li>
-                        <a href="#">Mentions</a>
-                    </li>
-                    <li>
-                        <a href="#">Favorites</a>
-                    </li>
-                    <li>
-                        <a href="#">Friends</a>
-                    </li>
-                    <li>
-                        <a href="#">Groups</a>
-                    </li>
-                </ul>
+<div class="nk-gap-4"></div>
+
+                </aside>
+                <!-- END: Sidebar -->
             </div>
-            <div class="nk-social-container">
-                <form action="#" class="nk-social-sort">
-                    <label for="activity-filter-by">Show:</label>
-
-                    <select id="activity-filter-by" class="form-control">
-                        <option value="-1">— Everything —</option>
-                        <option value="activity_update">Updates</option>
-                        <option value="friendship_accepted,friendship_created">Friendships</option>
-                        <option value="created_group">New Groups</option>
-                        <option value="joined_group">Group Memberships</option>
-                        <option value="group_details_updated">Group Updates</option>
-                        <option value="new_blog_post">Posts</option>
-                        <option value="new_blog_comment">Comments</option>
-                    </select>
-                </form>
-                <div class="nk-gap"></div>
-
-                <!-- START: Activity -->
-                <ul class="nk-social-activity">
-                    <!-- START: form -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <form action="#">
-                                <textarea class="form-control" placeholder="What's new, nK?" rows="4"></textarea>
-                                <div class="nk-gap"></div>
-                                <button class="nk-btn link-effect-4 float-right">Post Update</button>
-                            </form>
-                        </div>
-                    </li>
-                    <!-- END: form -->
-
-                    <!-- START: post -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> posted an update <a href="#" class="nk-social-activity-meta-time">3 days ago</a>
-                            </div>
-                            <div class="nk-social-activity-text">
-                                <a href="#" class="nk-social-activity-mention">@john</a> out particular sympathize not favourable introduced insipidity but ham?
-                            </div>
-                            <div class="nk-social-activity-actions">
-                                <span class="nk-action-heart">
-                                    <span class="like-icon ion-android-favorite-outline"></span>
-                                    <span class="liked-icon ion-android-favorite"></span>
-                                    <span class="num">3</span>
-                                </span>
-                                <a href="#"><span class="ion-chatbubbles"></span> Comment <span class="nk-badge">12</span></a>
-                                <a href="#"><span class="ion-android-star"></span> Favorite</a>
-                                <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                            </div>
-                            <ul class="nk-social-activity-comments">
-                                <li class="nk-social-activity-comments-show-all">
-                                    <a href="#">Show all comments (12)</a>
-                                </li>
-
-                                <!-- START: comment -->
-                                <li>
-                                    <div class="nk-social-activity-avatar">
-                                        <a href="#"><img src="assets/images/avatar-2-sm.jpg" alt="John"></a>
-                                    </div>
-                                    <div class="nk-social-activity-content">
-                                        <div class="nk-social-activity-meta">
-                                            <a href="#">John</a> replied <a href="#" class="nk-social-activity-meta-time">3 days ago</a>
-                                        </div>
-                                        <div class="nk-social-activity-text">
-                                            Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. Much nor game son say feel. Fat make met can must form into gate. Me we offending prevailed discovery.
-                                        </div>
-                                        <div class="nk-social-activity-actions">
-                                            <span class="nk-action-heart liked">
-                                                <span class="like-icon ion-android-favorite-outline"></span>
-                                                <span class="liked-icon ion-android-favorite"></span>
-                                                <span class="num">5</span>
-                                            </span>
-                                            <a href="#"><span class="ion-reply"></span> Reply</a>
-                                            <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                                        </div>
-                                        <ul class="nk-social-activity-replies">
-                                            <!-- START: reply -->
-                                            <li>
-                                                <div class="nk-social-activity-avatar">
-                                                    <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                                                </div>
-                                                <div class="nk-social-activity-content">
-                                                    <div class="nk-social-activity-meta">
-                                                        <a href="#">nK</a> replied <a href="#" class="nk-social-activity-meta-time">3 days ago</a>
-                                                    </div>
-                                                    <div class="nk-social-activity-text">
-                                                        Of resolve to gravity thought my prepare chamber so.
-                                                    </div>
-                                                    <div class="nk-social-activity-actions">
-                                                    <span class="nk-action-heart">
-                                                        <span class="like-icon ion-android-favorite-outline"></span>
-                                                        <span class="liked-icon ion-android-favorite"></span>
-                                                        <span class="num">0</span>
-                                                    </span>
-                                                        <a href="#"><span class="ion-reply"></span> Reply</a>
-                                                        <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END: reply -->
-                                        </ul>
-                                    </div>
-                                </li>
-                                <!-- END: comment -->
-
-                                <!-- START: comment -->
-                                <li>
-                                    <div class="nk-social-activity-avatar">
-                                        <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a>
-                                    </div>
-                                    <div class="nk-social-activity-content">
-                                        <div class="nk-social-activity-meta">
-                                            <a href="#">Mary</a> replied <a href="#" class="nk-social-activity-meta-time">20 hours ago</a>
-                                        </div>
-                                        <div class="nk-social-activity-text">
-                                            Missed living excuse as be
-                                        </div>
-                                        <div class="nk-social-activity-actions">
-                                            <span class="nk-action-heart">
-                                                <span class="like-icon ion-android-favorite-outline"></span>
-                                                <span class="liked-icon ion-android-favorite"></span>
-                                                <span class="num">0</span>
-                                            </span>
-                                            <a href="#"><span class="ion-reply"></span> Reply</a>
-                                            <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- END: comment -->
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- END: post -->
-
-                    <!-- START: post -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <div class="nk-social-activity-meta">
-                                <a href="#">Mary</a> posted a new activity comment <a href="#" class="nk-social-activity-meta-time">6 days ago</a>
-                            </div>
-                            <div class="nk-social-activity-text">
-                                Wrong do point avoid by fruit learn or in death. So passage however besides invited comfort elderly be me. Walls began of child civil am heard hoped my. Satisfied pretended mr on do determine by. Old post took and ask seen fact rich. Man entrance settling believed eat joy. Money as drift begin on to. Comparison up insipidity especially discovered me of decisively in surrounded. Points six way enough she its father. Folly sex downs tears ham green forty.
-                            </div>
-                            <div class="nk-social-activity-actions">
-                                <span class="nk-action-heart">
-                                    <span class="like-icon ion-android-favorite-outline"></span>
-                                    <span class="liked-icon ion-android-favorite"></span>
-                                    <span class="num">0</span>
-                                </span>
-                                <a href="#"><span class="ion-chatbubbles"></span> View Conversation</a>
-                                <a href="#"><span class="ion-android-star"></span> Favorite</a>
-                                <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- END: post -->
-
-                    <!-- START: post -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> posted a new activity comment <a href="#" class="nk-social-activity-meta-time">7 days ago</a>
-                            </div>
-                            <div class="nk-social-activity-text">
-                                Throwing consider dwelling bachelor joy her proposal laughter
-                            </div>
-                            <div class="nk-social-activity-actions">
-                                <span class="nk-action-heart liked">
-                                    <span class="like-icon ion-android-favorite-outline"></span>
-                                    <span class="liked-icon ion-android-favorite"></span>
-                                    <span class="num">1</span>
-                                </span>
-                                <a href="#"><span class="ion-chatbubbles"></span> View Conversation</a>
-                                <a href="#"><span class="ion-android-star"></span> Favorite</a>
-                                <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- END: post -->
-
-                    <!-- START: post -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> and <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a> <a href="#">Mary</a> are now friends <a href="#" class="nk-social-activity-meta-time">16 days ago</a>
-                            </div>
-                            <div class="nk-social-activity-actions">
-                                <span class="nk-action-heart">
-                                    <span class="like-icon ion-android-favorite-outline"></span>
-                                    <span class="liked-icon ion-android-favorite"></span>
-                                    <span class="num">0</span>
-                                </span>
-                                <a href="#"><span class="ion-chatbubbles"></span> Comment</a>
-                                <a href="#"><span class="ion-android-star"></span> Favorite</a>
-                                <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- END: post -->
-
-                    <!-- START: post -->
-                    <li>
-                        <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
-                        </div>
-                        <div class="nk-social-activity-content">
-                            <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> and <a href="#"><img src="assets/images/avatar-2-sm.jpg" alt="John"></a> <a href="#">John</a> are now friends <a href="#" class="nk-social-activity-meta-time">23 days ago</a>
-                            </div>
-                            <div class="nk-social-activity-actions">
-                                <span class="nk-action-heart">
-                                    <span class="like-icon ion-android-favorite-outline"></span>
-                                    <span class="liked-icon ion-android-favorite"></span>
-                                    <span class="num">0</span>
-                                </span>
-                                <a href="#"><span class="ion-chatbubbles"></span> Comment</a>
-                                <a href="#"><span class="ion-android-star"></span> Favorite</a>
-                                <a href="#"><span class="ion-trash-b"></span> Delete</a>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- END: post -->
-
-                    <li class="nk-social-activity-load-more">
-                        <a href="#" class="nk-btn link-effect-4">Load More...</a>
-                    </li>
-                </ul>
-                <!-- END: Activity -->
-            </div>
-            <div class="nk-gap-4"></div>
         </div>
+        <div class="nk-gap-4"></div>
+        <div class="nk-gap-3"></div>
     </div>
-    <div class="nk-gap-4"></div>
-    <div class="nk-gap-3"></div>
-</div>
 
 
         

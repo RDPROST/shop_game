@@ -76,23 +76,6 @@
         .nk-page-boxed
 -->
 <body>
-<?php
-    require 'steamauth/steamauth.php';
-    require 'steamauth/userInfo.php';
-
-    if(isset($_SESSION['steamid'])) {
-        $steamid = $_SESSION['steamid'];
-        $steamprofile = $_SESSION['steam_personaname'];
-        $steamavatar = $_SESSION['steam_avatarfull'];
-        $steam_profile = "http://steamcommunity.com/profiles/".$steamid;
-    } else {
-        $steamid = "";
-        $steamprofile = "";
-        $steamavatar = "";
-        $steam_profile = "";
-        loginbutton();
-    }
-?>
     <!-- START: Page Preloader -->
 <div class="nk-preloader">
     <!--
@@ -243,10 +226,10 @@
                     <li class="active  nk-drop-item">
             <a href="index.php">
                 Home</a><ul class="dropdown">
-                        <li class="active  ">
+                        <li class="  ">
             <a href="index.php">
                 Landing</a>
-        </li><li class="  ">
+        </li><li class="active  ">
             <a href="index-main.php">
                 Main</a>
         </li><li class="  ">
@@ -809,8 +792,8 @@
         .nk-header-title-parallax-opacity
         .nk-header-title-boxed
 -->
-<div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity">
-    <div class="bg-image op-6">
+<div class="nk-header-title nk-header-title-lg nk-header-title-parallax nk-header-title-parallax-opacity">
+    <div class="bg-image">
         <img src="assets/images/image-1.jpg" alt="" class="jarallax-img">
     </div>
     <div class="nk-header-table">
@@ -824,18 +807,16 @@
                         
     <h1 class="nk-title display-3">GodLike</h1>
 
-    <div>
-        An atmospheric gaming HTML template based on Bootstrap 4
-    </div>
-
-    <div class="nk-gap-3"></div>
+    <div class="nk-gap-2"></div>
     <a href="https://themeforest.net/item/godlike-the-game-template/17166433?ref=_nK" target="_blank" class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
         <span>Purchase</span>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#demos" class="nk-btn nk-btn-lg link-effect-4">
-        <span>See Demos</span>
+    <a href="https://nkdev.info/docs/godlike-html/" class="nk-btn nk-btn-lg link-effect-4">
+        <span>Documentation</span>
     </a>
+
+    <div class="nk-gap-4"></div>
 
                     </div>
                 
@@ -851,147 +832,238 @@
         
 
         
-    <!-- START: Demos -->
-    <div class="container" id="demos">
+    <!-- START: Rev Slider -->
+    <div class="mnt-80">
+        <div id="rev_slider_50_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="photography-carousel48" style="padding:0px;">
+            <div id="rev_slider_50_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-185" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/images/gallery-3-thumb.jpg"  data-rotate="0"  data-saveperformance="off">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/images/gallery-3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-192" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/images/gallery-5-thumb.jpg"  data-rotate="0"  data-saveperformance="off">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/images/gallery-5.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-186" data-transition="slideoverhorizontal" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/images/gallery-4-thumb.jpg"  data-rotate="0"  data-saveperformance="off">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/images/gallery-4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    </li>
+                    <!-- SLIDE  -->
+                    <li data-index="rs-183" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="assets/images/gallery-1-thumb.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/images/gallery-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    </li>
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Rev Slider -->
+
+    <!-- START: Features -->
+    <div class="container">
         <div class="nk-gap-6"></div>
+        <div class="nk-gap-2"></div>
         <div class="row vertical-gap lg-gap">
-            <div class="col-md-6">
-                <div class="nk-image-box-1-a nk-no-effect">
-                    <a href="index-main.php" class="nk-image-box-link"></a>
-                    <img src="assets/images/demo-main.jpg" alt="Main Demo">
-                    <div class="nk-image-box-overlay nk-image-box-center">
-                        <div>
-                            <h3 class="nk-image-box-title h4">Main Demo</h3>
-                        </div>
+            <div class="col-md-4">
+                <div class="nk-ibox">
+                    <div class="nk-ibox-icon nk-ibox-icon-circle">
+                        <span class="ion-ios-game-controller-b"></span>
+                    </div>
+                    <div class="nk-ibox-cont">
+                        <h2 class="nk-ibox-title">Incredible Atmosphere</h2>
+                        Second Made make spirit green divide lesser creeping void and night replenish cattle don't was female first their day open.
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="nk-image-box-1-a nk-no-effect">
-                    <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                    <img src="assets/images/demo-game-promo.jpg" alt="Game Promo Demo">
-                    <div class="nk-image-box-overlay nk-image-box-center">
-                        <div>
-                            <h3 class="nk-image-box-title h4">Game Promo Demo</h3>
-                        </div>
+            <div class="col-md-4">
+                <div class="nk-ibox">
+                    <div class="nk-ibox-icon nk-ibox-icon-circle">
+                        <span class="ion-fireball"></span>
+                    </div>
+                    <div class="nk-ibox-cont">
+                        <h2 class="nk-ibox-title">Catchy Battles</h2>
+                        Image their gathered. Every. Called together signs winged, unto midst sea life air them. Us sea them shall you saw.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="nk-ibox">
+                    <div class="nk-ibox-icon nk-ibox-icon-circle">
+                        <span class="ion-ribbon-a"></span>
+                    </div>
+                    <div class="nk-ibox-cont">
+                        <h2 class="nk-ibox-title">28 Awards</h2>
+                        Moveth fruitful it appear wherein man don't firmament set blessed. Beast seas god itself. Made night image male. Own night.
                     </div>
                 </div>
             </div>
         </div>
+        <div class="nk-gap-2"></div>
         <div class="nk-gap-6"></div>
     </div>
-    <!-- END: Demos -->
+    <!-- END: Features -->
 
-    <!-- START: Demos -->
+    <!-- START: About -->
     <div class="nk-box bg-dark-1">
-        <div class="container">
+        <div class="container text-center">
             <div class="nk-gap-6"></div>
-
-            <h2 class="text-center">Additional Pages</h2>
+            <div class="nk-gap-2"></div>
+            <h2 class="nk-title h1">About The Game</h2>
             <div class="nk-gap-3"></div>
-            <div class="row vertical-gap lg-gap">
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-main.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-store.jpg" alt="Main Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Shop</h3>
-                            </div>
+
+            <p class="lead">Together face In. His called Two lesser given divide. From, cattle saying be was doesn't set. Creature bearing life wherein dominion in saying them moveth first have. Under set darkness over light beast face fill from in after isn't first own all fowl itself evening also, grass doesn't Sea. Created very likeness herb wherein from lesser was bring brought above. Bearing tree a grass very.</p>
+
+            <div class="nk-gap-2"></div>
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <div class="nk-box-2 nk-box-line">
+                        <!-- START: Counter -->
+                        <div class="nk-counter-3">
+                            <div class="nk-count">65</div>
+                            <h3 class="nk-counter-title h4">Unique Classes</h3>
+                            <div class="nk-gap-1"></div>
                         </div>
+                        <!-- END: Counter -->
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-store-single.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Product</h3>
-                            </div>
+                <div class="col-md-4">
+                    <div class="nk-box-2 nk-box-line">
+                        <!-- START: Counter -->
+                        <div class="nk-counter-3">
+                            <div class="nk-count">145</div>
+                            <h3 class="nk-counter-title h4">Epic Bosses</h3>
+                            <div class="nk-gap-1"></div>
                         </div>
+                        <!-- END: Counter -->
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-social-network.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Social Network</h3>
-                            </div>
+                <div class="col-md-4">
+                    <div class="nk-box-2 nk-box-line">
+                        <!-- START: Counter -->
+                        <div class="nk-counter-3">
+                            <div class="nk-count">35</div>
+                            <h3 class="nk-counter-title h4">Castles</h3>
+                            <div class="nk-gap-1"></div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-blog-post.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Blog Post</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-blog-grid.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Blog Grid</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-blog-list.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Blog List</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-coming-soon.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Coming Soon</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="nk-image-box-1-a nk-no-effect">
-                        <a href="index-game-promo.php" class="nk-image-box-link"></a>
-                        <img src="assets/images/demo-age-check.jpg" alt="Game Promo Demo">
-                        <div class="nk-image-box-overlay nk-image-box-center">
-                            <div>
-                                <h3 class="nk-image-box-title h4">Age Check</h3>
-                            </div>
-                        </div>
+                        <!-- END: Counter -->
                     </div>
                 </div>
             </div>
+            <div class="nk-gap-2"></div>
             <div class="nk-gap-6"></div>
         </div>
     </div>
-    <!-- END: Demos -->
+    <!-- END: About -->
+
+    <!-- START: Video -->
+    <div class="container">
+        <div class="nk-gap-6"></div>
+        <div class="nk-gap-2"></div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="nk-plain-video" data-video="https://www.youtube.com/watch?v=Wb2qjfpOeMo" data-video-thumb="assets/images/video-6-thumb.jpg"></div>
+            </div>
+        </div>
+        <div class="nk-gap-2"></div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Video -->
+
+    <!-- START: Coming Soon -->
+    <div class="nk-box bg-dark-1 text-center">
+        <div class="nk-gap-6"></div>
+        <div class="nk-gap-2"></div>
+        <div class="bg-image op-3">
+            <img src="assets/images/image-3.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="container">
+            <h2 class="display-4">GodLike II</h2>
+            <div class="nk-gap"></div>
+            <div>You don't get to be great without a victory...</div>
+            <div class="nk-gap-4"></div>
+
+            <div class="nk-countdown" data-end="2018-11-26 08:20" data-timezone="EST"></div>
+        </div>
+        <div class="nk-gap-2"></div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Coming Soon -->
+
+    <!-- START: Testimonials -->
+    <div class="nk-gap-6"></div>
+    <div class="nk-gap-2"></div>
+    <div class="nk-carousel-2" data-autoplay="12000" data-dots="true">
+        <div class="nk-carousel-inner">
+            <div><div>
+                <blockquote class="nk-testimonial-2">
+                    <div class="nk-testimonial-photo" style="background-image: url('assets/images/avatar-1-sm.jpg');"></div>
+                    <div class="nk-testimonial-body">
+                        <em>"Bring. Isn't years gathered give made moved. Waters sea forth. It. Gathered own abundantly kind can't it, lesser behold, may."</em>
+                    </div>
+                    <div class="nk-testimonial-name h4">Lesa Cruz</div>
+                    <div class="nk-testimonial-source">Frontend Developer, Google</div>
+                </blockquote>
+            </div></div>
+            <div><div>
+                <blockquote class="nk-testimonial-2">
+                    <div class="nk-testimonial-photo" style="background-image: url('assets/images/avatar-2-sm.jpg');"></div>
+                    <div class="nk-testimonial-body">
+                        <em>"Years heaven. Dominion light and every appear that creeping all. Light gathering don't given made give open, cattle was light."</em>
+                    </div>
+                    <div class="nk-testimonial-name h4">Kurt Tucker</div>
+                    <div class="nk-testimonial-source">CEO, Envato</div>
+                </blockquote>
+            </div></div>
+            <div><div>
+                <blockquote class="nk-testimonial-2">
+                    <div class="nk-testimonial-photo" style="background-image: url('assets/images/avatar-3-sm.jpg');"></div>
+                    <div class="nk-testimonial-body">
+                        <em>"Female good moving Very thing form earth, for above herb dominion for made fifth. One them. Seas. Appear fourth seas."</em>
+                    </div>
+                    <div class="nk-testimonial-name h4">Katie Anderson</div>
+                    <div class="nk-testimonial-source">Product Designer, Apple</div>
+                </blockquote>
+            </div></div>
+            <div><div>
+                <blockquote class="nk-testimonial-2">
+                    <div class="nk-testimonial-photo" style="background-image: url('assets/images/avatar-4-sm.jpg');"></div>
+                    <div class="nk-testimonial-body">
+                        <em>"Yielding be was which heaven fill fruit. You'll shall doesn't green. His divided they're of won't you isn't void cattle."</em>
+                    </div>
+                    <div class="nk-testimonial-name h4">Luke Fuller</div>
+                    <div class="nk-testimonial-source">Copywriter, Dropbox</div>
+                </blockquote>
+            </div></div>
+            <div><div>
+                <blockquote class="nk-testimonial-2">
+                    <div class="nk-testimonial-photo" style="background-image: url('assets/images/avatar-5-sm.jpg');"></div>
+                    <div class="nk-testimonial-body">
+                        <em>"God, have rule living creature own the signs. Set herb open, seed wherein god appear shall give lights. Waters to."</em>
+                    </div>
+                    <div class="nk-testimonial-name h4">Felicia Meyer</div>
+                    <div class="nk-testimonial-source">Backend Developer, Twitter</div>
+                </blockquote>
+            </div></div>
+        </div>
+    </div>
+    <div class="nk-gap-2"></div>
+    <div class="nk-gap-6"></div>
+    <!-- END: Testimonials -->
 
     <!-- START: Subscribe -->
     <div class="nk-box bg-dark-1">
+        <div class="nk-gap-6"></div>
         <div class="nk-gap-2"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                     <h2 class="nk-title text-center h1">Subscribe to our Newsletter</h2>
-                    <div class="nk-gap-2"></div>
+                    <div class="nk-gap-3"></div>
 
                     <!-- START: MailChimp Signup Form -->
                     <form action="//nkdev.us11.list-manage.com/subscribe/post?u=d433160c0c43dcf8ecd52402f&amp;id=7eafafe8f0" method="post" class="nk-mchimp validate" target="_blank">
@@ -1018,7 +1090,377 @@
 
 
         
+            <!-- START: Footer -->
+<!--
+    Additional Classes:
+        .nk-footer-parallax
+        .nk-footer-parallax-opacity
+-->
+<footer class="nk-footer nk-footer-parallax nk-footer-parallax-opacity">
+    <img class="nk-footer-top-corner" src="assets/images/footer-corner.png" alt="">
+
+    
+
+    <div class="container">
+        <div class="nk-gap-2"></div>
+        <div class="nk-footer-logos">
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-godlike.png" alt="" width="120"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-yp3.png" alt="" width="120"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-nk-team.png" alt="" width="150"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-pegi-18.png" alt="" width="46"></a>
+            <a href="https://themeforest.net/user/_nk/portfolio?ref=_nK" target="_blank"><img class="nk-img" src="assets/images/footer-logo-18-restricted.png" alt="" width="160"></a>
+        </div>
+        <div class="nk-gap"></div>
+
+        <p>
+            &copy; 2018 nK Group Inc. Developed in association with LoremInc. IpsumCompany, SitAmmetGroup, CumSit and related logos are registered trademarks. GodLike and related logos are registered trademarks or trademarks of id Software LLC in the U.S. and/or other countries. All other trademarks or trade names are the property of their respective owners. All Rights Reserved.
+        </p>
+        <p>
+            GodLike &reg;: The Darkness&trade; is a fowl beginning there Over had moveth so land wherein, fruit very gathering of, female creepeth. Dominion above sea gathered unto whales. Subdue to, have Life fowl firmament wherein. Great air without for, great him he That let earth together thing sea fly gathering. Air whose. Green in face tree to spirit life. Place stars. It two. Deep seed man isn't third. Own he is may had darkness waters you'll forth fifth their don't also fruitful be years in spirit to tree. Sixth fourth open female.
+        </p>
+
+        <div class="nk-footer-links">
+            <a href="#" class="link-effect">Terms of Service</a> <span>|</span> <a href="#" class="link-effect">Privacy Policy</a>
+        </div>
+
+        <div class="nk-gap-4"></div>
+    </div>
+</footer>
+<!-- END: Footer -->
+
+        
+    </div>
+
+    
+
+    <!--
+    START: Share Buttons
+        .nk-share-buttons-left
+-->
+<div class="nk-share-buttons nk-share-buttons-left d-none d-md-flex">
+    <ul>
+        <li>
+            <span class="nk-share-icon" title="Share page on Facebook" data-share="facebook">
+                <span class="icon fa fa-facebook"></span>
+            </span>
+            <span class="nk-share-name">Facebook</span>
+        </li>
+        <li>
+            <span class="nk-share-icon" title="Share page on Twitter" data-share="twitter">
+                <span class="icon fa fa-twitter"></span>
+            </span>
+            <span class="nk-share-name">Twitter</span>
+        </li>
+        <li>
+            <span class="nk-share-icon" title="Share page on Google+" data-share="google-plus">
+                <span class="icon fa fa-google-plus"></span>
+            </span>
+            <span class="nk-share-name">Google Plus</span>
+        </li>
+        <!--
+        <li>
+            <span class="nk-share-icon" title="Share page on Pinterest" data-share="pinterest">
+                <span class="icon fa fa-pinterest"></span>
+            </span>
+            <span class="nk-share-name">Pinterest</span>
+        </li>
+        <li>
+            <span class="nk-share-icon" title="Share page on LinkedIn" data-share="linkedin">
+                <span class="icon fa fa-linkedin"></span>
+            </span>
+            <span class="nk-share-name">LinkedIn</span>
+        </li>
+        <li>
+            <span class="nk-share-icon" title="Share page on VK" data-share="vk">
+                <span class="icon fa fa-vk"></span>
+            </span>
+            <span class="nk-share-name">Vkontakte</span>
+        </li>
+        -->
+    </ul>
+</div>
+
+
+    <!--
+    START: Side Buttons
+        .nk-side-buttons-visible
+-->
+<div class="nk-side-buttons nk-side-buttons-visible">
+    <ul>
+        <li>
+            <a href="https://nkdev.info" target="_blank" class="nk-btn nk-btn-lg link-effect-4">Keep in Touch</a>
+        </li>
+        <li>
+            <span class="nk-btn nk-btn-lg nk-btn-icon nk-bg-audio-toggle">
+                <span class="icon">
+                    <span class="ion-android-volume-up nk-bg-audio-pause-icon"></span>
+                    <span class="ion-android-volume-off nk-bg-audio-play-icon"></span>
+                </span>
+            </span>
+        </li>
+        <li class="nk-scroll-top">
+            <span class="nk-btn nk-btn-lg nk-btn-icon">
+                <span class="icon ion-ios-arrow-up"></span>
+            </span>
+        </li>
+    </ul>
+</div>
+<!-- END: Side Buttons -->
+
+
+    
+        <!--
+    START: Search
+
+    Additional Classes:
+        .nk-search-light
+-->
+<div class="nk-search">
+    <div class="container">
+        <form action="#">
+            <fieldset class="form-group nk-search-field">
+                <input type="text" class="form-control" id="searchInput" placeholder="Search..." name="s">
+                <label for="searchInput"><i class="ion-ios-search"></i></label>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!-- END: Search -->
+
+    
+
+    
+        <!--
+    START: Shopping Cart
+
+    Additional Classes:
+        .nk-cart-light
+-->
+<div class="nk-cart">
+    <div class="nk-gap-2"></div>
+    <div class="container">
+        <div class="nk-store nk-store-cart">
+            <div class="table-responsive">
+                <table class="table nk-store-cart-products">
+                    <tbody>
+                        
+                            <tr>
+                                <td class="nk-product-cart-thumb">
+                                    <a href="store-product.php" class="nk-post-image">
+                                        <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
+                                    </a>
+                                </td>
+                                <td class="nk-product-cart-title">
+                                    <h2 class="nk-post-title h5">
+                                        <a href="store-product.php">Men Tshirt</a>
+                                    </h2>
+                                </td>
+                                <td class="nk-product-cart-price">$67.00</td>
+                                <td class="nk-product-cart-quantity">
+                                    1
+                                </td>
+                                <td class="nk-product-cart-total">
+                                    $67.00
+                                </td>
+                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                            </tr>
+                        
+                            <tr>
+                                <td class="nk-product-cart-thumb">
+                                    <a href="store-product.php" class="nk-post-image">
+                                        <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
+                                    </a>
+                                </td>
+                                <td class="nk-product-cart-title">
+                                    <h2 class="nk-post-title h5">
+                                        <a href="store-product.php">Men Hoodie</a>
+                                    </h2>
+                                </td>
+                                <td class="nk-product-cart-price">$125.00 <del>$145.00</del></td>
+                                <td class="nk-product-cart-quantity">
+                                    2
+                                </td>
+                                <td class="nk-product-cart-total">
+                                    $250.00
+                                </td>
+                                <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="nk-gap-2"></div>
+            <div class="nk-cart-total">
+                Total <span>$317</span>
+            </div>
+
+            <div class="nk-gap-3"></div>
+            <div class="nk-cart-btns">
+                <a href="#" class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
+                    Go to Checkout
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="nk-btn nk-btn-lg link-effect-4 nk-cart-toggle">
+                    Continue Shopping
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="nk-gap-5"></div>
+</div>
+<!-- END: Shopping Cart -->
+
+    
+
+    
+        <!--
+    START: Sign Form
+
+    Additional Classes:
+        .nk-sign-form-light
+-->
+<div class="nk-sign-form">
+    <div class="nk-gap-5"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+                <div class="nk-sign-form-container">
+                    <div class="nk-sign-form-toggle h3">
+                        <a href="#" class="nk-sign-form-login-toggle active">Log In</a>
+                        <a href="#" class="nk-sign-form-register-toggle">Register</a>
+                    </div>
+                    <div class="nk-gap-2"></div>
+
+                    <!-- START: Login Form -->
+                    <form class="nk-sign-form-login active" action="#">
+                        <input class="form-control" type="text" placeholder="Username or Email">
+                        <div class="nk-gap-2"></div>
+
+                        <input class="form-control" type="password" placeholder="Password">
+                        <div class="nk-gap-2"></div>
+
+                        <div class="form-check float-left">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                Remember Me
+                            </label>
+                        </div>
+                        <button class="nk-btn nk-btn-color-white link-effect-4 float-right">Log In</button>
+
+                        <div class="clearfix"></div>
+                        <div class="nk-gap-1"></div>
+                        <a class="nk-sign-form-lost-toggle float-right" href="#">Lost Password?</a>
+                    </form>
+                    <!-- END: Login Form -->
+
+                    <!-- START: Lost Password Form -->
+                    <form class="nk-sign-form-lost" action="#">
+                        <input class="form-control" type="text" placeholder="Username or Email">
+                        <div class="nk-gap-2"></div>
+
+                        <button class="nk-btn nk-btn-color-white link-effect-4 float-right">Get New Password</button>
+                    </form>
+                    <!-- END: Lost Password Form -->
+
+                    <!-- START: Register Form -->
+                    <form class="nk-sign-form-register" action="#">
+                        <input class="form-control" type="text" placeholder="Username">
+                        <div class="nk-gap-2"></div>
+
+                        <input class="form-control" type="email" placeholder="Email">
+                        <div class="nk-gap-2"></div>
+
+                        <div class="float-left">A password will be emailed to you.</div>
+                        <button class="nk-btn nk-btn-color-white link-effect-4 float-right">Register</button>
+                    </form>
+                    <!-- END: Register Form -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nk-gap-5"></div>
+</div>
+<!-- END: Sign Form -->
+
+    
+
+    
+<!-- START: Scripts -->
+
+<!-- Object Fit Polyfill -->
+<script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+
+<!-- GSAP -->
+<script src="assets/vendor/gsap/src/minified/TweenMax.min.js"></script>
+<script src="assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+
+<!-- Popper -->
+<script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Sticky Kit -->
+<script src="assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+
+<!-- Jarallax -->
+<script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+<script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+
+<!-- imagesLoaded -->
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+<!-- Flickity -->
+<script src="assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
+
+<!-- Isotope -->
+<script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+
+<!-- Photoswipe -->
+<script src="assets/vendor/photoswipe/dist/photoswipe.min.js"></script>
+<script src="assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+<!-- Typed.js -->
+<script src="assets/vendor/typed.js/lib/typed.min.js"></script>
+
+<!-- Jquery Validation -->
+<script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+<!-- Jquery Countdown + Moment -->
+<script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="assets/vendor/moment/min/moment.min.js"></script>
+<script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+
+<!-- Hammer.js -->
+<script src="assets/vendor/hammerjs/hammer.min.js"></script>
+
+<!-- NanoSroller -->
+<script src="assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js"></script>
+
+<!-- SoundManager2 -->
+<script src="assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+
+<!-- DateTimePicker -->
+<script src="assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+
+<!-- Revolution Slider -->
+<script src="assets/vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="assets/vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+
+<!-- Keymaster -->
+<script src="assets/vendor/keymaster/keymaster.js"></script>
+
+<!-- Summernote -->
+<script src="assets/vendor/summernote/dist/summernote-bs4.min.js"></script>
+
+<!-- GODLIKE -->
 <?php include 'footer.php'; ?>
+
+<!-- END: Scripts -->
 
 
     

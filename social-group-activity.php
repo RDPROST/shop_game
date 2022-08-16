@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="_nK">
-    <title>GODLIKE | Social Network - Activity</title>
+    <title>GODLIKE | Social Network - Group Activity</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
     <!-- START: Styles -->
@@ -484,10 +484,10 @@
         </li><li class="active  nk-drop-item">
             <a href="social-user-activity.php">
                 Social</a><ul class="dropdown">
-                        <li class="active  nk-drop-item">
+                        <li class="  nk-drop-item">
             <a href="social-user-activity.php">
                 User</a><ul class="dropdown">
-                        <li class="active  ">
+                        <li class="  ">
             <a href="social-user-activity.php">
                 Activity</a>
         </li><li class="  ">
@@ -513,10 +513,10 @@
                 Settings Email</a>
         </li>
                     </ul>
-        </li><li class="  nk-drop-item">
+        </li><li class="active  nk-drop-item">
             <a href="social-group-activity.php">
                 Group</a><ul class="dropdown">
-                        <li class="  ">
+                        <li class="active  ">
             <a href="social-group-activity.php">
                 Activity</a>
         </li><li class="  ">
@@ -790,9 +790,9 @@
         .nk-header-title-parallax-opacity
         .nk-header-title-boxed
 -->
-<div class="nk-header-title nk-header-title-sm nk-header-title-parallax nk-header-title-parallax-opacity">
-    <div class="bg-image op-5">
-        <img src="assets/images/image-5.jpg" alt="" class="jarallax-img">
+<div class="nk-header-title nk-header-title-parallax nk-header-title-parallax-opacity">
+    <div class="bg-image op-9">
+        <img src="assets/images/image-1.jpg" alt="" class="jarallax-img">
     </div>
     <div class="nk-header-table">
         <div class="nk-header-table-cell">
@@ -819,19 +819,32 @@
         <div class="col-md-5 col-lg-3">
             <div class="nk-social-profile-avatar">
                 <a href="#">
-                    <img src="assets/images/avatar-1.jpg" alt="nK">
+                    <img src="assets/images/avatar-4.jpg" alt="Game Lovers">
                 </a>
             </div>
         </div>
         <div class="col-md-7 col-lg-9">
             <div class="nk-social-profile-info">
                 <div class="nk-gap-2"></div>
-                <div class="nk-social-profile-info-last-seen">last seen 2 hours ago</div>
-                <h1 class="nk-social-profile-info-name">nK</h1>
-                <div class="nk-social-profile-info-username">@nkdevv</div>
+                <div class="nk-social-profile-info-last-seen">created 18 days ago</div>
+                <h1 class="nk-social-profile-info-name">Game Lovers</h1>
+                <div class="nk-social-profile-info-admins">
+                    <h2>Group Admins:</h2>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nk-social-profile-info-username">Public Group</div>
                 <div class="nk-social-profile-info-actions">
-                    <a href="#" class="nk-btn link-effect-4">Add Friend</a>
-                    <a href="#" class="nk-btn link-effect-4">Leave Message</a>
+                    <a href="#" class="nk-btn link-effect-4">Join Group</a>
+                </div>
+                <div class="nk-social-profile-info-description">
+                    Have created Darkness she'd deep night Isn't and blessed day brought be female don't spirit won't sea so them image you be whales bring stars good thing bearing. Darkness blessed creeping moved.
                 </div>
             </div>
         </div>
@@ -855,26 +868,17 @@
 <div class="nk-social-menu d-none d-lg-block">
     <ul>
         <li class="active">
-    <a href="social-user-activity.php">
+    <a href="social-group-activity.php">
         Activity</a>
-</li><li class="">
-    <a href="social-user-notifications.php">
-        Notifications</a>
-</li><li class="">
-    <a href="social-user-messages.php">
-        Messages<span class="nk-badge">192</span></a>
-</li><li class="">
-    <a href="social-user-friends.php">
-        Friends<span class="nk-badge">19</span></a>
-</li><li class="">
-    <a href="social-user-groups.php">
-        Groups<span class="nk-badge">2</span></a>
 </li><li class="">
     <a href="forum.php">
         Forum</a>
 </li><li class="">
-    <a href="social-user-settings.php">
-        Settings</a>
+    <a href="social-group-members.php">
+        Members<span class="nk-badge">129</span></a>
+</li><li class="">
+    <a href="social-group-manage.php">
+        Manage</a>
 </li>
     </ul>
 </div>
@@ -890,32 +894,24 @@
             <div class="nk-social-menu">
                 <ul>
                     <li class="active">
-    <a href="social-user-activity.php">
+    <a href="social-group-activity.php">
         Activity</a>
-</li><li class="">
-    <a href="social-user-notifications.php">
-        Notifications</a>
-</li><li class="">
-    <a href="social-user-messages.php">
-        Messages<span class="nk-badge">192</span></a>
-</li><li class="">
-    <a href="social-user-friends.php">
-        Friends<span class="nk-badge">19</span></a>
-</li><li class="">
-    <a href="social-user-groups.php">
-        Groups<span class="nk-badge">2</span></a>
 </li><li class="">
     <a href="forum.php">
         Forum</a>
 </li><li class="">
-    <a href="social-user-settings.php">
-        Settings</a>
+    <a href="social-group-members.php">
+        Members<span class="nk-badge">129</span></a>
+</li><li class="">
+    <a href="social-group-manage.php">
+        Manage</a>
 </li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
                 <div class="nk-gap-4 d-none d-lg-block"></div>
             </aside>
             <!-- END: Sidebar -->
@@ -924,20 +920,8 @@
             <div class="nk-gap-2 d-none d-lg-block"></div>
             <div class="nk-social-menu-inline">
                 <ul>
-                    <li class="active">
-                        <a href="#">Personal</a>
-                    </li>
                     <li>
-                        <a href="#">Mentions</a>
-                    </li>
-                    <li>
-                        <a href="#">Favorites</a>
-                    </li>
-                    <li>
-                        <a href="#">Friends</a>
-                    </li>
-                    <li>
-                        <a href="#">Groups</a>
+                        <a href="#">RSS</a>
                     </li>
                 </ul>
             </div>
@@ -948,12 +932,10 @@
                     <select id="activity-filter-by" class="form-control">
                         <option value="-1">— Everything —</option>
                         <option value="activity_update">Updates</option>
-                        <option value="friendship_accepted,friendship_created">Friendships</option>
-                        <option value="created_group">New Groups</option>
                         <option value="joined_group">Group Memberships</option>
                         <option value="group_details_updated">Group Updates</option>
-                        <option value="new_blog_post">Posts</option>
-                        <option value="new_blog_comment">Comments</option>
+                        <option value="topics">Topics</option>
+                        <option value="replies">Replies</option>
                     </select>
                 </form>
                 <div class="nk-gap"></div>
@@ -967,7 +949,7 @@
                         </div>
                         <div class="nk-social-activity-content">
                             <form action="#">
-                                <textarea class="form-control" placeholder="What's new, nK?" rows="4"></textarea>
+                                <textarea class="form-control" placeholder="What's new in Game Lovers, nK?" rows="4"></textarea>
                                 <div class="nk-gap"></div>
                                 <button class="nk-btn link-effect-4 float-right">Post Update</button>
                             </form>
@@ -982,7 +964,7 @@
                         </div>
                         <div class="nk-social-activity-content">
                             <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> posted an update <a href="#" class="nk-social-activity-meta-time">3 days ago</a>
+                                <a href="#">nK</a> posted an update in the group <a href="#"><img src="assets/images/avatar-4-sm.jpg" alt="Game Lovers"></a> <a href="#">Game Lovers</a> <a href="#" class="nk-social-activity-meta-time">3 days ago</a>
                             </div>
                             <div class="nk-social-activity-text">
                                 <a href="#" class="nk-social-activity-mention">@john</a> out particular sympathize not favourable introduced insipidity but ham?
@@ -1089,7 +1071,7 @@
                         </div>
                         <div class="nk-social-activity-content">
                             <div class="nk-social-activity-meta">
-                                <a href="#">Mary</a> posted a new activity comment <a href="#" class="nk-social-activity-meta-time">6 days ago</a>
+                                <a href="#">Mary</a> posted an update in the group <a href="#"><img src="assets/images/avatar-4-sm.jpg" alt="Game Lovers"></a> <a href="#">Game Lovers</a> <a href="#" class="nk-social-activity-meta-time">6 days ago</a>
                             </div>
                             <div class="nk-social-activity-text">
                                 Wrong do point avoid by fruit learn or in death. So passage however besides invited comfort elderly be me. Walls began of child civil am heard hoped my. Satisfied pretended mr on do determine by. Old post took and ask seen fact rich. Man entrance settling believed eat joy. Money as drift begin on to. Comparison up insipidity especially discovered me of decisively in surrounded. Points six way enough she its father. Folly sex downs tears ham green forty.
@@ -1115,7 +1097,7 @@
                         </div>
                         <div class="nk-social-activity-content">
                             <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> posted a new activity comment <a href="#" class="nk-social-activity-meta-time">7 days ago</a>
+                                <a href="#">nK</a> posted an update in the group <a href="#"><img src="assets/images/avatar-4-sm.jpg" alt="Game Lovers"></a> <a href="#">Game Lovers</a> <a href="#" class="nk-social-activity-meta-time">7 days ago</a>
                             </div>
                             <div class="nk-social-activity-text">
                                 Throwing consider dwelling bachelor joy her proposal laughter
@@ -1137,11 +1119,11 @@
                     <!-- START: post -->
                     <li>
                         <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
+                            <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a>
                         </div>
                         <div class="nk-social-activity-content">
                             <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> and <a href="#"><img src="assets/images/avatar-3-sm.jpg" alt="Mary"></a> <a href="#">Mary</a> are now friends <a href="#" class="nk-social-activity-meta-time">16 days ago</a>
+                                <a href="#">Mary</a> joined the group <a href="#"><img src="assets/images/avatar-4-sm.jpg" alt="Game Lovers"></a> <a href="#">Game Lovers</a> <a href="#" class="nk-social-activity-meta-time">16 days ago</a>
                             </div>
                             <div class="nk-social-activity-actions">
                                 <span class="nk-action-heart">
@@ -1160,11 +1142,11 @@
                     <!-- START: post -->
                     <li>
                         <div class="nk-social-activity-avatar">
-                            <a href="#"><img src="assets/images/avatar-1-sm.jpg" alt="nK"></a>
+                            <a href="#"><img src="assets/images/avatar-2-sm.jpg" alt="John"></a>
                         </div>
                         <div class="nk-social-activity-content">
                             <div class="nk-social-activity-meta">
-                                <a href="#">nK</a> and <a href="#"><img src="assets/images/avatar-2-sm.jpg" alt="John"></a> <a href="#">John</a> are now friends <a href="#" class="nk-social-activity-meta-time">23 days ago</a>
+                                <a href="#">John</a> joined the group <a href="#"><img src="assets/images/avatar-4-sm.jpg" alt="Game Lovers"></a> <a href="#">Game Lovers</a> <a href="#" class="nk-social-activity-meta-time">23 days ago</a>
                             </div>
                             <div class="nk-social-activity-actions">
                                 <span class="nk-action-heart">
