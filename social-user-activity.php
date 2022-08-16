@@ -930,41 +930,7 @@ Additional Classes:
                                     Menu
                                 </a>
                             </div>
-                            <div id="nk-social-menu-mobile-1" class="panel-collapse collapse" role="tabpanel"
-                                 aria-labelledby="nk-social-menu-mobile-1-heading">
-                                <div class="nk-social-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="social-user-activity.php">
-                                                Activity</a>
-                                        </li>
-                                        <li>
-                                            <a href="orders.php">
-                                                Notifications</a>
-                                        </li>
-                                        <li>
-                                            <a href="social-user-messages.php">
-                                                Messages<span class="nk-badge">192</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="social-user-friends.php">
-                                                Friends<span class="nk-badge">19</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="social-user-groups.php">
-                                                Groups<span class="nk-badge">2</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="forum.php">
-                                                Forum</a>
-                                        </li>
-                                        <li>
-                                            <a href="social-user-settings.php">
-                                                Settings</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <?php include 'profile-sidebar-mobile.php'; ?>
                         </div>
                     </div>
                     <div class="nk-gap-4 d-none d-lg-block"></div>
