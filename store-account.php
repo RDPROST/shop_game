@@ -903,7 +903,7 @@ Additional Classes:
                     <div class="nk-store-account-links">
                         <ul>
                             <li><a href="#">Dashboard</a></li>
-                            <li class="active"><a href="#">Orders</a></li>
+                            <li><a href="#">Orders</a></li>
                             <li><a href="#">Downloads</a></li>
                             <li><a href="#">Addresses</a></li>
                             <li><a href="#">Account Details</a></li>

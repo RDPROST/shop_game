@@ -958,19 +958,19 @@ Additional Classes:
 
                     <div class="nk-social-menu d-none d-lg-block">
                         <ul>
-                            <li class="">
+                            <li>
                                 <a href="social-group-activity.php">
                                     Activity</a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a href="forum.php">
                                     Forum</a>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="social-group-members.php">
                                     Members<span class="nk-badge">129</span></a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a href="social-group-manage.php">
                                     Manage</a>
                             </li>
@@ -991,19 +991,19 @@ Additional Classes:
                                  aria-labelledby="nk-social-menu-mobile-1-heading">
                                 <div class="nk-social-menu">
                                     <ul>
-                                        <li class="">
+                                        <li>
                                             <a href="social-group-activity.php">
                                                 Activity</a>
                                         </li>
-                                        <li class="">
+                                        <li>
                                             <a href="forum.php">
                                                 Forum</a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="social-group-members.php">
                                                 Members<span class="nk-badge">129</span></a>
                                         </li>
-                                        <li class="">
+                                        <li>
                                             <a href="social-group-manage.php">
                                                 Manage</a>
                                         </li>
