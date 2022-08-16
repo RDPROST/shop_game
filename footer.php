@@ -254,15 +254,12 @@ Additional Classes:
 
                     <!-- START: Login Form -->
                     <?php
-                    require 'steamauth/steamauth.php';
-                    require 'steamauth/userInfo.php';
 
                     if (isset($_SESSION['steamid'])) {
                         $steamid = $_SESSION['steamid'];
                         $steamprofile = $_SESSION['steam_personaname'];
                         $steamavatar = $_SESSION['steam_avatarfull'];
                         $steam_profile = "http://steamcommunity.com/profiles/" . $steamid;
-                        logoutbutton();
                     } else {
                         $steamid = "";
                         $steamprofile = "";
