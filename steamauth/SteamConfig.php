@@ -1,7 +1,7 @@
 <?php
 //Version 4.0
-$steamauth['apikey'] = "F8904C57CE32A6AC1A32358B4448711C"; // Your Steam WebAPI-Key found at https://steamcommunity.com/dev/apikey
-$steamauth['domainname'] = "http://idanamedi.fun/"; // The main URL of your website displayed in the login page
+$steamauth['apikey'] = "B2D051941A8836BB13B369850D932093"; // Your Steam WebAPI-Key found at https://steamcommunity.com/dev/apikey
+$steamauth['domainname'] = "https://idanamedi.fun/"; // The main URL of your website displayed in the login page
 $steamauth['logoutpage'] = "/"; // Page to redirect to after a successfull logout (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 $steamauth['loginpage'] = "/"; // Page to redirect to after a successfull login (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 
