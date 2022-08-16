@@ -7,11 +7,8 @@ function logoutbutton()
     echo "<form action='' method='get'><button name='logout' type='submit'>Logout</button></form>"; //logout button
 }
 
-function loginbutton($buttonstyle = "square")
+function loginbutton()
 {
-    $button['rectangle'] = "01";
-    $button['square'] = "02";
-//	$button = "<a href='?login'><img src='https://steamcommunity-a.akamaihd.net/public/images/signinthroughsteam/sits_".$button[$buttonstyle].".png'></a>";
     $button = "<a href='?login' class='nk-btn nk-btn-color-white link-effect-4' style='width: 100%'>Log In Steam</a>";
     echo $button;
 }
@@ -71,7 +68,3 @@ if (isset($_GET['update'])) {
     header('Location: ' . $_SERVER['PHP_SELF']);
     exit;
 }
-
-// Version 4.0
-
-?>

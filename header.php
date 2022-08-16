@@ -1,7 +1,6 @@
 <?php
 require 'steamauth/steamauth.php';
 require 'steamauth/userInfo.php';
-
 ?>
 <!-- START: Page Preloader -->
 <div class="nk-preloader">
