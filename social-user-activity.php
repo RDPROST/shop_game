@@ -812,7 +812,15 @@
 
         
 
-        
+        <?php
+        require 'steamauth/SteamConfig.php';
+        echo "<pre>";
+        print_r($steamauth);
+        echo "</pre>";
+        echo "<pre>";
+        print_r($_SESSION);
+        echo "</pre>";
+        ?>
 <div class="container">
     <div class="nk-social-profile nk-social-profile-container-offset">
     <div class="row">
