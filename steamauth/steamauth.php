@@ -20,6 +20,13 @@ if (isset($_GET['login'])) {
                 preg_match($ptn, $id, $matches);
 
                 $_SESSION['steamid'] = $matches[1];
+                $conn = new mysqli($GLOBALS['hostname'], $GLOBALS['username'], $GLOBALS['password'], $GLOBALS['database'], $GLOBALS['port']);
+
+                $user = $conn->query("SELECT * FROM users WHERE SteamId = '$_SESSION[steamid]'");
+                if ($user->num_rows == 0) {
+                    $conn->query("INSERT INTO users (SteamId, Rights, `Rank`) VALUES ('$_SESSION[steamid]', 'user', 0)");
+                }
+
                 if (!headers_sent()) {
                     header('Location: ' . $steamauth['loginpage']);
                     exit;

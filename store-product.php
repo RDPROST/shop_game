@@ -117,7 +117,7 @@ data-video-start-time - video start time in seconds
 data-video-end-time - video end time in seconds
 data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true"
+<div class="nk-page-background op-5" data-video="https://youtu.be/4dd9R9dWYnQ" data-video-loop="true"
      data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0"
      data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
 <!-- END: Page Background -->
@@ -683,19 +683,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                     </li>
 
 
-                    <li class="single-icon">
-                        <a href="#" class="nk-cart-toggle no-link-effect">
-                            <span class="nk-icon-toggle">
-                                <span class="nk-icon-toggle-front">
-                                    <span class="ion-android-cart"></span>
-                                    <span class="nk-badge">8</span>
-                                </span>
-                                <span class="nk-icon-toggle-back">
-                                    <span class="nk-icon-close"></span>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+                    <?php include 'include/cart-counter.php'; ?>
 
 
                     <li class="single-icon">
@@ -871,7 +859,12 @@ Additional Classes:
 
 
 <div class="nk-main">
-
+    <?php
+        $id = $_GET['id'];
+        $sql = "SELECT * FROM products WHERE id = $id";
+        $result = $conn->query($sql);
+        $row = $result->fetch_assoc();
+    ?>
 
     <div class="container">
         <div class="nk-gap-4"></div>
@@ -881,83 +874,46 @@ Additional Classes:
                     <!-- START: Product Photos Carousel -->
                     <div class="nk-carousel-3" data-size="1">
                         <div class="nk-carousel-inner nk-popup-gallery">
-
-                            <div>
-                                <div>
-                                    <a href="assets/images/product-4.png" class="nk-gallery-item"
-                                       data-size="780x990"><img src="assets/images/product-4-sm.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <a href="assets/images/product-4-blue.png" class="nk-gallery-item"
-                                       data-size="780x990"><img src="assets/images/product-4-blue-sm.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <a href="assets/images/product-4-green.png" class="nk-gallery-item"
-                                       data-size="780x990"><img src="assets/images/product-4-green-sm.png" alt=""></a>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <a href="assets/images/product-4-orange.png" class="nk-gallery-item"
-                                       data-size="780x990"><img src="assets/images/product-4-orange-sm.png" alt=""></a>
-                                </div>
-                            </div>
+                            <?php
+                                $row['Images'] = explode(';', $row['Images']);
+                                foreach ($row['Images'] as $image) {
+                            ?>
+                                    <div>
+                                        <div>
+                                            <a href="assets/images/<?php echo $image;?>" class="nk-gallery-item"
+                                               ><img src="assets/images/<?php echo $image;?>" alt=""></a>
+                                        </div>
+                                    </div>
+                            <?php
+                                }
+                            ?>
 
                         </div>
                     </div>
                     <!-- END: Product Photos Carousel -->
                 </div>
+
+
                 <div class="col-md-7">
-                    <h2 class="nk-product-title">Men Hoodie</h2>
+                    <h2 class="nk-product-title"><?php echo $row["Name"];?></h2>
 
                     <div class="nk-product-description">
-                        <p>And gathering. Form for, gathering, female you'll blessed appear day us cattle hath be moving
-                            face he Whales fruitful is spirit Beginning. Abundantly good living Thing isn't stars saw
-                            over and earth dry rule herb bring image night, fowl their, third set saw for.</p>
-                    </div>
-
-                    <div class="nk-product-size">
-                        <h4 class="h5">Size</h4>
-                        <div class="nk-size-selector">
-                            <input id="product-size-s" type="radio" name="product-size" value="S">
-                            <label for="product-size-s">S</label>
-
-                            <input id="product-size-m" type="radio" name="product-size" value="M" checked>
-                            <label for="product-size-m">M</label>
-
-                            <input id="product-size-l" type="radio" name="product-size" value="L">
-                            <label for="product-size-l">L</label>
-
-                            <input id="product-size-xl" type="radio" name="product-size" value="XL">
-                            <label for="product-size-xl">XL</label>
-                        </div>
+                        <p><?php echo $row["Description"];?></p>
                     </div>
 
                     <div class="nk-product-color">
                         <h4 class="h5">Color</h4>
                         <div class="nk-color-selector">
-                            <input id="product-color-black" type="radio" name="product-color" value="black" checked>
-                            <label for="product-color-black"
-                                   style="background-color: #3A3A3A; color: #3A3A3A;">black</label>
-
-                            <input id="product-color-blue" type="radio" name="product-color" value="blue">
-                            <label for="product-color-blue"
-                                   style="background-color: #558dc8; color: #558dc8;">blue</label>
-
-                            <input id="product-color-green" type="radio" name="product-color" value="green">
-                            <label for="product-color-green"
-                                   style="background-color: #48ac55; color: #48ac55;">green</label>
-
-                            <input id="product-color-orange" type="radio" name="product-color" value="orange">
-                            <label for="product-color-orange"
-                                   style="background-color: #c89355; color: #c89355;">orange</label>
+                            <?php
+                            $row["Colors"] = explode(",", $row["Colors"]);
+                            foreach ($row["Colors"] as $color) {
+                                ?>
+                                <input id="product-color-<?php echo $color;?>" type="radio" name="product-color" value="<?php echo $color;?>">
+                                <label for="product-color-<?php echo $color;?>"
+                                       style="background-color: <?php echo $color;?>; color: <?php echo $color;?>;">black</label>
+                                <?php
+                            }
+                            ?>
                         </div>
                     </div>
 
@@ -966,7 +922,7 @@ Additional Classes:
                             <input type="number" min="1" max="14" name="quantity" value="1" class="form-control">
                         </div>
                         <button class="nk-btn nk-btn-x2 link-effect-4">Add to Cart</button>
-                        <span class="nk-product-price">$125.00 <del>$145.00</del></span>
+                        <span class="nk-product-price">&#8381;<?php echo $row["Price"];?>.00 <del>$145.00</del></span>
                     </form>
                 </div>
             </div>
@@ -979,9 +935,6 @@ Additional Classes:
                         <a class="nav-link active" href="#tab-description" role="tab" data-toggle="tab">Description</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tab-parameters" role="tab" data-toggle="tab">Parameters</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#tab-reviews" role="tab" data-toggle="tab">Reviews <small>(3)</small></a>
                     </li>
                 </ul>
@@ -992,70 +945,10 @@ Additional Classes:
                     <div role="tabpanel" class="tab-pane fade show active" id="tab-description">
                         <div class="nk-gap-3"></div>
                         <div class="nk-box-3 bg-dark-1">
-                            <p>And gathering. Form for, gathering, female you'll blessed appear day us cattle hath be
-                                moving face he Whales fruitful is spirit Beginning. Abundantly good living Thing isn't
-                                stars saw over and earth dry rule herb bring image night, fowl their, third set saw for.
-                                Green a also upon life stars, green and darkness greater.</p>
-                            <p>The light two his moving won't a kind unto they're sea sea subdue fowl light male forth
-                                second beginning. Saying seas signs. Seed brought air grass. Divided Meat god subdue
-                                own. He. Female form very cattle man i sixth. Beast living darkness open god bring image
-                                divide. Third which.</p>
-                            <p>He. Herb created. Beginning. Gathering given our winged sea Two is image us life from
-                                seed so darkness and his replenish they're There, creature isn't divide face replenish
-                                creature. His gathered midst brought divided land without face were, midst multiply.</p>
-                            <p>Place and the unto itself image also. Night earth good also gathered forth man cattle
-                                very open. Unto fill is. Midst together of, it you're own He sea fifth day moving spirit
-                                can't meat heaven fowl fruit isn't called fruitful made earth also. Him fourth upon To
-                                upon fill face. Also earth light shall also green. Grass.</p>
+                            <?php echo $row["Description"];?>
                         </div>
                     </div>
                     <!-- END: Tab Description -->
-
-                    <!-- START: Tab Parameters -->
-                    <div role="tabpanel" class="tab-pane fade" id="tab-parameters">
-                        <div class="nk-gap-3"></div>
-                        <div class="nk-box-3 bg-dark-1">
-                            <table class="table table-bordered">
-                                <tr>
-                                    <td>Brand</td>
-                                    <td>Welder</td>
-                                </tr>
-                                <tr>
-                                    <td>SKU</td>
-                                    <td>S18-9247</td>
-                                </tr>
-                                <tr>
-                                    <td>Material Type</td>
-                                    <td>Mineral</td>
-                                </tr>
-                                <tr>
-                                    <td>Display Type</td>
-                                    <td>Analog</td>
-                                </tr>
-                                <tr>
-                                    <td>Case Material</td>
-                                    <td>Stainless Steel</td>
-                                </tr>
-                                <tr>
-                                    <td>Case Diameter</td>
-                                    <td>50mm</td>
-                                </tr>
-                                <tr>
-                                    <td>Band Material</td>
-                                    <td>Rubber</td>
-                                </tr>
-                                <tr>
-                                    <td>Band width</td>
-                                    <td>23mm</td>
-                                </tr>
-                                <tr>
-                                    <td>Movement</td>
-                                    <td>Quartz</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <!-- END: Tab Parameters -->
 
                     <!-- START: Tab Reviews -->
                     <div role="tabpanel" class="tab-pane fade" id="tab-reviews">
@@ -1822,75 +1715,7 @@ Additional Classes:
 <div class="nk-cart">
     <div class="nk-gap-2"></div>
     <div class="container">
-        <div class="nk-store nk-store-cart">
-            <div class="table-responsive">
-                <table class="table nk-store-cart-products">
-                    <tbody>
-
-                    <tr>
-                        <td class="nk-product-cart-thumb">
-                            <a href="store-product.php" class="nk-post-image">
-                                <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
-                            </a>
-                        </td>
-                        <td class="nk-product-cart-title">
-                            <h2 class="nk-post-title h5">
-                                <a href="store-product.php">Men Tshirt</a>
-                            </h2>
-                        </td>
-                        <td class="nk-product-cart-price">$67.00</td>
-                        <td class="nk-product-cart-quantity">
-                            1
-                        </td>
-                        <td class="nk-product-cart-total">
-                            $67.00
-                        </td>
-                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                    </tr>
-
-                    <tr>
-                        <td class="nk-product-cart-thumb">
-                            <a href="store-product.php" class="nk-post-image">
-                                <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
-                            </a>
-                        </td>
-                        <td class="nk-product-cart-title">
-                            <h2 class="nk-post-title h5">
-                                <a href="store-product.php">Men Hoodie</a>
-                            </h2>
-                        </td>
-                        <td class="nk-product-cart-price">$125.00
-                            <del>$145.00</del>
-                        </td>
-                        <td class="nk-product-cart-quantity">
-                            2
-                        </td>
-                        <td class="nk-product-cart-total">
-                            $250.00
-                        </td>
-                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                    </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="nk-gap-2"></div>
-            <div class="nk-cart-total">
-                Total <span>$317</span>
-            </div>
-
-            <div class="nk-gap-3"></div>
-            <div class="nk-cart-btns">
-                <a href="#" class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
-                    Go to Checkout
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#" class="nk-btn nk-btn-lg link-effect-4 nk-cart-toggle">
-                    Continue Shopping
-                </a>
-            </div>
-        </div>
+        <?php include 'include/cart.php'; ?>
     </div>
     <div class="nk-gap-5"></div>
 </div>

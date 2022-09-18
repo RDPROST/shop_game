@@ -75,7 +75,8 @@
 -->
 <body>
 <!-- START: Page Preloader -->
-<?php include 'header.php'; ?><div class="nk-preloader">
+<?php include 'header.php'; ?>
+<div class="nk-preloader">
     <!--
          Preloader animation
          data-close-... data used for closing preloader
@@ -117,8 +118,8 @@ data-video-start-time - video start time in seconds
 data-video-end-time - video end time in seconds
 data-video-pause-on-page-leave - pause video when the page not in focus (true/false)
 -->
-<div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true"
-     data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0"
+<div class="nk-page-background op-5" data-video="https://youtu.be/4dd9R9dWYnQ" data-video-loop="true"
+     data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="10"
      data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
 <!-- END: Page Background -->
 
@@ -683,19 +684,7 @@ data-video-pause-on-page-leave - pause video when the page not in focus (true/fa
                     </li>
 
 
-                    <li class="single-icon">
-                        <a href="#" class="nk-cart-toggle no-link-effect">
-                            <span class="nk-icon-toggle">
-                                <span class="nk-icon-toggle-front">
-                                    <span class="ion-android-cart"></span>
-                                    <span class="nk-badge">8</span>
-                                </span>
-                                <span class="nk-icon-toggle-back">
-                                    <span class="nk-icon-close"></span>
-                                </span>
-                            </span>
-                        </a>
-                    </li>
+                    <?php include 'include/cart-counter.php'; ?>
 
 
                     <li class="single-icon">
@@ -880,50 +869,34 @@ Additional Classes:
 
             <!-- START: Products List -->
             <div class="row no-gutters">
+                <?php
+                $sql = "SELECT * FROM products";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    ?>
+                    <div class="col-sm-6 col-lg-4">
 
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
+                        <!-- START: Product -->
+                        <div class="nk-product" data-mouse-parallax-z="2">
+                            <div>
+                                <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
+                                    <div class="nk-carousel-inner nk-popup-gallery">
+                                        <?php
+                                        $row['Images'] = explode(';', $row['Images']);
+                                        foreach ($row['Images'] as $image) {
+                                            ?>
                                         <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-1-sm.png"
-                                                 alt="Women Tshirt">
+                                            <div>
+                                                <img class="nk-img-stretch" src="assets/images/<?php echo $image; ?>" alt="<?php echo $image; ?>">
+                                            </div>
                                         </div>
+                                        <?php
+                                        }
+                                        ?>
                                     </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-1-blue-sm.png"
-                                                 alt="Women Tshirt">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-1-green-sm.png"
-                                                 alt="Women Tshirt">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-1-orange-sm.png"
-                                                 alt="Women Tshirt">
-                                        </div>
-                                    </div>
-
                                 </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Women
-                                    Tshirt</a></h2>
-
-
-                            <span class="nk-product-rating">
+                                <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php?id=<?php echo $row["Id"];?>"><?php echo $row["Name"];?></a></h2>
+                                <span class="nk-product-rating">
         <span class="nk-product-rating-front" style="width: 90%;">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -941,395 +914,56 @@ Additional Classes:
     </span>
 
 
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$67.00</div>
-                                    <a href="#">Add to Cart</a>
+                                <div class="nk-product-bottom">
+                                    <div>
+                                        <div class="nk-product-price">&#8381;<?php echo $row["Price"];?>.00</div>
+                                        <a href="#" class="nk-product-add-cart" data-id="<?php echo $row["Id"];?>" data-price="<?php echo $row["Price"];?>" data-name="<?php echo $row["Name"];?>" data-images="<?php echo implode(";", $row["Images"]);?>">Add to Cart</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- END: Product -->
+
                     </div>
-                    <!-- END: Product -->
-
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-2-sm.png"
-                                                 alt="Men Tshirt">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-2-blue-sm.png"
-                                                 alt="Men Tshirt">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-2-green-sm.png"
-                                                 alt="Men Tshirt">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-2-orange-sm.png"
-                                                 alt="Men Tshirt">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Men
-                                    Tshirt</a></h2>
-
-
-                            <span class="nk-product-rating">
-        <span class="nk-product-rating-front" style="width: 50%;">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        <span class="nk-product-rating-back">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-        </span>
-    </span>
-
-
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$67.00</div>
-                                    <a href="#">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END: Product -->
-
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-3-sm.png"
-                                                 alt="Women Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-3-blue-sm.png"
-                                                 alt="Women Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-3-green-sm.png"
-                                                 alt="Women Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-3-orange-sm.png"
-                                                 alt="Women Hoodie">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Women
-                                    Hoodie</a></h2>
-
-
-                            <span class="nk-product-rating">
-        <span class="nk-product-rating-front" style="width: 100%;">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        <span class="nk-product-rating-back">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-        </span>
-    </span>
-
-
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$125.00</div>
-                                    <a href="#">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END: Product -->
-
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-4-sm.png"
-                                                 alt="Men Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-4-blue-sm.png"
-                                                 alt="Men Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-4-green-sm.png"
-                                                 alt="Men Hoodie">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-4-orange-sm.png"
-                                                 alt="Men Hoodie">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Men
-                                    Hoodie</a></h2>
-
-
-                            <span class="nk-product-rating">
-        <span class="nk-product-rating-front" style="width: ;">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        <span class="nk-product-rating-back">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-        </span>
-    </span>
-
-
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$125.00
-                                        <del>$145.00</del>
-                                    </div>
-                                    <a href="#">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END: Product -->
-
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-5-sm.png"
-                                                 alt="Women Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-5-blue-sm.png"
-                                                 alt="Women Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-5-green-sm.png"
-                                                 alt="Women Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-5-orange-sm.png"
-                                                 alt="Women Cap">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Women
-                                    Cap</a></h2>
-
-
-                            <span class="nk-product-rating">
-        <span class="nk-product-rating-front" style="width: 80%;">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        <span class="nk-product-rating-back">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-        </span>
-    </span>
-
-
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$25.99</div>
-                                    <a href="#">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END: Product -->
-
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-
-                    <!-- START: Product -->
-                    <div class="nk-product" data-mouse-parallax-z="2">
-                        <div>
-                            <div class="nk-carousel-3" data-size="1" data-mouse-parallax-z="3">
-                                <div class="nk-carousel-inner nk-popup-gallery">
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-6-sm.png"
-                                                 alt="Men Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-6-blue-sm.png"
-                                                 alt="Men Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-6-green-sm.png"
-                                                 alt="Men Cap">
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <div>
-                                            <img class="nk-img-stretch" src="assets/images/product-6-orange-sm.png"
-                                                 alt="Men Cap">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <h2 class="nk-product-title h5" data-mouse-parallax-z="1"><a href="store-product.php">Men
-                                    Cap</a></h2>
-
-
-                            <span class="nk-product-rating">
-        <span class="nk-product-rating-front" style="width: 60%;">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </span>
-        <span class="nk-product-rating-back">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-        </span>
-    </span>
-
-
-                            <div class="nk-product-bottom">
-                                <div>
-                                    <div class="nk-product-price">$25.99</div>
-                                    <a href="#">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END: Product -->
-
-                </div>
-
+                <?php } ?>
             </div>
+            <script>
+                document.querySelectorAll(".nk-product-add-cart").forEach( (item) => {
+                    item.addEventListener("click", (e) => {
+                        e.preventDefault();
+                        let form = new FormData();
+                        form.append("action", "add");
+                        form.append("id", item.getAttribute("data-id"));
+                        form.append("price", item.getAttribute("data-price"));
+                        form.append("name", item.getAttribute("data-name"));
+                        form.append("images", item.getAttribute("data-images"));
+                        fetch("/core/cart.php", {
+                            method: "POST",
+                            body: form
+                        }).then((res)=>{
+                            if(res.ok){
+                                alert("Added to cart");
+                            }
+                        }).catch((err)=>{
+                            console.log(err);
+                        });
+                        })
+                    });
+            </script>
             <!-- END: Products List -->
-
-            <div class="nk-gap-5"></div>
+<!---->
+<!--            <div class="nk-gap-5"></div>-->
 
             <!-- START: Pagination -->
-            <div class="nk-pagination nk-pagination-center">
-                <nav>
-                    <a href="#">1</a>
-                    <a href="#">2</a>
-                    <a class="nk-pagination-current-white" href="#">3</a>
-                    <a href="#">4</a>
-                    <span>...</span>
-                </nav>
-            </div>
+<!--            <div class="nk-pagination nk-pagination-center">-->
+<!--                <nav>-->
+<!--                    <a href="#">1</a>-->
+<!--                    <a href="#">2</a>-->
+<!--                    <a class="nk-pagination-current-white" href="#">3</a>-->
+<!--                    <a href="#">4</a>-->
+<!--                    <span>...</span>-->
+<!--                </nav>-->
+<!--            </div>-->
             <!-- END: Pagination -->
         </div>
 
@@ -1505,75 +1139,7 @@ Additional Classes:
 <div class="nk-cart">
     <div class="nk-gap-2"></div>
     <div class="container">
-        <div class="nk-store nk-store-cart">
-            <div class="table-responsive">
-                <table class="table nk-store-cart-products">
-                    <tbody>
-
-                    <tr>
-                        <td class="nk-product-cart-thumb">
-                            <a href="store-product.php" class="nk-post-image">
-                                <img src="assets/images/product-2-sm.png" alt="Men Tshirt" class="nk-img">
-                            </a>
-                        </td>
-                        <td class="nk-product-cart-title">
-                            <h2 class="nk-post-title h5">
-                                <a href="store-product.php">Men Tshirt</a>
-                            </h2>
-                        </td>
-                        <td class="nk-product-cart-price">$67.00</td>
-                        <td class="nk-product-cart-quantity">
-                            1
-                        </td>
-                        <td class="nk-product-cart-total">
-                            $67.00
-                        </td>
-                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                    </tr>
-
-                    <tr>
-                        <td class="nk-product-cart-thumb">
-                            <a href="store-product.php" class="nk-post-image">
-                                <img src="assets/images/product-4-sm.png" alt="Men Hoodie" class="nk-img">
-                            </a>
-                        </td>
-                        <td class="nk-product-cart-title">
-                            <h2 class="nk-post-title h5">
-                                <a href="store-product.php">Men Hoodie</a>
-                            </h2>
-                        </td>
-                        <td class="nk-product-cart-price">$125.00
-                            <del>$145.00</del>
-                        </td>
-                        <td class="nk-product-cart-quantity">
-                            2
-                        </td>
-                        <td class="nk-product-cart-total">
-                            $250.00
-                        </td>
-                        <td class="nk-product-cart-remove"><a href="#"><span class="ion-trash-b"></span></a></td>
-                    </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-            <div class="nk-gap-2"></div>
-            <div class="nk-cart-total">
-                Total <span>$317</span>
-            </div>
-
-            <div class="nk-gap-3"></div>
-            <div class="nk-cart-btns">
-                <a href="#" class="nk-btn nk-btn-lg nk-btn-color-main-1 link-effect-4">
-                    Go to Checkout
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#" class="nk-btn nk-btn-lg link-effect-4 nk-cart-toggle">
-                    Continue Shopping
-                </a>
-            </div>
-        </div>
+        <?php include 'include/cart.php'; ?>
     </div>
     <div class="nk-gap-5"></div>
 </div>

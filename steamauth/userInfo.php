@@ -1,4 +1,5 @@
 <?php
+print_r(empty($_SESSION['steam_uptodate']));
 if (empty($_SESSION['steam_uptodate']) or empty($_SESSION['steam_personaname'])) {
     require 'SteamConfig.php';
     $url = file_get_contents("https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=" . $steamauth['apikey'] . "&steamids=" . $_SESSION['steamid']);
@@ -23,6 +24,7 @@ if (empty($_SESSION['steam_uptodate']) or empty($_SESSION['steam_personaname']))
     $_SESSION['steam_uptodate'] = time();
 }
 
+
 $steamprofile['steamid'] = $_SESSION['steam_steamid'];
 $steamprofile['communityvisibilitystate'] = $_SESSION['steam_communityvisibilitystate'];
 $steamprofile['profilestate'] = $_SESSION['steam_profilestate'];
@@ -38,6 +40,79 @@ $steamprofile['primaryclanid'] = $_SESSION['steam_primaryclanid'];
 $steamprofile['timecreated'] = $_SESSION['steam_timecreated'];
 $steamprofile['uptodate'] = $_SESSION['steam_uptodate'];
 
-// Version 4.0
-?>
-    
+$conn = new mysqli($GLOBALS['hostname'], $GLOBALS['username'], $GLOBALS['password'], $GLOBALS['database'], $GLOBALS['port']);
+
+$user = $conn->query("SELECT * FROM users WHERE SteamId = '$steamprofile[steamid]'")->fetch_assoc();
+
+if ($user){
+    $divide = 100;
+    $steamprofile['rankname'] = "I";
+    $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    $user['Rank'] = $user['Rank'] - 100 * $divide;
+    $divide = 200;
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0) {
+        $steamprofile['rankname'] = "II";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 300;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II") {
+        $steamprofile['rankname'] = "III";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 400;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III") {
+        $steamprofile['rankname'] = "IV";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 500;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV") {
+        $steamprofile['rankname'] = "V";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 600;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV" && $steamprofile['rankname'] != "V") {
+        $steamprofile['rankname'] = "VI";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 700;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV" && $steamprofile['rankname'] != "V" && $steamprofile['rankname'] != "VI") {
+        $steamprofile['rankname'] = "VII";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 800;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV" && $steamprofile['rankname'] != "V" && $steamprofile['rankname'] != "VI" && $steamprofile['rankname'] != "VII") {
+        $steamprofile['rankname'] = "VIII";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 900;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV" && $steamprofile['rankname'] != "V" && $steamprofile['rankname'] != "VI" && $steamprofile['rankname'] != "VII" && $steamprofile['rankname'] != "VIII") {
+        $steamprofile['rankname'] = "IX";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 1000;
+    }
+    if (floor($user['Rank'] / $divide) < 100 && floor($user['Rank'] / $divide) > 0 && $steamprofile['rankname'] != "II" && $steamprofile['rankname'] != "III" && $steamprofile['rankname'] != "IV" && $steamprofile['rankname'] != "V" && $steamprofile['rankname'] != "VI" && $steamprofile['rankname'] != "VII" && $steamprofile['rankname'] != "VIII" && $steamprofile['rankname'] != "IX") {
+        $steamprofile['rankname'] = "X";
+        $steamprofile['rank'] = floor($user['Rank'] / $divide);
+    } else {
+        $user['Rank'] = $user['Rank'] - 100 * $divide;
+        $divide = 1100;
+    }
+
+
+}
